@@ -1759,12 +1759,6 @@
 		(uuid "94c8bddd-3a96-47a0-a2a4-42e09f1427a5")
 	)
 	(junction
-		(at 46.99 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "958e6d5a-6aa4-40f7-ab7a-2abee4b5bc28")
-	)
-	(junction
 		(at 224.79 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1780,6 +1774,14 @@
 		(at 81.28 72.39)
 		(uuid "074fb496-90ef-4ce7-931a-9a4fe6fe2718")
 	)
+	(no_connect
+		(at 69.85 106.68)
+		(uuid "3231a1f5-a46e-4fec-b92b-65e5561180e2")
+	)
+	(no_connect
+		(at 69.85 101.6)
+		(uuid "853cf257-64cc-468e-a4e2-630cfd5c9556")
+	)
 	(wire
 		(pts
 			(xy 184.15 135.89) (xy 184.15 138.43)
@@ -1789,16 +1791,6 @@
 			(type default)
 		)
 		(uuid "0d8c47e0-5408-426a-9458-422b0cc8cd01")
-	)
-	(wire
-		(pts
-			(xy 46.99 102.87) (xy 46.99 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15611393-fa66-489d-967f-5b04aa58edfe")
 	)
 	(wire
 		(pts
@@ -1892,6 +1884,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 106.68) (xy 69.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c69220b-0694-403e-8a05-fa1f6abf92a9")
+	)
+	(wire
+		(pts
 			(xy 184.15 138.43) (xy 184.15 139.7)
 		)
 		(stroke
@@ -1982,16 +1984,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 125.73) (xy 46.99 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6408a4f3-c830-476a-aab4-37741ce56bb9")
-	)
-	(wire
-		(pts
 			(xy 128.27 67.31) (xy 135.89 67.31)
 		)
 		(stroke
@@ -2072,16 +2064,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 115.57) (xy 57.15 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f250cc7-fa13-4ba9-9670-541e5fa8bea5")
-	)
-	(wire
-		(pts
 			(xy 81.28 67.31) (xy 87.63 67.31)
 		)
 		(stroke
@@ -2142,6 +2124,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 101.6) (xy 57.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a20816-5df5-4bab-be3f-e6864d6cb85f")
+	)
+	(wire
+		(pts
 			(xy 81.28 80.01) (xy 87.63 80.01)
 		)
 		(stroke
@@ -2149,16 +2141,6 @@
 			(type default)
 		)
 		(uuid "a4912a97-43b6-45cd-b658-a85f7a73ce43")
-	)
-	(wire
-		(pts
-			(xy 46.99 115.57) (xy 46.99 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fffda0-cd27-44d8-8612-8cc642c9d1ae")
 	)
 	(wire
 		(pts
@@ -2279,16 +2261,6 @@
 			(type default)
 		)
 		(uuid "c8e63ccc-40ad-46fc-b0d5-f6b9440130c6")
-	)
-	(wire
-		(pts
-			(xy 46.99 113.03) (xy 46.99 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ce388c-180f-4a9c-88d6-7ab08f649102")
 	)
 	(wire
 		(pts
@@ -2420,17 +2392,6 @@
 		)
 		(uuid "fef1232a-d0ca-4768-9964-dabc9535f954")
 	)
-	(text "Bat doesn't have thermistor\nAssuming hard-wiring will be fine"
-		(exclude_from_sim no)
-		(at 35.56 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04636bdd-0255-45d8-9495-30b6adaaad3d")
-	)
 	(text "_Charge_ enable\nMUST be driven\nSoftware bit can override the enable"
 		(exclude_from_sim no)
 		(at 140.97 60.706 0)
@@ -2527,6 +2488,16 @@
 		)
 		(uuid "ac56eaad-1230-429a-8f83-37230215fb2b")
 	)
+	(text "\"The TS pin may be left floating if TS_IGNORE is set to 1\"\n - BQ25628E datasheet 8.3.5.4"
+		(exclude_from_sim no)
+		(at 61.468 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d55e8eb9-2578-4d36-ab07-df6af56fb5d4")
+	)
 	(text "LOW=on charge, blinks 1Hz on fault\nLeave floating if unused"
 		(exclude_from_sim no)
 		(at 141.986 86.614 0)
@@ -2593,17 +2564,6 @@
 		)
 		(uuid "11520273-84e5-4496-a625-48483414ddd6")
 	)
-	(label "TS_BIAS"
-		(at 81.28 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "132c15f6-5fb2-4c58-a5d0-1492474bdd4c")
-	)
 	(label "BAT-"
 		(at 143.51 64.77 180)
 		(fields_autoplaced yes)
@@ -2616,15 +2576,15 @@
 		(uuid "19209678-460a-4bad-8690-37fd8ca9459f")
 	)
 	(label "TS_BIAS"
-		(at 46.99 102.87 0)
+		(at 135.89 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "20b8371c-89bf-4c9b-a02e-9e958f199e25")
+		(uuid "1bb087c1-d197-4b91-95cf-fc112294f292")
 	)
 	(label "SYS"
 		(at 102.87 124.46 0)
@@ -2692,7 +2652,18 @@
 		)
 		(uuid "61ba258c-c2d0-44be-ae13-d37d3d3a970b")
 	)
-	(label "BAT"
+	(label "TS"
+		(at 57.15 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "699f0d4d-d183-4962-831d-b965eedd52f3")
+	)
+	(label "BAT+"
 		(at 81.28 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2748,15 +2719,15 @@
 		(uuid "7dca66d2-c7df-4589-88b7-84dcc932e00d")
 	)
 	(label "TS_BIAS"
-		(at 135.89 77.47 180)
+		(at 81.28 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "822f042a-fcb6-4db7-9b62-e297b0fadc39")
+		(uuid "8020ab48-8b46-4ac8-a8a2-09ac690b5aae")
 	)
 	(label "BTST"
 		(at 81.28 57.15 0)
@@ -2768,6 +2739,17 @@
 			(justify left bottom)
 		)
 		(uuid "832a1bb2-da00-420c-843c-a868aeee8375")
+	)
+	(label "TS_BIAS"
+		(at 57.15 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a1ef6b4-5603-49ad-bdb9-d1dfa51ba20e")
 	)
 	(label "VBUS"
 		(at 215.9 49.53 0)
@@ -2792,15 +2774,26 @@
 		(uuid "b0d2a4ab-5ca4-407d-ad52-8ea93ac225b9")
 	)
 	(label "TS"
-		(at 57.15 115.57 180)
+		(at 81.28 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "c6556ba4-2430-4bd4-ad51-2f5bcf60d38e")
+		(uuid "d12e9fc1-9b6e-448a-8091-c2dff46792cc")
+	)
+	(label "~{PG}"
+		(at 73.66 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8bcb449-e52d-4642-bddb-3e1c6c7ebfba")
 	)
 	(label "ILIM"
 		(at 81.28 64.77 0)
@@ -2812,17 +2805,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1155881-939d-4994-b738-2b3e0f086a93")
-	)
-	(label "TS"
-		(at 81.28 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe9aac79-9008-4652-b04d-4f9013c20535")
 	)
 	(label "BAT-"
 		(at 184.15 138.43 0)
@@ -3369,142 +3351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 46.99 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b039e27-6292-4b24-afcc-933212703063")
-		(property "Reference" "R7"
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 49.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.212 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "583aab39-6bd8-4799-8fc8-05544c16116c")
-		)
-		(pin "1"
-			(uuid "e3b7903b-42c2-44e3-80b7-45c1d9f7ab2c")
-		)
-		(instances
-			(project "pico2-carrier"
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c057251-6622-4e05-ad8d-134bf44dcb79")
-		(property "Reference" "#PWR049"
-			(at 46.99 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53a8646b-d76c-41b1-8934-568f052157f8")
-		)
-		(instances
-			(project "pico2-carrier"
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 184.15 133.35 0)
 		(mirror y)
@@ -3533,7 +3379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 184.15 131.826 90)
 			(effects
 				(font
@@ -4626,76 +4472,6 @@
 			(project "pico2-carrier"
 				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d23ab5bc-b032-4089-bf1d-2269c4025eb9")
-		(property "Reference" "R6"
-			(at 49.53 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 49.53 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.212 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ce786e2f-d8d6-4527-8331-96b7472b7478")
-		)
-		(pin "1"
-			(uuid "cb337af4-86b3-4b91-92f2-04e7b8e271de")
-		)
-		(instances
-			(project "pico2-carrier"
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
-					(reference "R6")
 					(unit 1)
 				)
 			)
