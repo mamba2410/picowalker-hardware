@@ -1801,23 +1801,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1842,7 +1842,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1860,7 +1860,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1869,9 +1869,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1879,6 +1879,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3374,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 138.43) (xy 170.18 138.43)
+			(xy 153.67 134.62) (xy 170.18 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +3474,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 128.27) (xy 170.18 128.27)
+			(xy 153.67 124.46) (xy 170.18 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3554,7 +3574,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 135.89) (xy 170.18 135.89)
+			(xy 153.67 132.08) (xy 170.18 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3904,6 +3924,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 149.86) (xy 170.18 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b3eab1-49fa-4590-bf27-a5bd82f8b2ed")
+	)
+	(wire
+		(pts
 			(xy 57.15 66.04) (xy 57.15 60.96)
 		)
 		(stroke
@@ -3944,7 +3974,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 140.97) (xy 170.18 140.97)
+			(xy 153.67 137.16) (xy 170.18 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4064,7 +4094,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 133.35) (xy 170.18 133.35)
+			(xy 153.67 129.54) (xy 170.18 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4084,7 +4114,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 170.18 143.51)
+			(xy 153.67 139.7) (xy 170.18 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4524,7 +4554,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 146.05) (xy 170.18 146.05)
+			(xy 153.67 142.24) (xy 170.18 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4937,6 +4967,16 @@
 		)
 		(uuid "1ac13f3d-e8cb-4cc3-8b7d-a90bf4cbba96")
 	)
+	(text "Input from PMIC"
+		(exclude_from_sim no)
+		(at 131.572 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33407ef1-d58a-43fe-a074-d68bdd949a76")
+	)
 	(text "Software reset might\nbe sufficient"
 		(exclude_from_sim no)
 		(at 22.86 155.194 0)
@@ -5081,6 +5121,16 @@
 		)
 		(uuid "f5cd0314-5322-448a-93cb-d56176d2cbfe")
 	)
+	(text "<--"
+		(exclude_from_sim no)
+		(at 115.062 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd904da0-3626-4f0e-81b0-8b6e9af75e0e")
+	)
 	(text "Removed sound because lack of pins"
 		(exclude_from_sim no)
 		(at 179.07 64.77 0)
@@ -5191,7 +5241,7 @@
 		(uuid "39b24af1-a7a0-420d-81e6-fa94fb5918a8")
 	)
 	(label "~{SCREEN_RST}"
-		(at 153.67 128.27 0)
+		(at 153.67 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5257,7 +5307,7 @@
 		(uuid "51bf733f-99fb-4af5-bcc9-32703a1f26e9")
 	)
 	(label "HSTX_SD3"
-		(at 153.67 143.51 0)
+		(at 153.67 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5378,6 +5428,17 @@
 		(uuid "77aee3d5-e0b3-4599-9ba9-08dc57f2cd60")
 	)
 	(label "VSYS_IN"
+		(at 153.67 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79f3b220-dc1c-4610-8d98-c4d537508643")
+	)
+	(label "VSYS_IN"
 		(at 88.9 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5389,7 +5450,7 @@
 		(uuid "7a3e8f32-04c9-44a0-979a-d11329e799b5")
 	)
 	(label "~{SCREEN_CSB}"
-		(at 153.67 133.35 0)
+		(at 153.67 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5488,7 +5549,7 @@
 		(uuid "9a8349f5-919c-4981-97fe-d02318b5f2b7")
 	)
 	(label "HSTX_SCK"
-		(at 153.67 146.05 0)
+		(at 153.67 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5620,7 +5681,7 @@
 		(uuid "c6ab783a-d55e-4470-9914-2deb34ee5ef1")
 	)
 	(label "HSTX_SD1"
-		(at 153.67 138.43 0)
+		(at 153.67 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5763,7 +5824,7 @@
 		(uuid "f62593a4-d052-4f1c-a317-ba648ddb00b6")
 	)
 	(label "HSTX_SD2"
-		(at 153.67 140.97 0)
+		(at 153.67 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5785,7 +5846,7 @@
 		(uuid "f8efca05-f758-44a8-9617-e0d5dd588ed2")
 	)
 	(label "HSTX_SD0"
-		(at 153.67 135.89 0)
+		(at 153.67 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5805,6 +5866,71 @@
 			(justify left bottom)
 		)
 		(uuid "fdfdc915-67d0-4c69-88e7-ed8f2d7b7aef")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "017ab947-84dc-497a-b69a-2d5456ef7f6f")
+		(property "Reference" "#PWR049"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59022271-4c88-431b-a160-1dce47a16a9d")
+		)
+		(instances
+			(project "pico2-carrier"
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TFDU4101-TT3")
@@ -6542,6 +6668,71 @@
 			(project ""
 				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2983fd7a-055f-4ffc-a407-80864e1ae5ae")
+		(property "Reference" "#PWR045"
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86163710-02c4-43c7-bcce-6fb46ce52fb3")
+		)
+		(instances
+			(project "pico2-carrier"
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7779,6 +7970,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "674e3e7b-86b5-4f47-8dce-ee9cd38a2660")
+		(property "Reference" "#PWR063"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b310b84-db7d-47eb-a529-359227a55702")
+		)
+		(instances
+			(project "pico2-carrier"
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 280.67 100.33 0)
 		(unit 1)
@@ -8522,8 +8778,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 115.57 72.39 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 115.57 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -8532,7 +8788,7 @@
 		(dnp no)
 		(uuid "8a9263b2-ac74-4b98-b054-828db1098af6")
 		(property "Reference" "H4"
-			(at 118.11 71.1199 0)
+			(at 118.11 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +8797,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 118.11 73.6599 0)
+			(at 118.11 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8806,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 115.57 72.39 0)
+			(at 115.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +8815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 72.39 0)
+			(at 115.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8567,14 +8823,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 115.57 72.39 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 115.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "00b28f8e-ba93-4e3e-935b-e36cc27829a8")
 		)
 		(instances
 			(project "pico2-carrier"
@@ -8656,7 +8915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 107.95 64.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -8700,7 +8959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 107.95 64.77 0)
 			(effects
 				(font
@@ -8708,6 +8967,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "a7cdd2d2-731f-4ba4-98e2-289d5aa126ed")
 		)
 		(instances
 			(project ""
@@ -8786,8 +9048,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 107.95 72.39 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 107.95 76.2 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8795,7 +9057,7 @@
 		(dnp no)
 		(uuid "92a28d97-dce4-4d67-9fb5-522f81ef3768")
 		(property "Reference" "H2"
-			(at 105.41 71.1199 0)
+			(at 105.41 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,7 +9066,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 105.41 73.6599 0)
+			(at 105.41 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8813,7 +9075,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 107.95 72.39 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +9084,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 72.39 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,14 +9092,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 107.95 72.39 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "6642559e-2ff6-429d-b229-38efdd36826d")
 		)
 		(instances
 			(project "pico2-carrier"
@@ -9189,7 +9454,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 115.57 64.77 0)
 		(mirror y)
 		(unit 1)
@@ -9234,7 +9499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 115.57 64.77 0)
 			(effects
 				(font
@@ -9242,6 +9507,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "86c85dd9-4252-4ed9-87fe-ce02ffc8b677")
 		)
 		(instances
 			(project "pico2-carrier"
@@ -9708,6 +9976,71 @@
 			(project ""
 				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccc54b11-9639-4e44-ab28-62a244129688")
+		(property "Reference" "#PWR064"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e309db-2fe4-4d35-8b4e-756baea70228")
+		)
+		(instances
+			(project "pico2-carrier"
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -10359,7 +10692,7 @@
 			)
 		)
 		(pin "~{SCREEN_RST}" input
-			(at 170.18 128.27 180)
+			(at 170.18 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10369,7 +10702,7 @@
 			(uuid "271b7888-6135-446d-b921-ad39dd06a522")
 		)
 		(pin "QSPI_SD0" input
-			(at 170.18 135.89 180)
+			(at 170.18 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10379,7 +10712,7 @@
 			(uuid "e68b3108-0a18-45ce-947f-ecd4a51c8fd7")
 		)
 		(pin "~{SCREEN_CSB}" input
-			(at 170.18 133.35 180)
+			(at 170.18 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10389,7 +10722,7 @@
 			(uuid "dd239dbb-4659-4b13-9806-a31ec3f8a905")
 		)
 		(pin "QSPI_SD1" input
-			(at 170.18 138.43 180)
+			(at 170.18 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +10732,7 @@
 			(uuid "a4aff660-1b22-43f2-b7c3-909d21ef4f2b")
 		)
 		(pin "QSPI_SD3" input
-			(at 170.18 143.51 180)
+			(at 170.18 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +10742,7 @@
 			(uuid "d9ae3430-7301-4117-816c-499b175dd59e")
 		)
 		(pin "QSPI_SD2" input
-			(at 170.18 140.97 180)
+			(at 170.18 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,7 +10752,7 @@
 			(uuid "1d742e42-37b3-4cbe-9285-4ebf712b350e")
 		)
 		(pin "QSPI_SCK" input
-			(at 170.18 146.05 180)
+			(at 170.18 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,6 +10760,16 @@
 				(justify left)
 			)
 			(uuid "880e63b7-42c9-442f-a091-8c03f367322c")
+		)
+		(pin "SCREEN_PWR" input
+			(at 170.18 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0d4567a-3493-476b-98ad-c10411c329c1")
 		)
 		(instances
 			(project "pico2-carrier"
