@@ -4977,6 +4977,16 @@
 		)
 		(uuid "33407ef1-d58a-43fe-a074-d68bdd949a76")
 	)
+	(text "200mA max"
+		(exclude_from_sim no)
+		(at 134.874 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68968f22-881e-4d8b-9b46-8161c2aae21e")
+	)
 	(text "Software reset might\nbe sufficient"
 		(exclude_from_sim no)
 		(at 22.86 155.194 0)
@@ -5018,13 +5028,14 @@
 		)
 		(uuid "9bf68c83-5379-4466-8bcc-54b3a29d463b")
 	)
-	(text "Actual chip has extra 4 pins, at least 1 (the pico LED pin)\ncan be reused in final design.\n1 needs to stay as USB VBUS_SENSE (probably)"
+	(text "Actual chip has extra 4 pins, at least 1 (the pico LED pin)\ncan be reused in final design.\n1 needs to stay as USB VBUS_SENSE (probably)\nGP24 - VBUS sense\nGP23 - SMPS power save\nGP25 - LED\nGP29 - VSYS sense"
 		(exclude_from_sim no)
-		(at 67.564 92.456 0)
+		(at 45.974 98.552 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "9d161dd7-fb7a-48b8-8025-6106b024dba4")
 	)
