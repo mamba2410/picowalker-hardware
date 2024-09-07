@@ -5152,17 +5152,6 @@
 		)
 		(uuid "fe285b94-6257-4383-a45b-b14c676388d5")
 	)
-	(label "HSTX_SD2"
-		(at 104.14 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09a858c6-b4de-48c6-8b2f-c79ce3ef0eed")
-	)
 	(label "SPI_MISO"
 		(at 40.64 128.27 0)
 		(fields_autoplaced yes)
@@ -5184,17 +5173,6 @@
 			(justify left bottom)
 		)
 		(uuid "10753cab-a2ff-42ea-a146-080e8cf63447")
-	)
-	(label "~{FLASH_CSB}"
-		(at 40.64 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1417e6ea-85e0-4256-ae53-1dab86b9cefc")
 	)
 	(label "RUN"
 		(at 104.14 140.97 180)
@@ -5218,6 +5196,17 @@
 		)
 		(uuid "2adaff31-74b4-470d-89db-0f0a730bb05b")
 	)
+	(label "IR_PIO_TX"
+		(at 40.64 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d5af913-b9de-4051-9488-6c6ea861be6c")
+	)
 	(label "I2C_SDA"
 		(at 104.14 151.13 180)
 		(fields_autoplaced yes)
@@ -5229,16 +5218,16 @@
 		)
 		(uuid "30d39e4c-7823-45d1-96d8-440e763b0506")
 	)
-	(label "IR_PIO_TX"
-		(at 40.64 151.13 0)
+	(label "BUT_L"
+		(at 104.14 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "37135a5b-4259-4e7d-bfcd-a5125ab270f0")
+		(uuid "32067490-c200-4d93-9292-1bdbc108a125")
 	)
 	(label "BUT_R"
 		(at 127 21.59 0)
@@ -5272,17 +5261,6 @@
 			(justify left bottom)
 		)
 		(uuid "41cf009a-2830-4b03-a1b0-04b4f08c773f")
-	)
-	(label "HSTX_SD3"
-		(at 104.14 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "497cf1e4-56e3-48eb-b55a-7651b92a798c")
 	)
 	(label "SPI_SCK"
 		(at 275.59 93.98 180)
@@ -5372,6 +5350,17 @@
 		)
 		(uuid "63d16d58-de99-4215-a484-143db9ec63df")
 	)
+	(label "BUT_R"
+		(at 104.14 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "679d527c-3bfe-498f-8b6b-0a58d758accb")
+	)
 	(label "~{SCREEN_RST}"
 		(at 34.29 153.67 0)
 		(fields_autoplaced yes)
@@ -5394,6 +5383,17 @@
 		)
 		(uuid "6a7417a2-ff3c-415f-bac6-ae3f809be65e")
 	)
+	(label "IR_SD"
+		(at 40.64 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d1a07c2-3980-43c8-9964-93d0b6028a0a")
+	)
 	(label "I2C_SDA"
 		(at 205.74 143.51 0)
 		(fields_autoplaced yes)
@@ -5415,28 +5415,6 @@
 			(justify right bottom)
 		)
 		(uuid "718b9d12-83e6-4cba-9094-8d4054ec0db0")
-	)
-	(label "BUT_R"
-		(at 104.14 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "732081fd-dddc-4a25-a6d9-2df17217598e")
-	)
-	(label "~{BAT_INT}"
-		(at 104.14 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77aee3d5-e0b3-4599-9ba9-08dc57f2cd60")
 	)
 	(label "VSYS_IN"
 		(at 153.67 149.86 0)
@@ -5471,17 +5449,6 @@
 		)
 		(uuid "7aaa8c76-5acc-449b-a7c6-5955548bbf4c")
 	)
-	(label "HSTX_SD0"
-		(at 34.29 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ce16572-e2ce-4689-87d2-bed5254ccaf7")
-	)
 	(label "DBG_TX"
 		(at 41.91 115.57 0)
 		(fields_autoplaced yes)
@@ -5504,8 +5471,8 @@
 		)
 		(uuid "86f70a18-82e8-4cb6-a1a6-26e521ac3cb8")
 	)
-	(label "HSTX_SD1"
-		(at 34.29 161.29 0)
+	(label "~{FLASH_CSB}"
+		(at 40.64 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5513,7 +5480,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "894e7edb-ac5e-4dc2-91e4-e25de296d118")
+		(uuid "8a28f15e-9bf7-4455-a4c9-03f465c05f95")
+	)
+	(label "HSTX_SD2"
+		(at 104.14 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b14f282-c3aa-41e1-99e5-8c1bb50d95ff")
 	)
 	(label "3V3_OUT"
 		(at 109.22 128.27 0)
@@ -5547,17 +5525,6 @@
 			(justify left bottom)
 		)
 		(uuid "994613f8-8157-4c06-976b-6798544158ef")
-	)
-	(label "~{EEPROM_CSB}"
-		(at 40.64 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a8349f5-919c-4981-97fe-d02318b5f2b7")
 	)
 	(label "HSTX_SCK"
 		(at 153.67 142.24 0)
@@ -5603,6 +5570,17 @@
 		)
 		(uuid "a3337a3f-e979-4d0c-aacf-4ce21429175b")
 	)
+	(label "HSTX_SD0"
+		(at 34.29 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4e0e79d-d0e7-4a86-aa99-5e8fa5bde969")
+	)
 	(label "~{FLASH_CSB}"
 		(at 198.12 88.9 0)
 		(fields_autoplaced yes)
@@ -5624,17 +5602,6 @@
 			(justify left bottom)
 		)
 		(uuid "a7f2bfee-7b5d-434b-959a-17ef33d5e568")
-	)
-	(label "BUT_L"
-		(at 104.14 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ad8e1937-4db0-4e2e-81eb-0379fda363ec")
 	)
 	(label "~{BAT_CE}"
 		(at 215.9 149.86 0)
@@ -5680,16 +5647,16 @@
 		)
 		(uuid "c3f5915c-c7bf-4ff4-ae66-80057f2791b4")
 	)
-	(label "IR_SD"
-		(at 40.64 143.51 0)
+	(label "~{BAT_CE}"
+		(at 104.14 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "c6ab783a-d55e-4470-9914-2deb34ee5ef1")
+		(uuid "c57a2fa6-6a02-42df-ae84-41608dab1686")
 	)
 	(label "HSTX_SD1"
 		(at 153.67 134.62 0)
@@ -5713,8 +5680,8 @@
 		)
 		(uuid "c93512b7-6276-45b9-abd3-cbbd57cad3ca")
 	)
-	(label "HSTX_SCK"
-		(at 34.29 163.83 0)
+	(label "~{EEPROM_CSB}"
+		(at 40.64 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5722,7 +5689,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cc92e052-d259-40f3-8b35-cabd45fdb2ad")
+		(uuid "cfe00aae-c712-4f2d-a1ec-3abe4402ee52")
+	)
+	(label "HSTX_SD1"
+		(at 34.29 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7160190-6bd5-4fef-939c-e2873704643a")
 	)
 	(label "SPI_SCK"
 		(at 204.47 27.94 180)
@@ -5768,17 +5746,6 @@
 		)
 		(uuid "e4b48f8b-01f4-46d8-b740-08758b7246ff")
 	)
-	(label "~{BAT_CE}"
-		(at 104.14 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e55958b9-8ca0-4eea-882d-5062f184deb2")
-	)
 	(label "~{BAT_INT}"
 		(at 215.9 152.4 0)
 		(fields_autoplaced yes)
@@ -5789,6 +5756,28 @@
 			(justify left bottom)
 		)
 		(uuid "e89429c2-69c5-439f-86dd-f55c2549e41a")
+	)
+	(label "HSTX_SCK"
+		(at 34.29 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec5bcb56-a112-4c63-9595-a99b121b8c10")
+	)
+	(label "HSTX_SD3"
+		(at 104.14 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec7ce154-1eb6-42be-bf29-3c08178e9c57")
 	)
 	(label "SPI_MOSI"
 		(at 229.87 38.1 0)
@@ -5877,6 +5866,17 @@
 			(justify left bottom)
 		)
 		(uuid "fdfdc915-67d0-4c69-88e7-ed8f2d7b7aef")
+	)
+	(label "~{BAT_INT}"
+		(at 104.14 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "feb1c47f-31d8-4145-9ae7-06a16c0482ae")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6365,7 +6365,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "VSYS_SENSE"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -10477,7 +10477,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "VBUS_SENSE"
 			(at 101.6 111.76 0)
 			(effects
 				(font
