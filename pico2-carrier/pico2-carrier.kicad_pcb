@@ -229,7 +229,7 @@
 		(descr "Surface Mount Tactile Switch for High-Density Mounting, 4.3mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
 		(property "Reference" "SW4"
-			(at 0 -4.3 360)
+			(at 0 -4.3 0)
 			(layer "F.SilkS")
 			(uuid "a040518a-d5da-4265-b0a4-cd7d236c79c2")
 			(effects
@@ -240,7 +240,7 @@
 			)
 		)
 		(property "Value" "BUT_R"
-			(at 0 4.2 360)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "abc4492f-06ec-4bee-8c09-b5fc8bbd612e")
 			(effects
@@ -525,7 +525,7 @@
 			(uuid "d1751bef-b75e-403d-ad55-e44e53ee298f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.Fab")
 			(uuid "f8282a68-13b1-44f3-be96-924e103bad34")
 			(effects
@@ -803,7 +803,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at -1.016 1.27 360)
+			(at -1.016 1.27 0)
 			(layer "F.SilkS")
 			(uuid "da09bd0a-71b9-4600-8727-b7782ebf9348")
 			(effects
@@ -814,7 +814,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "12dbf861-6c12-40db-ae6e-00ca837df6a7")
 			(effects
@@ -969,7 +969,7 @@
 			(uuid "9e271054-fdf1-4c20-bf51-192c277fd740")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "10aba08e-77e3-450b-8e84-16a4127dd4bb")
 			(effects
@@ -1441,7 +1441,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(uuid "f81b1fc8-4b91-41fd-8011-e4950c1d8ebb")
 			(effects
@@ -1452,7 +1452,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "834a4e05-a17a-4e01-a388-101a016628d5")
 			(effects
@@ -1607,7 +1607,7 @@
 			(uuid "b9c5358f-ae92-414d-bf5c-f46efe712ed7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6720251b-8f6f-40c6-b971-5716e12804b6")
 			(effects
@@ -1867,7 +1867,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(uuid "088c246f-8c46-4a25-a8c4-baec3bebed0b")
 			(effects
@@ -1878,7 +1878,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "38e43952-575b-4f60-a71d-f081701de285")
 			(effects
@@ -2033,7 +2033,7 @@
 			(uuid "05a65f2f-4c35-4440-a1b1-28e156ab5ecd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e20fc6bf-8080-418f-8103-84aae1e9701a")
 			(effects
@@ -2080,7 +2080,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 1.016 360)
+			(at 0 1.016 0)
 			(layer "F.SilkS")
 			(uuid "b9f68a27-f06e-419b-89df-36e10f3069d5")
 			(effects
@@ -2091,7 +2091,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "5cd2509a-eb6d-4a2e-9962-2cce1245a335")
 			(effects
@@ -2246,7 +2246,7 @@
 			(uuid "7e6e4de5-b53f-4191-81f3-407c162c9ff2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ffac202e-431d-4a88-81f6-913392377003")
 			(effects
@@ -2973,7 +2973,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(uuid "e2123419-b55c-425a-bc16-bd0b00c47622")
 			(effects
@@ -2984,7 +2984,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "f257eebd-082e-4599-858a-67478a12436c")
 			(effects
@@ -3139,7 +3139,7 @@
 			(uuid "a16df439-49c8-49ad-808e-99770bcda481")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7478eeda-cc2d-43cd-9ddd-697f857b7a1a")
 			(effects
@@ -3535,7 +3535,7 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L1"
-			(at 0 1.524 360)
+			(at 0 1.524 0)
 			(layer "F.SilkS")
 			(uuid "ac0bf2f2-5a92-4687-b881-53ac67aaf466")
 			(effects
@@ -3546,7 +3546,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5bef113d-d1c5-4a30-99ec-bb5ac1bd7c45")
 			(effects
@@ -3701,7 +3701,7 @@
 			(uuid "5f1a50f2-69d7-4566-a43e-741bbb30ff2c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "19adf960-8344-441a-b6eb-60acbfa76a1c")
 			(effects
@@ -4939,7 +4939,7 @@
 		(descr "Bosch_LGA-12")
 		(tags "Accelerometer")
 		(property "Reference" "AC1"
-			(at 0 4.318 360)
+			(at 0 4.318 0)
 			(layer "F.SilkS")
 			(uuid "1c80e292-405f-4451-8ff0-2161854578b6")
 			(effects
@@ -4950,7 +4950,7 @@
 			)
 		)
 		(property "Value" "BMA400"
-			(at -0.382 -1.529 360)
+			(at -0.382 -1.529 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f9986c82-7784-4c47-81e1-a2e076b7f18c")
@@ -4962,7 +4962,7 @@
 			)
 		)
 		(property "Footprint" "SamacsysParts:BOSCH_LGA-12"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8bdf42b-0539-4276-9794-706db9b4b3fa")
@@ -4974,7 +4974,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fa80b3d87963a3ff599e323b9a26d827.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7182e2d9-a28b-4243-a215-223a2303322f")
@@ -4986,7 +4986,7 @@
 			)
 		)
 		(property "Description" "Ultra-low power triaxial accelerometer"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b10e3151-7fcd-4c53-a616-6a48177c5453")
@@ -5118,7 +5118,7 @@
 			(uuid "16c25f07-7609-452c-9e22-a4fcde1b75d0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.382 -1.529 360)
+			(at -0.382 -1.529 0)
 			(layer "F.Fab")
 			(uuid "6460447f-7031-4c29-acf3-4d453ba6ab9a")
 			(effects
@@ -5468,7 +5468,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(uuid "026ab2a1-beff-445a-b45f-a3edcd10dd64")
 			(effects
@@ -5479,7 +5479,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "7cd93de4-c139-400f-b1f3-9023ba33af54")
 			(effects
@@ -5634,7 +5634,7 @@
 			(uuid "5a2a148b-2958-4f9d-8439-f3159809fdce")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4a5a76fb-7e1e-4cdf-83dc-5b2ac078f3de")
 			(effects
@@ -6055,7 +6055,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 2.54 -0.254 360)
+			(at 2.54 -0.254 0)
 			(layer "F.SilkS")
 			(uuid "c42d86b6-16fb-4317-85af-ee7f401c141b")
 			(effects
@@ -6066,7 +6066,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "82ad4835-5637-42f1-b558-adba54d71b97")
 			(effects
@@ -6221,7 +6221,7 @@
 			(uuid "a5cd24b4-b16a-4a2b-8d1b-63812f2c30da")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "69d80a41-7e44-4de9-bd42-b33666ea62b2")
 			(effects
@@ -6268,7 +6268,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 2.54 1.016 360)
+			(at 2.54 1.016 0)
 			(layer "F.SilkS")
 			(uuid "7ba3047d-34f3-4957-b9a0-b023523695a7")
 			(effects
@@ -6279,7 +6279,7 @@
 			)
 		)
 		(property "Value" "20uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "14ecf188-349b-4904-8b72-7f9a400b88d1")
 			(effects
@@ -6434,7 +6434,7 @@
 			(uuid "b7f7f5f7-b109-4571-ad68-efcccbcd944d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b8159e64-9e43-4e63-86c4-98d7c3d13726")
 			(effects
@@ -7625,7 +7625,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at -2.54 0 360)
+			(at -2.54 0 0)
 			(layer "F.SilkS")
 			(uuid "6ef4cb02-2c17-4f1e-9f3b-2481347d3e1f")
 			(effects
@@ -7636,7 +7636,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "d1c52e9a-8fb0-47d2-a57d-9cae6ab2b644")
 			(effects
@@ -7791,7 +7791,7 @@
 			(uuid "91654d03-9f13-401a-9945-1f4286756d41")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "476df844-acee-4fef-ba83-d1bc3fbff0cc")
 			(effects
@@ -8757,7 +8757,7 @@
 		(descr "Surface Mount Tactile Switch for High-Density Mounting, 4.3mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
 		(property "Reference" "SW3"
-			(at 0 -4.3 360)
+			(at 0 -4.3 0)
 			(layer "F.SilkS")
 			(uuid "31fb0977-f4ee-4414-abb2-83ddc33901ca")
 			(effects
@@ -8768,7 +8768,7 @@
 			)
 		)
 		(property "Value" "BUT_M"
-			(at 0 4.2 360)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "c925af03-f999-4ad5-8312-97cdc09474b3")
 			(effects
@@ -9053,7 +9053,7 @@
 			(uuid "e3bf2df7-20b9-4c4e-ad9e-cebbcd957dc2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.Fab")
 			(uuid "2d8d572a-b018-4934-a586-69c2c831ad3b")
 			(effects
@@ -10165,7 +10165,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at -2.286 -0.254 360)
+			(at -2.286 -0.254 0)
 			(layer "F.SilkS")
 			(uuid "c7e348f7-3583-45ae-85d6-bc965e85dba1")
 			(effects
@@ -10176,7 +10176,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "3427fe10-3d32-4777-a8fa-d8b4ad9da991")
 			(effects
@@ -10331,7 +10331,7 @@
 			(uuid "b3cb72bb-bdc2-402c-a6a3-f9046e47df40")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ed87dbe5-8066-4247-9bc2-b79f30947677")
 			(effects
@@ -10727,7 +10727,7 @@
 		(descr "Surface Mount Tactile Switch for High-Density Mounting, 4.3mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
 		(tags "Tactile Switch")
 		(property "Reference" "SW2"
-			(at 0 -4.3 360)
+			(at 0 -4.3 0)
 			(layer "F.SilkS")
 			(uuid "6db611c2-d1e4-45d3-8bce-488919a3ec76")
 			(effects
@@ -10738,7 +10738,7 @@
 			)
 		)
 		(property "Value" "BUT_L"
-			(at 0 4.2 360)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "3ac095ad-2091-42c1-8c26-3c48529167ce")
 			(effects
@@ -11023,7 +11023,7 @@
 			(uuid "3ee93b19-43e8-43dd-a06e-04965da5169a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.Fab")
 			(uuid "135191a0-1679-433c-b29d-8b5c72b3e758")
 			(effects
@@ -13400,7 +13400,7 @@
 		(descr "Through hole straight pin header, 2x07, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x07 2.54mm double row")
 		(property "Reference" "J3"
-			(at 1.27 2.33 360)
+			(at 1.27 2.33 0)
 			(layer "B.SilkS")
 			(uuid "4e254533-830e-4391-8f37-4554bfa6e77c")
 			(effects
@@ -13412,7 +13412,7 @@
 			)
 		)
 		(property "Value" "Ext_Pwr_Rail"
-			(at 1.27 -17.57 360)
+			(at 1.27 -17.57 0)
 			(layer "B.Fab")
 			(uuid "e4ee3882-9fa1-4a19-8004-e3f14d7acd99")
 			(effects
@@ -14099,7 +14099,7 @@
 		(descr "JST PH series connector, B2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH side entry")
 		(property "Reference" "BT1"
-			(at 6.08 -0.296 360)
+			(at 6.08 -0.296 0)
 			(layer "B.SilkS")
 			(uuid "9cdb6e32-3c88-481b-9e96-6aeccffec416")
 			(effects
@@ -14111,7 +14111,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 1 -4 360)
+			(at 1 -4 0)
 			(layer "B.Fab")
 			(uuid "b28d5ab5-3c2a-4236-81eb-1b4bee10551b")
 			(effects
@@ -14519,7 +14519,7 @@
 			(uuid "cb53945c-de9c-4d82-8428-bbff0ffdbf32")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 -1.5 360)
+			(at 1 -1.5 0)
 			(layer "B.Fab")
 			(uuid "110e71ed-8629-4498-be10-41a05f8acdf2")
 			(effects
@@ -14793,7 +14793,7 @@
 			(uuid "cd222acc-632c-4969-b4eb-fe8259c0325f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.54 360)
+			(at 0 -2.54 0)
 			(layer "B.Fab")
 			(uuid "ecee99c8-d2a5-4965-943f-a6ab75575be1")
 			(effects
@@ -15130,7 +15130,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "JP7"
-			(at 0 2.33 360)
+			(at 0 2.33 0)
 			(layer "B.SilkS")
 			(uuid "1b38ca06-0728-466a-a4bf-e30f2a3efa68")
 			(effects
@@ -15142,7 +15142,7 @@
 			)
 		)
 		(property "Value" "PWR_EN"
-			(at 0 -7.41 360)
+			(at 0 -7.41 0)
 			(layer "B.Fab")
 			(uuid "29719ced-d981-41a2-8807-f6b247c6dd8f")
 			(effects
@@ -15701,6 +15701,541 @@
 		(layer "B.SilkS")
 		(uuid "9fb97f99-2afc-4b75-8350-48fa3ff8fbaa")
 	)
+	(gr_curve
+		(pts
+			(xy 210.349054 69.464065) (xy 210.468675 69.403234) (xy 210.598558 69.366041) (xy 210.73162 69.354161)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "001ece03-87f4-478c-96ae-7fc5515a1110")
+	)
+	(gr_curve
+		(pts
+			(xy 210.825 88.05) (xy 210.775998 88.05) (xy 210.726953 88.04657) (xy 210.678226 88.039691)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "00e62f7d-672d-47e5-ad24-673d56df5f02")
+	)
+	(gr_arc
+		(start 240.589137 71.078462)
+		(mid 238.320723 70.520418)
+		(end 238.751176 68.224372)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "047b3d44-0596-461a-8146-1b2fde117f00")
+	)
+	(gr_line
+		(start 229.528121 60.6)
+		(end 225.124717 60.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "04e62398-ea9a-46dc-a77f-6d75b0e859f6")
+	)
+	(gr_curve
+		(pts
+			(xy 235.425 69.35) (xy 235.441499 69.35) (xy 235.458014 69.350389) (xy 235.474531 69.351169)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "09db26ca-44b1-43eb-9589-5566b615af4b")
+	)
+	(gr_arc
+		(start 206.832747 89.277577)
+		(mid 207.023297 88.778063)
+		(end 207.498121 88.532368)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0d6e68ee-d1d3-4723-9b1e-27b4fc392443")
+	)
+	(gr_arc
+		(start 242.082747 89.404475)
+		(mid 242.056886 89.630447)
+		(end 241.980634 89.844731)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "14ffac38-74d2-41c2-8df2-3c82804a12e1")
+	)
+	(gr_line
+		(start 206.871138 89.6)
+		(end 242.063452 89.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1d6fe8cc-76c7-431c-b90c-86d0f08605c3")
+	)
+	(gr_line
+		(start 242.082747 77.416605)
+		(end 242.082747 71.940964)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1dbf4f7f-bd82-41d8-9471-c1a396763ee9")
+	)
+	(gr_curve
+		(pts
+			(xy 236.47476 87.022433) (xy 236.472887 87.110074) (xy 236.460046 87.197177) (xy 236.436505 87.281704)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1e1f8bd1-a71e-4f59-a9cf-55383731cae5")
+	)
+	(gr_curve
+		(pts
+			(xy 209.973816 69.785195) (xy 209.997879 69.751879) (xy 210.023879 69.720004) (xy 210.05168 69.689735)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "2009f0a7-321d-465e-a09d-4a69847041ce")
+	)
+	(gr_arc
+		(start 240.589137 71.078462)
+		(mid 241.582832 71.082169)
+		(end 242.082747 71.940964)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "232d7b4e-d946-4ad3-a257-6a2baa296687")
+	)
+	(gr_arc
+		(start 241.980634 89.844731)
+		(mid 241.914017 89.979383)
+		(end 241.846438 90.113555)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "23ad3e03-a5d5-45f1-9bb6-3f0a0d7268ee")
+	)
+	(gr_curve
+		(pts
+			(xy 235.892671 87.940098) (xy 235.770947 88.000652) (xy 235.63874 88.036932) (xy 235.503424 88.047067)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "267758d5-c021-4dc6-b7e7-f1445ed9250d")
+	)
+	(gr_arc
+		(start 207.1383 66.982899)
+		(mid 211.484065 63.121767)
+		(end 216.721879 60.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "2766f349-a5af-441e-88e2-7ef5e37dc744")
+	)
+	(gr_arc
+		(start 207.498122 86.68349)
+		(mid 207.023297 86.437795)
+		(end 206.832747 85.938279)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "2da51bf1-68f5-4824-929e-c041ad82efe2")
+	)
+	(gr_line
+		(start 207.982682 86.738517)
+		(end 207.498122 86.68349)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "31afbdbe-1f39-4973-aa41-c89ee5ac5b28")
+	)
+	(gr_line
+		(start 221.125284 60.599999)
+		(end 221.125284 60.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "31c4f2cd-a51e-41c6-b56f-4d39835e7e7b")
+	)
+	(gr_line
+		(start 210.825 69.35)
+		(end 223.125 69.35)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "325c175a-5414-4ba6-a6f9-79e35dae7918")
+	)
+	(gr_arc
+		(start 242.082747 77.416605)
+		(mid 241.909398 77.896226)
+		(end 241.469464 78.154192)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "328e9ba6-aa91-459c-a6cd-7f5668a63974")
+	)
+	(gr_curve
+		(pts
+			(xy 210.678226 88.039691) (xy 210.560846 88.02312) (xy 210.447012 87.986776) (xy 210.341596 87.932105)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "33a77343-6b68-4940-b8cc-5256f3f64188")
+	)
+	(gr_curve
+		(pts
+			(xy 209.775 70.4) (xy 209.775 70.316988) (xy 209.784843 70.233955) (xy 209.804547 70.152661)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "38256c83-5f50-4122-81a5-f845289f5127")
+	)
+	(gr_arc
+		(start 207.339074 68.121503)
+		(mid 206.970649 67.599465)
+		(end 207.1383 66.982899)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "38352e70-f49b-4219-9cb2-d601457e9316")
+	)
+	(gr_curve
+		(pts
+			(xy 209.804547 70.152661) (xy 209.824908 70.068658) (xy 209.855585 69.9874) (xy 209.895948 69.910753)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3956e95e-05e4-412a-b8f6-1647934b6c80")
+	)
+	(gr_curve
+		(pts
+			(xy 236.332103 69.871168) (xy 236.367923 69.932609) (xy 236.397378 69.99748) (xy 236.420049 70.064774)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3f454ac3-4756-439f-9744-8e5b04d657e2")
+	)
+	(gr_arc
+		(start 238.915565 66.755938)
+		(mid 239.157426 67.526431)
+		(end 238.751176 68.224372)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "42465562-1beb-40c1-9843-6c4a708a7681")
+	)
+	(gr_line
+		(start 207.498121 88.532368)
+		(end 207.982681 88.477341)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "44fa70b5-2652-4fd4-b03b-4531637f07ed")
+	)
+	(gr_line
+		(start 225.625 94.29961)
+		(end 225.75 95.1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "47cd8674-4ca8-4f2e-94b9-332fe34ef82d")
+	)
+	(gr_arc
+		(start 234.038937 91.709914)
+		(mid 234.934645 92.20909)
+		(end 235.433821 93.104798)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "50913b54-66d5-460f-91ca-0e314dab3c57")
+	)
+	(gr_arc
+		(start 241.460434 79.940695)
+		(mid 241.906421 80.196671)
+		(end 242.082747 80.679746)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "582bc74f-9daa-4b64-a534-8bbec1652cc6")
+	)
+	(gr_curve
+		(pts
+			(xy 236.295997 87.586399) (xy 236.258378 87.642275) (xy 236.21548 87.694388) (xy 236.167901 87.742023)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5929280e-5817-49b1-9c4b-c29d8f8ef7b3")
+	)
+	(gr_arc
+		(start 229.528121 60.6)
+		(mid 234.640808 63.039072)
+		(end 238.915565 66.755938)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5a1de81b-74a1-464b-899b-103a8212c44f")
+	)
+	(gr_rect
+		(start 207 21.1)
+		(end 245 51.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "5c8fcb37-a535-401f-90e7-d11a022dc4b5")
+	)
+	(gr_curve
+		(pts
+			(xy 210.154102 69.59229) (xy 210.214176 69.542391) (xy 210.279571 69.499398) (xy 210.349054 69.464065)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5e1adc6d-63fa-4ce5-8a6b-d6092d6fb939")
+	)
+	(gr_line
+		(start 216.721879 60.6)
+		(end 221.125284 60.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5ed467db-3a95-4600-9967-af927e1124db")
+	)
+	(gr_line
+		(start 242.082747 89.404475)
+		(end 242.082747 80.679746)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6508a4ef-355d-4e7c-83e0-83a1adee168f")
+	)
+	(gr_line
+		(start 214.466179 93.104798)
+		(end 214.516179 93.534914)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6594aec4-fb7e-4328-b9c3-ad300ecddea8")
+	)
+	(gr_line
+		(start 223.125 69.35)
+		(end 235.425 69.35)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "66134fc0-ee16-4dda-b8e4-8c3bbb4f12b8")
+	)
+	(gr_arc
+		(start 241.285375 79.910447)
+		(mid 240.559358 79.048225)
+		(end 241.285375 78.186)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "666f7d0f-9b3f-4288-92df-e103f267b605")
+	)
+	(gr_line
+		(start 241.285375 78.186)
+		(end 241.469464 78.154192)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "66ef869f-1bba-4787-b14f-d3fe916b5a4e")
+	)
+	(gr_arc
+		(start 225.124717 60.6)
+		(mid 224.426083 60.31548)
+		(end 224.125 59.623823)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6767fabd-3b62-475a-8ec8-8e79286a19dc")
+	)
+	(gr_arc
+		(start 238.834419 94.536074)
+		(mid 223.28545 101.599387)
+		(end 207.630366 94.774495)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6800e486-94d0-44c6-ac2c-98be90ee4910")
+	)
+	(gr_line
+		(start 236.475 70.4)
+		(end 236.475 87)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6830b59c-485c-404b-9fd7-e8da208af752")
+	)
+	(gr_arc
+		(start 241.846438 90.113555)
+		(mid 241.190489 90.632412)
+		(end 240.369778 90.471444)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6b59665a-00b5-4812-9cdb-e7a6578bbb4b")
+	)
+	(gr_curve
+		(pts
+			(xy 236.174667 69.664814) (xy 236.203605 69.694321) (xy 236.230776 69.725512) (xy 236.256038 69.758225)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6b794b82-f687-448c-87da-f8bb1198d869")
+	)
+	(gr_arc
+		(start 207.982682 86.738517)
+		(mid 208.758951 87.607929)
+		(end 207.982681 88.477341)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6ce59e1d-4067-4e33-ba3d-75ca71d4b33d")
+	)
+	(gr_curve
+		(pts
+			(xy 209.895948 69.910753) (xy 209.918917 69.867136) (xy 209.944935 69.825179) (xy 209.973816 69.785195)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6f7206b5-8e6c-4541-8c75-ba1cf6bd902f")
+	)
+	(gr_arc
+		(start 207.630366 94.774495)
+		(mid 207.375629 93.977893)
+		(end 207.815166 93.266364)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "71dedf8e-d1b4-4e13-b7b1-e6d21b082682")
+	)
+	(gr_line
+		(start 209.775 87)
+		(end 209.775 70.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "761ff4e2-20ab-426c-9e10-0fda33f3aa4e")
+	)
+	(gr_arc
+		(start 223.92539 92.6)
+		(mid 224.981155 93.243845)
+		(end 225.625 94.29961)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "79fcb213-3252-4c2d-b1ee-54415fddfbd3")
+	)
 	(gr_line
 		(start 153 64.008)
 		(end 153 139.008)
@@ -15711,6 +16246,320 @@
 		(layer "Dwgs.User")
 		(uuid "7c2a30a6-da30-426a-9f8e-70f3660f7df7")
 	)
+	(gr_curve
+		(pts
+			(xy 236.375606 87.445925) (xy 236.352713 87.494725) (xy 236.326098 87.541688) (xy 236.295997 87.586399)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7fc70d04-7a01-4bd3-b394-66b0bbbbacaf")
+	)
+	(gr_curve
+		(pts
+			(xy 236.420049 70.064774) (xy 236.456556 70.173137) (xy 236.475 70.286374) (xy 236.475 70.4)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "88df4c74-fa67-4c10-9378-5c99d8d9c21d")
+	)
+	(gr_curve
+		(pts
+			(xy 209.809749 87.267893) (xy 209.786667 87.180416) (xy 209.775 87.090372) (xy 209.775 87)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8b173e95-4860-468b-a03c-84dfa56c8c4a")
+	)
+	(gr_curve
+		(pts
+			(xy 210.05168 69.689735) (xy 210.083601 69.654981) (xy 210.11782 69.622426) (xy 210.154102 69.59229)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8c6dd705-d5c9-4990-8dcc-24735940c742")
+	)
+	(gr_arc
+		(start 207.478026 90.260547)
+		(mid 208.564406 91.660512)
+		(end 207.815166 93.266364)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8de3273e-1223-4c0f-894e-1ca20e7fb25e")
+	)
+	(gr_circle
+		(center 233.608821 93.534914)
+		(end 235.483821 93.534914)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "8f4087db-6d81-4e3c-847a-aa6146f34814")
+	)
+	(gr_arc
+		(start 222.125 59.623823)
+		(mid 221.823917 60.31548)
+		(end 221.125284 60.599999)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "906c4332-231d-464a-b774-fdfde2e4bdf0")
+	)
+	(gr_curve
+		(pts
+			(xy 236.256038 69.758225) (xy 236.283816 69.794195) (xy 236.309223 69.831922) (xy 236.332103 69.871168)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "907bfca8-bb16-414a-b85a-c26de4e7eb19")
+	)
+	(gr_line
+		(start 206.832747 89.277577)
+		(end 206.832747 89.325575)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "933f7f04-a852-4b54-9c9f-482b5432a178")
+	)
+	(gr_arc
+		(start 238.610602 93.368452)
+		(mid 239.009955 93.897163)
+		(end 238.834419 94.536074)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "95409315-bb32-474e-95e3-e45e2a5e8110")
+	)
+	(gr_curve
+		(pts
+			(xy 210.341596 87.932105) (xy 210.240819 87.879841) (xy 210.149109 87.81154) (xy 210.070088 87.729801)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "96cd3ed2-1f8e-4757-8c1f-0e983ac381b7")
+	)
+	(gr_circle
+		(center 223.125 95.1)
+		(end 225.75 95.1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "971cd934-1c65-4b0b-91be-01a225c5dc76")
+	)
+	(gr_curve
+		(pts
+			(xy 236.057955 69.562225) (xy 236.099326 69.593481) (xy 236.138338 69.627769) (xy 236.174667 69.664814)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9d25af41-592e-47ba-bd91-2c2a790208d8")
+	)
+	(gr_arc
+		(start 206.832747 71.948144)
+		(mid 206.968568 71.44496)
+		(end 207.339137 71.078462)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a67d0246-fc0a-4582-927e-b9ad9c9ca8ac")
+	)
+	(gr_line
+		(start 235.433821 93.104798)
+		(end 235.483821 93.534914)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a971c22f-3cfe-475a-9183-c74b0639a75c")
+	)
+	(gr_line
+		(start 235.425 88.05)
+		(end 210.825 88.05)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "aad16473-f7c7-4001-956e-f681abf1f82b")
+	)
+	(gr_curve
+		(pts
+			(xy 235.503424 88.047067) (xy 235.477287 88.049025) (xy 235.451127 88.05) (xy 235.425 88.05)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "be9590d9-bd08-4476-a19c-612e87ad26ed")
+	)
+	(gr_curve
+		(pts
+			(xy 210.070088 87.729801) (xy 210.024504 87.682647) (xy 209.983427 87.631317) (xy 209.947403 87.576476)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c59fb73a-55f8-4b76-84d8-9378231fd721")
+	)
+	(gr_arc
+		(start 222.125 59.623823)
+		(mid 223.125 59.6)
+		(end 224.125 59.623823)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c6c1529a-4b03-4eed-a686-5398c997996c")
+	)
+	(gr_line
+		(start 241.460434 79.940695)
+		(end 241.285375 79.910447)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c9e6e8eb-f535-4e70-92e0-e33c18eac975")
+	)
+	(gr_line
+		(start 206.832747 71.948144)
+		(end 206.832747 85.938279)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cacff75d-c58f-47ab-a26b-8c611e7ef163")
+	)
+	(gr_curve
+		(pts
+			(xy 236.167901 87.742023) (xy 236.087435 87.822584) (xy 235.994463 87.889459) (xy 235.892671 87.940098)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d145cc99-d71f-4918-8880-d9b08286ca66")
+	)
+	(gr_curve
+		(pts
+			(xy 236.475 87) (xy 236.475 87.007474) (xy 236.47492 87.014952) (xy 236.47476 87.022433)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "de600c84-2db2-4143-982a-a65169cb9405")
+	)
+	(gr_arc
+		(start 238.610602 93.368452)
+		(mid 237.921925 90.967643)
+		(end 240.369778 90.471444)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "df559673-59e7-49d9-b04c-c6ef1fea91e4")
+	)
+	(gr_arc
+		(start 207.478026 90.260547)
+		(mid 207.009728 89.893589)
+		(end 206.832747 89.325575)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "df7595cf-9b4b-4ac8-ba1f-7ebd67e12d36")
+	)
+	(gr_curve
+		(pts
+			(xy 235.474531 69.351169) (xy 235.587634 69.35651) (xy 235.699358 69.380122) (xy 235.805318 69.421298)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e0050b75-6ae3-4088-aa17-f648ff3877cb")
+	)
+	(gr_curve
+		(pts
+			(xy 209.947403 87.576476) (xy 209.91793 87.531607) (xy 209.89194 87.484543) (xy 209.869663 87.435697)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e4ab89bb-f834-450f-8909-7e9a26b29bc4")
+	)
+	(gr_curve
+		(pts
+			(xy 236.436505 87.281704) (xy 236.420816 87.338038) (xy 236.400447 87.392969) (xy 236.375606 87.445925)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e7dce833-d2ef-4ca7-a3b2-cbae38b3e5b9")
+	)
+	(gr_arc
+		(start 213.071295 91.709914)
+		(mid 213.967004 92.209089)
+		(end 214.466179 93.104798)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "eb0ccab2-7e30-4f50-ae43-734fed56e690")
+	)
 	(gr_line
 		(start 115.5 101.508)
 		(end 190.5 101.508)
@@ -15720,6 +16569,83 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "ee42fd24-5599-4251-baee-0983d1223323")
+	)
+	(gr_circle
+		(center 212.641179 93.534914)
+		(end 214.516179 93.534914)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "eee2d5bd-0108-494a-b7fa-ed92154aacfb")
+	)
+	(gr_curve
+		(pts
+			(xy 235.805318 69.421298) (xy 235.895511 69.456346) (xy 235.980545 69.50374) (xy 236.057955 69.562225)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ef657e83-2d51-44a5-8543-a13314209e8f")
+	)
+	(gr_circle
+		(center 210.569367 67.183714)
+		(end 211.444367 67.183714)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f0760161-c5ca-43a1-9f25-8c52a2a377bb")
+	)
+	(gr_arc
+		(start 207.339074 68.121503)
+		(mid 208.2 69.599964)
+		(end 207.339137 71.078462)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f2862e7c-348b-4fe6-9fc0-62321ec73f56")
+	)
+	(gr_curve
+		(pts
+			(xy 210.73162 69.354161) (xy 210.762735 69.351382) (xy 210.793892 69.35) (xy 210.825 69.35)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f523beca-d799-4300-90a4-f418043a9f56")
+	)
+	(gr_rect
+		(start 205.065 22.6)
+		(end 246.935 50.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "fae4eaa3-d489-4ccb-9c41-995465ca9607")
+	)
+	(gr_curve
+		(pts
+			(xy 209.869663 87.435697) (xy 209.84497 87.381553) (xy 209.824928 87.325416) (xy 209.809749 87.267893)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ff3eb574-97ee-4d6d-a356-39d011f8c530")
 	)
 	(gr_arc
 		(start 118.5 139.1)
@@ -15993,6 +16919,42 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Mounting holes"
+		(at 249.5 25.1 0)
+		(layer "Dwgs.User")
+		(uuid "35efef02-468f-4595-ae92-c4747da3994a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Original PCB"
+		(at 240.5 62.6 0)
+		(layer "Dwgs.User")
+		(uuid "670334ec-0dc8-432f-a95d-49ff9ca1ac9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "AMOLED Area"
+		(at 207.5 18.1 0)
+		(layer "Dwgs.User")
+		(uuid "e1f0943b-b10e-4f45-bffd-12cdbbb2c35c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -27353,6 +28315,52 @@
 				(xy 122.03292 129.230675) (xy 122.018655 129.162277) (xy 122.030263 129.118959) (xy 124.619185 123.671971)
 				(xy 124.665742 123.619874) (xy 124.731976 123.601205)
 			)
+		)
+	)
+	(group ""
+		(uuid "14caf5ee-142a-44b4-a114-883b4aea398f")
+		(members "001ece03-87f4-478c-96ae-7fc5515a1110" "00e62f7d-672d-47e5-ad24-673d56df5f02"
+			"047b3d44-0596-461a-8146-1b2fde117f00" "04e62398-ea9a-46dc-a77f-6d75b0e859f6"
+			"09db26ca-44b1-43eb-9589-5566b615af4b" "0d6e68ee-d1d3-4723-9b1e-27b4fc392443"
+			"14ffac38-74d2-41c2-8df2-3c82804a12e1" "1d6fe8cc-76c7-431c-b90c-86d0f08605c3"
+			"1dbf4f7f-bd82-41d8-9471-c1a396763ee9" "1e1f8bd1-a71e-4f59-a9cf-55383731cae5"
+			"2009f0a7-321d-465e-a09d-4a69847041ce" "232d7b4e-d946-4ad3-a257-6a2baa296687"
+			"23ad3e03-a5d5-45f1-9bb6-3f0a0d7268ee" "267758d5-c021-4dc6-b7e7-f1445ed9250d"
+			"2766f349-a5af-441e-88e2-7ef5e37dc744" "2da51bf1-68f5-4824-929e-c041ad82efe2"
+			"31afbdbe-1f39-4973-aa41-c89ee5ac5b28" "31c4f2cd-a51e-41c6-b56f-4d39835e7e7b"
+			"325c175a-5414-4ba6-a6f9-79e35dae7918" "328e9ba6-aa91-459c-a6cd-7f5668a63974"
+			"33a77343-6b68-4940-b8cc-5256f3f64188" "38256c83-5f50-4122-81a5-f845289f5127"
+			"38352e70-f49b-4219-9cb2-d601457e9316" "3956e95e-05e4-412a-b8f6-1647934b6c80"
+			"3f454ac3-4756-439f-9744-8e5b04d657e2" "42465562-1beb-40c1-9843-6c4a708a7681"
+			"44fa70b5-2652-4fd4-b03b-4531637f07ed" "47cd8674-4ca8-4f2e-94b9-332fe34ef82d"
+			"50913b54-66d5-460f-91ca-0e314dab3c57" "582bc74f-9daa-4b64-a534-8bbec1652cc6"
+			"5929280e-5817-49b1-9c4b-c29d8f8ef7b3" "5a1de81b-74a1-464b-899b-103a8212c44f"
+			"5e1adc6d-63fa-4ce5-8a6b-d6092d6fb939" "5ed467db-3a95-4600-9967-af927e1124db"
+			"6508a4ef-355d-4e7c-83e0-83a1adee168f" "6594aec4-fb7e-4328-b9c3-ad300ecddea8"
+			"66134fc0-ee16-4dda-b8e4-8c3bbb4f12b8" "666f7d0f-9b3f-4288-92df-e103f267b605"
+			"66ef869f-1bba-4787-b14f-d3fe916b5a4e" "6767fabd-3b62-475a-8ec8-8e79286a19dc"
+			"6800e486-94d0-44c6-ac2c-98be90ee4910" "6830b59c-485c-404b-9fd7-e8da208af752"
+			"6b59665a-00b5-4812-9cdb-e7a6578bbb4b" "6b794b82-f687-448c-87da-f8bb1198d869"
+			"6ce59e1d-4067-4e33-ba3d-75ca71d4b33d" "6f7206b5-8e6c-4541-8c75-ba1cf6bd902f"
+			"71dedf8e-d1b4-4e13-b7b1-e6d21b082682" "761ff4e2-20ab-426c-9e10-0fda33f3aa4e"
+			"79fcb213-3252-4c2d-b1ee-54415fddfbd3" "7fc70d04-7a01-4bd3-b394-66b0bbbbacaf"
+			"88df4c74-fa67-4c10-9378-5c99d8d9c21d" "8b173e95-4860-468b-a03c-84dfa56c8c4a"
+			"8c6dd705-d5c9-4990-8dcc-24735940c742" "8de3273e-1223-4c0f-894e-1ca20e7fb25e"
+			"8f4087db-6d81-4e3c-847a-aa6146f34814" "906c4332-231d-464a-b774-fdfde2e4bdf0"
+			"907bfca8-bb16-414a-b85a-c26de4e7eb19" "933f7f04-a852-4b54-9c9f-482b5432a178"
+			"95409315-bb32-474e-95e3-e45e2a5e8110" "96cd3ed2-1f8e-4757-8c1f-0e983ac381b7"
+			"971cd934-1c65-4b0b-91be-01a225c5dc76" "9d25af41-592e-47ba-bd91-2c2a790208d8"
+			"a67d0246-fc0a-4582-927e-b9ad9c9ca8ac" "a971c22f-3cfe-475a-9183-c74b0639a75c"
+			"aad16473-f7c7-4001-956e-f681abf1f82b" "be9590d9-bd08-4476-a19c-612e87ad26ed"
+			"c59fb73a-55f8-4b76-84d8-9378231fd721" "c6c1529a-4b03-4eed-a686-5398c997996c"
+			"c9e6e8eb-f535-4e70-92e0-e33c18eac975" "cacff75d-c58f-47ab-a26b-8c611e7ef163"
+			"d145cc99-d71f-4918-8880-d9b08286ca66" "de600c84-2db2-4143-982a-a65169cb9405"
+			"df559673-59e7-49d9-b04c-c6ef1fea91e4" "df7595cf-9b4b-4ac8-ba1f-7ebd67e12d36"
+			"e0050b75-6ae3-4088-aa17-f648ff3877cb" "e4ab89bb-f834-450f-8909-7e9a26b29bc4"
+			"e7dce833-d2ef-4ca7-a3b2-cbae38b3e5b9" "eb0ccab2-7e30-4f50-ae43-734fed56e690"
+			"eee2d5bd-0108-494a-b7fa-ed92154aacfb" "ef657e83-2d51-44a5-8543-a13314209e8f"
+			"f0760161-c5ca-43a1-9f25-8c52a2a377bb" "f2862e7c-348b-4fe6-9fc0-62321ec73f56"
+			"f523beca-d799-4300-90a4-f418043a9f56" "ff3eb574-97ee-4d6d-a356-39d011f8c530"
 		)
 	)
 )
