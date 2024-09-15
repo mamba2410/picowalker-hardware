@@ -3343,22 +3343,10 @@
 		(uuid "ad384f51-12ad-494a-af2f-2a463cfa7623")
 	)
 	(junction
-		(at 111.76 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b04cf58e-4e5a-48e5-bb52-f223bcf90a9f")
-	)
-	(junction
 		(at 208.28 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b070701d-1821-47b8-b8f7-5a0fe49e4ddd")
-	)
-	(junction
-		(at 96.52 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2b7f665-2061-4266-8bf7-be8decf343ad")
 	)
 	(junction
 		(at 195.58 22.86)
@@ -3564,6 +3552,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 34.29) (xy 100.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aeff22a-8efd-41c1-8718-f60fd0290edf")
+	)
+	(wire
+		(pts
 			(xy 218.44 128.27) (xy 218.44 130.81)
 		)
 		(stroke
@@ -3694,16 +3692,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 40.64) (xy 96.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35c1c977-481b-4f93-b3d9-1ec47ca7fb09")
-	)
-	(wire
-		(pts
 			(xy 252.73 58.42) (xy 252.73 67.31)
 		)
 		(stroke
@@ -3811,16 +3799,6 @@
 			(type default)
 		)
 		(uuid "4f019dff-7592-455b-b61c-faa2509fc607")
-	)
-	(wire
-		(pts
-			(xy 96.52 43.18) (xy 111.76 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50a1df97-6f43-4cc1-bedd-36538764f45c")
 	)
 	(wire
 		(pts
@@ -4064,16 +4042,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 21.59) (xy 127 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81648922-fb4d-440c-8398-0fd6380c7ae9")
-	)
-	(wire
-		(pts
 			(xy 87.63 133.35) (xy 116.84 133.35)
 		)
 		(stroke
@@ -4254,6 +4222,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 38.1) (xy 100.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb7293a-2cd1-4145-a7ba-bc903ec6f671")
+	)
+	(wire
+		(pts
 			(xy 270.51 40.64) (xy 274.32 40.64)
 		)
 		(stroke
@@ -4344,16 +4322,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 40.64) (xy 111.76 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acbc1417-a1e2-4ae6-9687-a7d0bde719a1")
-	)
-	(wire
-		(pts
 			(xy 215.9 149.86) (xy 237.49 149.86)
 		)
 		(stroke
@@ -4361,16 +4329,6 @@
 			(type default)
 		)
 		(uuid "af889f4d-03d2-4687-811f-498dfda15841")
-	)
-	(wire
-		(pts
-			(xy 127 43.18) (xy 111.76 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15bc190-92de-4c6f-b6b9-9957deeebf92")
 	)
 	(wire
 		(pts
@@ -4444,16 +4402,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 30.48) (xy 96.52 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca5606a-8aa1-4d84-81a2-ef3181c77669")
-	)
-	(wire
-		(pts
 			(xy 198.12 88.9) (xy 210.82 88.9)
 		)
 		(stroke
@@ -4491,16 +4439,6 @@
 			(type default)
 		)
 		(uuid "be892287-5e3d-4d72-a26a-031a8059af55")
-	)
-	(wire
-		(pts
-			(xy 127 40.64) (xy 127 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17ba03f-386f-4176-ab02-42a634fa116c")
 	)
 	(wire
 		(pts
@@ -4584,16 +4522,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 21.59) (xy 111.76 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a945b2-1a05-4934-8c97-a2de1a59bc39")
-	)
-	(wire
-		(pts
 			(xy 195.58 22.86) (xy 195.58 25.4)
 		)
 		(stroke
@@ -4611,6 +4539,16 @@
 			(type default)
 		)
 		(uuid "cd6bc2ae-4f76-4f69-8457-4a4ddc3028df")
+	)
+	(wire
+		(pts
+			(xy 91.44 41.91) (xy 100.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd916ae8-d2d4-4b31-a11d-cf7a1ed5beec")
 	)
 	(wire
 		(pts
@@ -4651,16 +4589,6 @@
 			(type default)
 		)
 		(uuid "dc9184b6-594c-49c5-b498-75e5e1fbf37a")
-	)
-	(wire
-		(pts
-			(xy 92.71 43.18) (xy 96.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e016b839-cb0c-4f0d-a850-89f1e074f6e4")
 	)
 	(wire
 		(pts
@@ -4815,7 +4743,7 @@
 	(text_box "User buttons\n"
 		(exclude_from_sim no)
 		(at 83.82 12.7 0)
-		(size 59.69 43.18)
+		(size 59.69 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -4890,7 +4818,7 @@
 	)
 	(text_box "Mechanical"
 		(exclude_from_sim no)
-		(at 83.82 57.15 0)
+		(at 83.82 73.66 0)
 		(size 59.69 26.67)
 		(stroke
 			(width 0)
@@ -5018,19 +4946,9 @@
 		)
 		(uuid "8cfdff83-27c5-4eb1-908a-c3497689d3ec")
 	)
-	(text "Candidate:\nOmron B3FS-1010P"
-		(exclude_from_sim no)
-		(at 113.538 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9bf68c83-5379-4466-8bcc-54b3a29d463b")
-	)
 	(text "Actual chip has extra 4 pins, at least 1 (the pico LED pin)\ncan be reused in final design.\n1 needs to stay as USB VBUS_SENSE (probably)\nGP24 - VBUS sense\nGP23 - SMPS power save\nGP25 - LED\nGP29 - VSYS sense"
 		(exclude_from_sim no)
-		(at 45.974 98.552 0)
+		(at 13.462 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5048,17 +4966,6 @@
 			)
 		)
 		(uuid "a3d578ba-37fe-47ac-a9e8-b620434679d0")
-	)
-	(text "MCU can pull-up"
-		(exclude_from_sim no)
-		(at 106.68 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa207903-24e3-4446-a316-f89f91736b8a")
 	)
 	(text "Ideally DRMN (1.8V-5.5V, SO8) \nbut I have DWDW (2.5V-5.5V, TSSOP8)"
 		(exclude_from_sim no)
@@ -5163,17 +5070,6 @@
 		)
 		(uuid "0faae16e-483b-4fff-8f3d-3d1118dfc33c")
 	)
-	(label "BUT_L"
-		(at 96.52 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10753cab-a2ff-42ea-a146-080e8cf63447")
-	)
 	(label "RUN"
 		(at 104.14 140.97 180)
 		(fields_autoplaced yes)
@@ -5229,17 +5125,6 @@
 		)
 		(uuid "32067490-c200-4d93-9292-1bdbc108a125")
 	)
-	(label "BUT_R"
-		(at 127 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39b24af1-a7a0-420d-81e6-fa94fb5918a8")
-	)
 	(label "~{SCREEN_RST}"
 		(at 153.67 124.46 0)
 		(fields_autoplaced yes)
@@ -5261,6 +5146,17 @@
 			(justify left bottom)
 		)
 		(uuid "41cf009a-2830-4b03-a1b0-04b4f08c773f")
+	)
+	(label "BUT_R"
+		(at 91.44 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "473bb1fc-f204-4fe2-b28e-bec48e1312e5")
 	)
 	(label "SPI_SCK"
 		(at 275.59 93.98 180)
@@ -5449,6 +5345,17 @@
 		)
 		(uuid "7aaa8c76-5acc-449b-a7c6-5955548bbf4c")
 	)
+	(label "BUT_M"
+		(at 91.44 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f72070e-cd40-4833-9537-916de83deb24")
+	)
 	(label "DBG_TX"
 		(at 41.91 115.57 0)
 		(fields_autoplaced yes)
@@ -5547,17 +5454,6 @@
 			(justify left bottom)
 		)
 		(uuid "9ecce868-c9aa-4e3a-a5b4-a8081815f1d2")
-	)
-	(label "BUT_M"
-		(at 111.76 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f925fe6-b440-46a5-9b95-843c6c72a9ca")
 	)
 	(label "ACCEL_INT1"
 		(at 252.73 67.31 180)
@@ -5779,6 +5675,17 @@
 		)
 		(uuid "ec7ce154-1eb6-42be-bf29-3c08178e9c57")
 	)
+	(label "BUT_L"
+		(at 91.44 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed7a4eb8-ae93-4d76-b114-5d17f199e2d7")
+	)
 	(label "SPI_MOSI"
 		(at 229.87 38.1 0)
 		(fields_autoplaced yes)
@@ -5880,7 +5787,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 67.31 0)
+		(at 115.57 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5888,7 +5795,7 @@
 		(dnp no)
 		(uuid "017ab947-84dc-497a-b69a-2d5456ef7f6f")
 		(property "Reference" "#PWR049"
-			(at 115.57 73.66 0)
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 71.374 0)
+			(at 115.57 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +5812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 67.31 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +5821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 67.31 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +5830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 67.31 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,76 +6390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 111.76 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c58540e-2198-49d1-8981-29a88759445c")
-		(property "Reference" "SW3"
-			(at 113.03 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BUT_M"
-			(at 113.03 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
-			(at 106.68 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8421e3ee-cd05-4db8-91cd-dd9dc5c11fbc")
-		)
-		(pin "2"
-			(uuid "fabd7275-3102-4c43-a5b7-92b9aa6dbaec")
-		)
-		(instances
-			(project "pico2-carrier"
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 273.05 63.5 0)
 		(unit 1)
@@ -6686,7 +6523,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 67.31 0)
+		(at 107.95 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6694,7 +6531,7 @@
 		(dnp no)
 		(uuid "2983fd7a-055f-4ffc-a407-80864e1ae5ae")
 		(property "Reference" "#PWR045"
-			(at 107.95 73.66 0)
+			(at 107.95 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6540,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 71.374 0)
+			(at 107.95 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +6548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 67.31 0)
+			(at 107.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +6557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 67.31 0)
+			(at 107.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +6566,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 67.31 0)
+			(at 107.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,7 +7819,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 78.74 0)
+		(at 115.57 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7990,7 +7827,7 @@
 		(dnp no)
 		(uuid "674e3e7b-86b5-4f47-8dce-ee9cd38a2660")
 		(property "Reference" "#PWR063"
-			(at 115.57 85.09 0)
+			(at 115.57 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,7 +7836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 82.804 0)
+			(at 115.57 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +7844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 78.74 0)
+			(at 115.57 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +7853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 78.74 0)
+			(at 115.57 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +7862,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 78.74 0)
+			(at 115.57 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,76 +8010,6 @@
 			(project "pico2-carrier"
 				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 127 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "749ee1bd-9529-487f-9e31-6d76c58bb8f9")
-		(property "Reference" "SW4"
-			(at 128.27 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BUT_R"
-			(at 128.27 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
-			(at 121.92 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47a26455-c0f5-46b4-9496-768afd5241a1")
-		)
-		(pin "2"
-			(uuid "292dad5a-3c9c-45c4-bf87-2a95149e4961")
-		)
-		(instances
-			(project "pico2-carrier"
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -8790,7 +8557,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 115.57 76.2 0)
+		(at 115.57 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -8799,7 +8566,7 @@
 		(dnp no)
 		(uuid "8a9263b2-ac74-4b98-b054-828db1098af6")
 		(property "Reference" "H4"
-			(at 118.11 74.9299 0)
+			(at 118.11 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8575,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 118.11 77.4699 0)
+			(at 118.11 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8584,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 115.57 76.2 0)
+			(at 115.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +8593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 76.2 0)
+			(at 115.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8602,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 115.57 76.2 0)
+			(at 115.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,78 +8623,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 96.52 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d421886-0de2-4e01-99fd-8bdc26e1277c")
-		(property "Reference" "SW2"
-			(at 97.79 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BUT_L"
-			(at 97.79 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51b9d32d-3365-4f7e-9c23-d44744ecc674")
-		)
-		(pin "2"
-			(uuid "66903041-3b8b-443e-ba55-2acd3025c540")
-		)
-		(instances
-			(project "pico2-carrier"
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 107.95 64.77 0)
+		(at 107.95 81.28 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8935,7 +8632,7 @@
 		(dnp no)
 		(uuid "8d7ab097-d0bb-4284-b3b4-bbe0c548e5e6")
 		(property "Reference" "H1"
-			(at 105.41 63.4999 0)
+			(at 105.41 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,7 +8641,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 105.41 66.0399 0)
+			(at 105.41 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +8650,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 107.95 64.77 0)
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +8659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 64.77 0)
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +8668,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 107.95 64.77 0)
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +8757,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 107.95 76.2 0)
+		(at 107.95 92.71 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9068,7 +8765,7 @@
 		(dnp no)
 		(uuid "92a28d97-dce4-4d67-9fb5-522f81ef3768")
 		(property "Reference" "H2"
-			(at 105.41 74.9299 0)
+			(at 105.41 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,7 +8774,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 105.41 77.4699 0)
+			(at 105.41 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +8783,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 107.95 76.2 0)
+			(at 107.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,7 +8792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 76.2 0)
+			(at 107.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9104,7 +8801,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 107.95 76.2 0)
+			(at 107.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,7 +9163,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 115.57 64.77 0)
+		(at 115.57 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -9475,7 +9172,7 @@
 		(dnp no)
 		(uuid "a63aa7d8-33d6-4827-ad5a-263ffdb19c05")
 		(property "Reference" "H3"
-			(at 118.11 63.4999 0)
+			(at 118.11 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9181,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 118.11 66.0399 0)
+			(at 118.11 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +9190,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 115.57 64.77 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +9199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 64.77 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +9208,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 115.57 64.77 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9994,7 +9691,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 78.74 0)
+		(at 107.95 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10002,7 +9699,7 @@
 		(dnp no)
 		(uuid "ccc54b11-9639-4e44-ab28-62a244129688")
 		(property "Reference" "#PWR064"
-			(at 107.95 85.09 0)
+			(at 107.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10011,7 +9708,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 82.804 0)
+			(at 107.95 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +9716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 78.74 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,7 +9725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 78.74 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +9734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 78.74 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10528,72 +10225,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffa5d03f-9397-4a30-94f6-614b71c769c3")
-		(property "Reference" "#PWR010"
-			(at 92.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e8db13c-bc3e-4231-8da0-08de2d05b0a8")
-		)
-		(instances
-			(project "pico2-carrier"
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 237.49 130.81)
 		(size 26.67 24.13)
@@ -10668,6 +10299,74 @@
 			(project "pico2-carrier"
 				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 27.94)
+		(size 22.86 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c4f37c2-3041-47d7-83df-0c593f331878")
+		(property "Sheetname" "buttons-debounce"
+			(at 100.33 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons-debounce.kicad_sch"
+			(at 100.33 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUT_L" output
+			(at 100.33 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "017a9574-021d-4190-a0f8-c4d010cdb697")
+		)
+		(pin "BUT_M" output
+			(at 100.33 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22d3c56e-a403-4116-9967-3fca8f593339")
+		)
+		(pin "BUT_R" output
+			(at 100.33 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce1f27c8-8ebe-462d-8dc7-71e444c12241")
+		)
+		(instances
+			(project "pico2-carrier"
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e"
+					(page "4")
 				)
 			)
 		)

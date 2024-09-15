@@ -646,6 +646,10 @@
     [
       "186b40c8-acb6-4b31-a880-ca87c0770f9c",
       "battery-bq25628e"
+    ],
+    [
+      "4c4f37c2-3041-47d7-83df-0c593f331878",
+      "buttons-debounce"
     ]
   ],
   "text_variables": {}
