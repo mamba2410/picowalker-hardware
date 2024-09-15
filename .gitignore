@@ -4,4 +4,6 @@ pico2-carrier/fp-info-cache
 *.lck
 */#auto_saved_files#
 */_autosave*
+*/feedback*
+*.swp
 
