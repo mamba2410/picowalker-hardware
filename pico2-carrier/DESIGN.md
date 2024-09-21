@@ -66,3 +66,40 @@ since I'm not knowledgeable enough to deviate from it.
 It might need a 4 layer board to have good grounding since there are a lot of crossing wires, especially
 for the VBUS/VSYS and interface with the MCU.
 
+
+### Passives
+
+BQ25628E
+
+- CVBUS 10V 1uF before derating
+- CPMID 10V 10uF before derating
+- CSYS 10V 20uF before derating
+- CBAT 10V 10uF before derating
+- LSW max 2.2uH
+- CREGN 10V 4.7uF ceramic before derating
+- CBTST 10B 47nF ceramic before derating
+- Output capacitor 10V >=10uF ceramic X7R or X5R before derating
+- Input capacitor (CPMID?) 25V 10uF ceramic X7R or X5R before derating
+
+
+TFDU4101
+
+- CVIRED rec. tantalum/fast rise 4.7uF/16V (assume before derating). Used as bulk/buffer
+- CVCC rec. ceramic 0.1uF. Used in low-pass filter
+
+M95512
+
+- Decoupling capacitor between 10nF-100nF (assume before derating)
+
+BMA400
+
+- two decoupling capacitors 100nF (assume before derating)
+
+W25Q128/IS25LP128
+
+- No mention of capacitors
+
+DO0180FMST08
+
+- No mention of capacitors
+

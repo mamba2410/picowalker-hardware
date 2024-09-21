@@ -3333,17 +3333,6 @@
 		)
 		(uuid "9e4b232b-a13c-411b-8555-7cc3ba5466e6")
 	)
-	(text "Ceramic!"
-		(exclude_from_sim no)
-		(at 91.44 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab1fcb96-df46-4044-94c7-6b097ff98476")
-	)
 	(text "~{PG} = Input power good\nSTAT => low = charging, high = not charging, blink at 1Hz = charge suspend\n\n~{BAT_INT} might just be good enough, it sends an interrupt whenever\nthe status register changes. so host can read that reg and determine\nwhat happened rather than use up two more pins to get the same info\nAssuming it does give the same info"
 		(exclude_from_sim no)
 		(at 57.658 32.004 0)
