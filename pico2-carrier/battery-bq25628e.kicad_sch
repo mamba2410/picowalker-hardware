@@ -982,6 +982,260 @@
 				)
 			)
 		)
+		(symbol "Device:Thermistor_NTC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor_NTC"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_NTC_0_1"
+				(arc
+					(start -3.048 2.159)
+					(mid -3.0495 2.3143)
+					(end -3.175 2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.159)
+					(mid -2.9736 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.6144)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.6144 1.9794)
+					(end -2.54 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.4393 2.5587)
+					(end -2.159 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 3.048)
+					(mid -2.9736 2.9736)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.794)
+					(mid -2.6144 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:BQ25628ERYKR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2211,6 +2465,12 @@
 		(uuid "35d44a4c-059b-4325-8a88-2fa283a67261")
 	)
 	(junction
+		(at 41.91 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f0b4791-8fbf-4c88-a019-5d9db8ede76e")
+	)
+	(junction
 		(at 106.68 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2241,6 +2501,12 @@
 		(uuid "9c1a4ab5-412e-4150-94ab-d3765f14d622")
 	)
 	(junction
+		(at 41.91 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2eb4673-7a93-4717-ab5b-00f13cd31093")
+	)
+	(junction
 		(at 233.68 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2252,13 +2518,15 @@
 		(color 0 0 0 0)
 		(uuid "f0b7aead-fba1-4e16-adcb-1199afb6543e")
 	)
-	(no_connect
-		(at 54.61 105.41)
-		(uuid "3231a1f5-a46e-4fec-b92b-65e5561180e2")
-	)
-	(no_connect
-		(at 54.61 100.33)
-		(uuid "853cf257-64cc-468e-a4e2-630cfd5c9556")
+	(wire
+		(pts
+			(xy 41.91 116.84) (xy 48.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c966d80-9aa2-4e10-85a7-92abf87383ff")
 	)
 	(wire
 		(pts
@@ -2352,6 +2620,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 116.84) (xy 48.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd28b80-3321-416c-b233-df4fea82a33c")
+	)
+	(wire
+		(pts
 			(xy 177.8 137.16) (xy 177.8 138.43)
 		)
 		(stroke
@@ -2399,16 +2677,6 @@
 			(type default)
 		)
 		(uuid "46c61b9d-b6ba-4b4c-bd91-f0493d5a5287")
-	)
-	(wire
-		(pts
-			(xy 41.91 105.41) (xy 54.61 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c69220b-0694-403e-8a05-fa1f6abf92a9")
 	)
 	(wire
 		(pts
@@ -2472,6 +2740,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 128.27) (xy 41.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c417692-2397-4553-933a-5037bcc9cb4f")
+	)
+	(wire
+		(pts
 			(xy 128.27 64.77) (xy 143.51 64.77)
 		)
 		(stroke
@@ -2502,6 +2780,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 127) (xy 48.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f158aa-b3e8-414b-b82b-5b6910a064b1")
+	)
+	(wire
+		(pts
+			(xy 41.91 128.27) (xy 41.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733ca70d-b517-45e0-88fb-6603fc7aab07")
+	)
+	(wire
+		(pts
 			(xy 128.27 67.31) (xy 135.89 67.31)
 		)
 		(stroke
@@ -2519,6 +2817,16 @@
 			(type default)
 		)
 		(uuid "75ceb905-d432-4abf-a7bd-265d9375f56f")
+	)
+	(wire
+		(pts
+			(xy 41.91 127) (xy 41.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766a08cb-b1d2-47c0-93f1-7f98fcb1d3ce")
 	)
 	(wire
 		(pts
@@ -2642,16 +2950,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 100.33) (xy 41.91 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a20816-5df5-4bab-be3f-e6864d6cb85f")
-	)
-	(wire
-		(pts
 			(xy 81.28 80.01) (xy 87.63 80.01)
 		)
 		(stroke
@@ -2699,6 +2997,16 @@
 			(type default)
 		)
 		(uuid "ab1d6103-7284-4057-aa9b-e442551f269a")
+	)
+	(wire
+		(pts
+			(xy 29.21 106.68) (xy 41.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab98fe6d-70e4-4a5f-adc6-e20a345a3351")
 	)
 	(wire
 		(pts
@@ -2792,6 +3100,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 116.84) (xy 41.91 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6fe83fa-dda7-4eb1-ace9-b971606a5605")
+	)
+	(wire
+		(pts
+			(xy 29.21 116.84) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff47d28-6208-45b0-ab39-7efda1e5fabc")
+	)
+	(wire
+		(pts
 			(xy 236.22 85.09) (xy 236.22 86.36)
 		)
 		(stroke
@@ -2879,6 +3207,16 @@
 			(type default)
 		)
 		(uuid "f484a90e-4d56-4554-9e2a-58b0d0ac6350")
+	)
+	(wire
+		(pts
+			(xy 41.91 114.3) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56d328e-f18b-4de4-b4b0-d4caa89e9360")
 	)
 	(wire
 		(pts
@@ -3037,6 +3375,16 @@
 		)
 		(uuid "d55e8eb9-2578-4d36-ab07-df6af56fb5d4")
 	)
+	(text "\"For 103AT NTC thermistor [...] 5.32k and 30.1k for R16 and R17\"\n- section 8.3.5.4.2"
+		(exclude_from_sim no)
+		(at 45.212 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc4b54a6-d3b3-4011-8f02-427e90eac708")
+	)
 	(text "LOW=on charge, blinks 1Hz on fault\nLeave floating if unused"
 		(exclude_from_sim no)
 		(at 141.986 86.614 0)
@@ -3192,7 +3540,7 @@
 		(uuid "61ba258c-c2d0-44be-ae13-d37d3d3a970b")
 	)
 	(label "TS"
-		(at 41.91 105.41 0)
+		(at 29.21 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3291,7 +3639,7 @@
 		(uuid "832a1bb2-da00-420c-843c-a868aeee8375")
 	)
 	(label "TS_BIAS"
-		(at 41.91 100.33 0)
+		(at 29.21 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3704,6 +4052,76 @@
 			(project "pico2-carrier"
 				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "500e20c7-24b1-4865-aaa8-aee647c768be")
+		(property "Reference" "R16"
+			(at 39.37 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 39.37 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.688 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddd05372-a69b-4a4c-8f50-9879f712b249")
+		)
+		(pin "1"
+			(uuid "0c7fa226-ed51-4643-9ac3-0c8d4196bb35")
+		)
+		(instances
+			(project ""
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4183,6 +4601,76 @@
 			(project "pico2-carrier"
 				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 48.26 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87b9afbd-1a9e-43e1-981b-d50d636d8f90")
+		(property "Reference" "TH1"
+			(at 50.8 122.2374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 50.8 124.7774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93258ed2-51de-4ccf-ad4a-a307d8e51825")
+		)
+		(pin "2"
+			(uuid "cd947a30-0174-470d-9c91-8e04d128f6a8")
+		)
+		(instances
+			(project ""
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -5246,6 +5734,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 41.91 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da605bd6-b4e3-4693-ac24-96ea21761bad")
+		(property "Reference" "R17"
+			(at 39.37 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 39.37 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.688 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c7d64b0-56e4-44dc-881e-285674208cb8")
+		)
+		(pin "2"
+			(uuid "3b5fd4f9-ac3d-4816-aa03-f923deb7b432")
+		)
+		(instances
+			(project ""
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:DMG2305UX-7")
 		(at 135.89 96.52 90)
 		(mirror x)
@@ -5363,6 +5921,72 @@
 			(project ""
 				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbad3935-8be2-40c2-a483-69f2167e14f1")
+		(property "Reference" "#PWR010"
+			(at 41.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48a3e1df-a064-412e-aa01-670c6c07281b")
+		)
+		(instances
+			(project "pico2-carrier"
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
