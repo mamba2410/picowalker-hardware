@@ -3845,7 +3845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.7152 67.31 0)
 			(effects
 				(font
@@ -3982,7 +3982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 41.91 46.99 0)
 			(effects
 				(font
@@ -4121,7 +4121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.3352 67.31 0)
 			(effects
 				(font
@@ -4258,7 +4258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.8148 78.74 0)
 			(effects
 				(font
@@ -5274,7 +5274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 41.91 88.9 0)
 			(effects
 				(font

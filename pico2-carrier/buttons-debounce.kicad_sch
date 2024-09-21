@@ -2,332 +2,9 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "3674eff5-0969-4be8-a9af-8e5735f16a81")
+	(uuid "18173c94-5253-404f-910a-0141dcc3e86f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74HC14_x6_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.254 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74HC14_x6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Hex Inverter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74HC14_x6_1_1_1"
-				(rectangle
-					(start -8.89 -3.81)
-					(end 8.89 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-						(color 132 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -11.43 -6.35 0)
-					(length 2.54)
-					(name "1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 -16.51 180)
-					(length 2.54)
-					(name "5Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -16.51 0)
-					(length 2.54)
-					(name "5A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 -19.05 180)
-					(length 2.54)
-					(name "6Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -19.05 0)
-					(length 2.54)
-					(name "6A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -1.27 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 -6.35 180)
-					(length 2.54)
-					(name "1Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -8.89 0)
-					(length 2.54)
-					(name "2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 -8.89 180)
-					(length 2.54)
-					(name "2Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -11.43 0)
-					(length 2.54)
-					(name "3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 -11.43 180)
-					(length 2.54)
-					(name "3Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -24.13 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 -13.97 180)
-					(length 2.54)
-					(name "4Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -13.97 0)
-					(length 2.54)
-					(name "4A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -983,30 +660,6 @@
 		(color 0 0 0 0)
 		(uuid "d098752c-4d2e-4522-ae14-ef6a19bf7655")
 	)
-	(no_connect
-		(at 161.29 69.85)
-		(uuid "141ad81d-8bbf-4f26-8887-10d2e4d432cd")
-	)
-	(no_connect
-		(at 161.29 64.77)
-		(uuid "1d0db070-1249-42d3-961c-def123d228c0")
-	)
-	(no_connect
-		(at 138.43 69.85)
-		(uuid "58bd1f08-e392-4d8a-b68a-44b7b366eb35")
-	)
-	(no_connect
-		(at 161.29 67.31)
-		(uuid "5bcb6586-3f43-4059-8e74-aee4e2b8cfb2")
-	)
-	(no_connect
-		(at 138.43 64.77)
-		(uuid "c38a9597-3f93-44d6-b580-13cb533fcdb3")
-	)
-	(no_connect
-		(at 138.43 67.31)
-		(uuid "e167b64e-d80a-4b49-b189-3a3221bffa1b")
-	)
 	(wire
 		(pts
 			(xy 72.39 57.15) (xy 73.66 57.15)
@@ -1089,16 +742,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 59.69) (xy 166.37 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "302ade62-99d4-4643-a122-4468c83f92dc")
-	)
-	(wire
-		(pts
 			(xy 71.12 105.41) (xy 72.39 105.41)
 		)
 		(stroke
@@ -1106,16 +749,6 @@
 			(type default)
 		)
 		(uuid "3fd08eac-1dfa-4afd-b973-83e36ebd5960")
-	)
-	(wire
-		(pts
-			(xy 125.73 62.23) (xy 138.43 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428ed79d-2c3a-4df3-ad57-1b491524f334")
 	)
 	(wire
 		(pts
@@ -1129,17 +762,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 57.15) (xy 102.87 57.15)
+			(xy 82.55 149.86) (xy 91.44 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5019443e-9bec-4112-9073-1a1fd5bfb473")
+		(uuid "49fa8a51-da83-41d6-b7ba-ebdb68baa488")
 	)
 	(wire
 		(pts
-			(xy 83.82 105.41) (xy 101.6 105.41)
+			(xy 83.82 105.41) (xy 92.71 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1176,26 +809,6 @@
 			(type default)
 		)
 		(uuid "5f278200-1416-4e94-8f41-726eae7761a2")
-	)
-	(wire
-		(pts
-			(xy 149.86 78.74) (xy 149.86 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71c1cdcd-acec-4f49-8fca-980b7ebbde37")
-	)
-	(wire
-		(pts
-			(xy 125.73 59.69) (xy 138.43 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72bbbef0-8c6b-4f31-b813-aa527b5b8f8e")
 	)
 	(wire
 		(pts
@@ -1239,16 +852,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 62.23) (xy 166.37 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b55eb28f-fa13-44c2-8d2c-4cf39aa37a6a")
-	)
-	(wire
-		(pts
 			(xy 82.55 160.02) (xy 82.55 163.83)
 		)
 		(stroke
@@ -1256,6 +859,16 @@
 			(type default)
 		)
 		(uuid "bbac5399-5ffc-486d-930d-d4589718b15d")
+	)
+	(wire
+		(pts
+			(xy 85.09 57.15) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be52e748-db17-4337-b5f4-b334a553cb5b")
 	)
 	(wire
 		(pts
@@ -1269,16 +882,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 57.15) (xy 166.37 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c76e88cd-f9b9-4ddf-b334-7fd65d2e9f34")
-	)
-	(wire
-		(pts
 			(xy 57.15 149.86) (xy 69.85 149.86)
 		)
 		(stroke
@@ -1286,26 +889,6 @@
 			(type default)
 		)
 		(uuid "d1027bf1-eaff-447d-bf5d-3114d5726e6f")
-	)
-	(wire
-		(pts
-			(xy 125.73 57.15) (xy 138.43 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de025848-94e8-4f00-bef3-6da87f77a8cb")
-	)
-	(wire
-		(pts
-			(xy 149.86 46.99) (xy 149.86 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49076cb-9120-43d3-a1a0-c98c08eb701a")
 	)
 	(wire
 		(pts
@@ -1339,16 +922,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 149.86) (xy 100.33 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4a72174-9a07-44a3-8cdc-5abb7acd2370")
-	)
-	(wire
-		(pts
 			(xy 69.85 129.54) (xy 69.85 133.35)
 		)
 		(stroke
@@ -1357,15 +930,47 @@
 		)
 		(uuid "fe23d2d8-08b8-4177-b463-51fc7add7801")
 	)
-	(text "RC network + Schmitt trigger for debounce and signal cleanup\nThere are dedicated debounce ICs but are expensive."
+	(text "Release resistor"
 		(exclude_from_sim no)
-		(at 155.448 28.702 0)
+		(at 87.122 90.678 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
+		(uuid "1b75afc3-51b3-47e7-9d9d-caaac55569e7")
+	)
+	(text "RC network + Schmitt trigger/inverter for debounce and signal cleanup\nThere are dedicated debounce ICs but are expensive.\n\n0.1uF + 10k = 1ms rise\n0.1uF + 1k = 0.1ms fall"
+		(exclude_from_sim no)
+		(at 127.508 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "369b24e8-55b5-4af1-9a48-f5e2487107a1")
+	)
+	(text "Press resistor"
+		(exclude_from_sim no)
+		(at 70.104 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79e55a0f-88aa-47af-b408-d682fb306858")
+	)
+	(text "RP2350 has optional Schmitt trigger inputs (min 0.2V hysteresis)\nRP2350 can also pull-up buttons so maybe remove external pullup (32-86k resistors)\nStill need cap, 0.1uF seems fine, maybe go a bit higher to 1uF if buttons are bad."
+		(exclude_from_sim no)
+		(at 127.508 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80357fe1-907a-4e4f-a50f-c5b5e0ab7b4c")
 	)
 	(text "Candidate:\nOmron B3FS-1010P"
 		(exclude_from_sim no)
@@ -1377,49 +982,27 @@
 		)
 		(uuid "bfa48a87-5f35-491e-961c-ba123b4fbaf8")
 	)
-	(text "74HC14BQ (DHVQFN14)\n74HC14D  (SOT14)"
+	(text "If want to remove debounce network, DNP inverter, cap\nand release resistor then bypass the jumper"
 		(exclude_from_sim no)
-		(at 159.512 42.164 0)
+		(at 98.298 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e105db98-c87b-4ef1-bd7f-5eff6c55a8ce")
+		(uuid "d4d3c897-bfb0-4418-a547-433dea4dd79c")
 	)
-	(label "BUT_R_2"
-		(at 100.33 149.86 180)
-		(fields_autoplaced yes)
+	(text "10k pullup/0.1uF cap with internal schmitt trigger (on by default) seems stable"
+		(exclude_from_sim no)
+		(at 127.508 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "0da592ce-98ae-4a49-9c8e-49d2891ba1b3")
-	)
-	(label "BUT_M_2"
-		(at 125.73 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32dca2a0-ddaa-45f9-9b05-b26d5421962d")
-	)
-	(label "BUT_L_2"
-		(at 102.87 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a09a1c9c-e66a-4aa4-8a2a-a067a77db7ba")
+		(uuid "e9343e2a-743b-447b-bc6a-7d476185dea9")
 	)
 	(label "BUT_M_1"
 		(at 59.69 105.41 0)
@@ -1432,28 +1015,6 @@
 		)
 		(uuid "a482a9db-370e-429b-aa5b-398062f150f8")
 	)
-	(label "BUT_L_2"
-		(at 125.73 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a53f29bd-ce92-47e5-9f24-81932ede8bff")
-	)
-	(label "BUT_M_2"
-		(at 101.6 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a948f74b-4355-4489-9113-2b381db2704c")
-	)
 	(label "BUT_R_1"
 		(at 58.42 149.86 0)
 		(fields_autoplaced yes)
@@ -1464,17 +1025,6 @@
 			(justify left bottom)
 		)
 		(uuid "ed3b2276-42d0-41bc-afc0-5a82e1b39b4e")
-	)
-	(label "BUT_R_2"
-		(at 125.73 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef042478-603a-4158-bc77-774dfb06b913")
 	)
 	(label "BUT_L_1"
 		(at 60.96 57.15 0)
@@ -1487,21 +1037,9 @@
 		)
 		(uuid "fbfc90a9-6996-4381-aa00-ab6ff6bf38d1")
 	)
-	(hierarchical_label "BUT_M"
-		(shape output)
-		(at 166.37 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "085be6a5-0c39-425f-b9f5-a6c7cfc7334d")
-	)
 	(hierarchical_label "BUT_L"
 		(shape output)
-		(at 166.37 57.15 0)
+		(at 95.25 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1509,11 +1047,23 @@
 			)
 			(justify left)
 		)
-		(uuid "33d4ad65-cd72-4f4b-be90-ed08137d592c")
+		(uuid "321010d3-649a-4ad9-876c-bc11becd74de")
+	)
+	(hierarchical_label "BUT_M"
+		(shape output)
+		(at 92.71 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "762cbade-3699-4e45-9b13-2d41a4caab25")
 	)
 	(hierarchical_label "BUT_R"
 		(shape output)
-		(at 166.37 62.23 0)
+		(at 91.44 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1521,7 +1071,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9771edd3-b6ff-41f8-b11b-b4326e6bd01c")
+		(uuid "ba5289e7-346d-4119-90cb-56067ea2a146")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1551,7 +1101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.0552 67.31 0)
 			(effects
 				(font
@@ -1619,7 +1169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 55.372 90)
 			(effects
 				(font
@@ -1662,72 +1212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 149.86 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ea4afdf-f101-48d5-9ff6-df8c353329a4")
-		(property "Reference" "#PWR069"
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 149.86 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "340dbed7-c541-46bf-8e51-10953f8622a1")
-		)
-		(instances
-			(project "pico2-carrier"
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/4c4f37c2-3041-47d7-83df-0c593f331878"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 54.61 57.15 0)
 		(unit 1)
@@ -1753,7 +1237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 54.61 52.07 0)
 			(effects
 				(font
@@ -2021,7 +1505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 84.7852 115.57 0)
 			(effects
 				(font
@@ -2091,7 +1575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.628 137.16 90)
 			(effects
 				(font
@@ -2161,7 +1645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.168 44.45 90)
 			(effects
 				(font
@@ -2198,72 +1682,6 @@
 			(project "pico2-carrier"
 				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/4c4f37c2-3041-47d7-83df-0c593f331878"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5580d531-a66a-47c0-a91d-32a26d67028f")
-		(property "Reference" "#PWR070"
-			(at 149.86 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac85ffd2-f47a-40a8-b0a8-72161c3bce7e")
-		)
-		(instances
-			(project "pico2-carrier"
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/4c4f37c2-3041-47d7-83df-0c593f331878"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2427,7 +1845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 103.632 90)
 			(effects
 				(font
@@ -2495,7 +1913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 52.07 144.78 0)
 			(effects
 				(font
@@ -2604,113 +2022,6 @@
 		)
 	)
 	(symbol
-		(lib_name "74HC14_x6_1")
-		(lib_id "SamacSys_Parts:74HC14_x6")
-		(at 149.86 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79538547-6ba9-4179-817d-9cc72b1c3c9d")
-		(property "Reference" "U6"
-			(at 152.0541 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC14_x6"
-			(at 152.0541 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "670159c5-1fa9-4fd1-86f9-675c5ab05e5c")
-		)
-		(pin "1"
-			(uuid "356318ad-5bc1-4c8d-9fbe-687db7a153c8")
-		)
-		(pin "3"
-			(uuid "46cb7a57-0189-4045-8d70-075702b974f2")
-		)
-		(pin "7"
-			(uuid "4e07079b-c0f1-42d3-b088-2091aae7b063")
-		)
-		(pin "11"
-			(uuid "4e6cc767-9831-4192-9a75-70182510afa8")
-		)
-		(pin "10"
-			(uuid "09fa0e32-5a5e-4d3e-818a-1243e0628ead")
-		)
-		(pin "13"
-			(uuid "f4071506-3b2a-4853-af37-dc99360e3445")
-		)
-		(pin "14"
-			(uuid "60772330-f59d-4f47-8c4e-988686ce2d34")
-		)
-		(pin "9"
-			(uuid "ed804b46-a262-460e-9822-c304f602d55a")
-		)
-		(pin "12"
-			(uuid "2c314960-9409-4761-bd4b-80daf48785c9")
-		)
-		(pin "4"
-			(uuid "341401ef-56c2-4124-9968-5cecfa58d334")
-		)
-		(pin "5"
-			(uuid "65bd8132-cc88-4936-b017-83d30180c6bd")
-		)
-		(pin "8"
-			(uuid "a06c6841-be09-438a-8cc2-574cd145327d")
-		)
-		(pin "2"
-			(uuid "0d4473a0-13e9-4455-898e-d052510c67c3")
-		)
-		(instances
-			(project ""
-				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/4c4f37c2-3041-47d7-83df-0c593f331878"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 72.39 36.83 0)
 		(mirror y)
@@ -2804,7 +2115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 83.5152 160.02 0)
 			(effects
 				(font
@@ -2874,7 +2185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.898 92.71 90)
 			(effects
 				(font
@@ -2942,7 +2253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.93 148.082 90)
 			(effects
 				(font
@@ -3142,7 +2453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 53.34 100.33 0)
 			(effects
 				(font
