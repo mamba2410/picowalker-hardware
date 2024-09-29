@@ -5092,17 +5092,6 @@
 		)
 		(uuid "2adaff31-74b4-470d-89db-0f0a730bb05b")
 	)
-	(label "IR_PIO_TX"
-		(at 40.64 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d5af913-b9de-4051-9488-6c6ea861be6c")
-	)
 	(label "I2C_SDA"
 		(at 104.14 151.13 180)
 		(fields_autoplaced yes)
@@ -5279,17 +5268,6 @@
 		)
 		(uuid "6a7417a2-ff3c-415f-bac6-ae3f809be65e")
 	)
-	(label "IR_SD"
-		(at 40.64 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d1a07c2-3980-43c8-9964-93d0b6028a0a")
-	)
 	(label "I2C_SDA"
 		(at 205.74 143.51 0)
 		(fields_autoplaced yes)
@@ -5311,6 +5289,17 @@
 			(justify right bottom)
 		)
 		(uuid "718b9d12-83e6-4cba-9094-8d4054ec0db0")
+	)
+	(label "IR_SD"
+		(at 40.64 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75d4c6aa-e601-4076-8194-4fbc7bc5d17f")
 	)
 	(label "VSYS_IN"
 		(at 153.67 149.86 0)
@@ -5399,6 +5388,17 @@
 			(justify right bottom)
 		)
 		(uuid "8b14f282-c3aa-41e1-99e5-8c1bb50d95ff")
+	)
+	(label "IR_PIO_TX"
+		(at 40.64 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b770044-4e5c-49ed-b406-973bd90de03d")
 	)
 	(label "3V3_OUT"
 		(at 109.22 128.27 0)
@@ -5876,7 +5876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacsysParts:TFDU4101-TR3"
+		(property "Footprint" "SamacsysParts:TFDU4101-TR3-Side"
 			(at 13.97 -41.58 0)
 			(effects
 				(font

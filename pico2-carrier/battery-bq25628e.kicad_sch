@@ -2518,6 +2518,12 @@
 		(color 0 0 0 0)
 		(uuid "f0b7aead-fba1-4e16-adcb-1199afb6543e")
 	)
+	(junction
+		(at 135.89 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f47dc7d3-e95f-4757-ac95-66e4d30adbe9")
+	)
 	(wire
 		(pts
 			(xy 41.91 116.84) (xy 48.26 116.84)
@@ -2970,6 +2976,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 93.98) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bc6ce3-0038-453c-8c09-97befc5fe29c")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa68752b-2d5c-42ad-928e-acbcf193d35e")
+	)
+	(wire
+		(pts
 			(xy 128.27 82.55) (xy 132.08 82.55)
 		)
 		(stroke
@@ -3020,6 +3046,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 93.98) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e60ba8-4fd7-45bc-9487-b03e4577aa21")
+	)
+	(wire
+		(pts
 			(xy 81.28 64.77) (xy 87.63 64.77)
 		)
 		(stroke
@@ -3030,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 93.98) (xy 135.89 96.52)
+			(xy 135.89 90.17) (xy 135.89 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3127,6 +3163,16 @@
 			(type default)
 		)
 		(uuid "e6b8474f-805d-4a29-9ba2-e54656bc0dc9")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 119.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8d756d-00bc-49ed-8e55-d0cb02695df5")
 	)
 	(wire
 		(pts
@@ -3269,6 +3315,16 @@
 		)
 		(uuid "16299e33-79c4-4d0f-ad8c-d63ebccb9325")
 	)
+	(text "RT0402DRE075K3L"
+		(exclude_from_sim no)
+		(at 24.892 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2299b9fc-df02-4756-b4c1-709a44d1464d")
+	)
 	(text "Rec. 10k resistor for pull-ups"
 		(exclude_from_sim no)
 		(at 93.98 43.18 0)
@@ -3290,6 +3346,26 @@
 			(justify left bottom)
 		)
 		(uuid "3b796128-8ed2-4088-99fe-54cbab347a4b")
+	)
+	(text "ERA-3AED303V"
+		(exclude_from_sim no)
+		(at 24.384 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b18a9d2-7abc-4db7-aa16-4e7b2d0e3702")
+	)
+	(text "Datasheet: 5.32k"
+		(exclude_from_sim no)
+		(at 24.638 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52264161-e82c-410b-991f-f547cd01e1fc")
 	)
 	(text "For pkcell 500mAh LP503035:\nStandard charge 0.2C, quick charge 1C\nCut off current 0.01C\nMax discharge 1C\nJST-PH-2P Counterparts:\n- B2B-PH-K-S (Top-entry THT, cheap ~£0.15)\n- S2B-PH-SM4-TB (Side-entry SMD, more expensive ~£0.45)"
 		(exclude_from_sim no)
@@ -3322,6 +3398,16 @@
 			)
 		)
 		(uuid "7773c891-0e00-4bef-87fb-dc7621b1bd98")
+	)
+	(text "Datasheet: 30.1k"
+		(exclude_from_sim no)
+		(at 24.384 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "846436ef-43c7-4b8b-b578-068fc2760a67")
 	)
 	(text "Can be software disabled"
 		(exclude_from_sim no)
@@ -3661,7 +3747,7 @@
 		(uuid "b0d2a4ab-5ca4-407d-ad52-8ea93ac225b9")
 	)
 	(label "VBUS"
-		(at 135.89 93.98 0)
+		(at 135.89 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3913,6 +3999,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 128.27 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "255bd417-b372-4d76-86f6-fda7dfc81a86")
+		(property "Reference" "R18"
+			(at 128.27 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 128.27 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 128.27 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac9b5a59-8fb8-4728-8ff8-0c5da25efd59")
+		)
+		(pin "2"
+			(uuid "35d35633-6a8d-4b02-bac7-e6f6a12537ed")
+		)
+		(instances
+			(project ""
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 95.25 104.14 90)
 		(unit 1)
@@ -4047,6 +4201,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 119.38 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fdd80de-fa0f-4464-b053-83b7c7e9a530")
+		(property "Reference" "#PWR069"
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "648ce93f-ed8f-4154-9b24-3c3012e5c71a")
+		)
+		(instances
+			(project "pico2-carrier"
+				(path "/4204b4ad-0ae5-4a8a-a079-fb4cf2b0ed9e/186b40c8-acb6-4b31-a880-ca87c0770f9c"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 41.91 110.49 0)
 		(mirror y)
@@ -4065,7 +4285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.3k"
 			(at 39.37 111.7599 0)
 			(effects
 				(font
@@ -5741,7 +5961,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "30k"
 			(at 39.37 124.4599 0)
 			(effects
 				(font
@@ -5750,7 +5970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 43.688 123.19 90)
 			(effects
 				(font
