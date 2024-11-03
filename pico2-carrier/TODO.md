@@ -1,4 +1,7 @@
 # TODO - Hardware
 
-- Think about removing flash chip to allow for sound
+## Improvements for v0.2
+
+- M95512 chip needs hardware pull-up on CSB pin to ensure its high during power-on.
+    - 10k seems fine
 
