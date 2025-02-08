@@ -6,6 +6,7 @@ pico2-carrier/fp-info-cache
 */_autosave*
 */feedback*
 *.swp
+*.zip
 
 */production/
 */manufacturing/
