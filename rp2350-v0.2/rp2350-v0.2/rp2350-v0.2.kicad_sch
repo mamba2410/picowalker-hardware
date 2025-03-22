@@ -17,15 +17,9 @@
 		(color 0 0 0 0)
 		(uuid "982476f2-6ce2-42a5-a2dd-6bc91a6943ae")
 	)
-	(bus
-		(pts
-			(xy 147.32 77.47) (xy 160.02 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01c108c3-0803-4fcd-8546-f8521cf9bcf5")
+	(no_connect
+		(at 191.77 46.99)
+		(uuid "376df94f-d3d7-4af8-8bd9-e66c03ae3c71")
 	)
 	(bus
 		(pts
@@ -39,7 +33,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 46.99) (xy 210.82 46.99)
+			(xy 191.77 46.99) (xy 210.82 46.99)
 		)
 		(stroke
 			(width 0)
@@ -296,16 +290,6 @@
 			(type default)
 		)
 		(uuid "b9f5764d-415e-482a-bd51-71ecf673f544")
-	)
-	(bus
-		(pts
-			(xy 160.02 77.47) (xy 160.02 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be5f36ab-7f82-463c-a01a-205228d38b0c")
 	)
 	(bus
 		(pts
@@ -643,16 +627,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "TP_AUX{INT,RESET}" output
-			(at 147.32 77.47 0)
-			(uuid "aa32299e-336b-49c4-8abd-454041328c53")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
