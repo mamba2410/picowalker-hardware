@@ -1,4 +1,4 @@
-24775284927036534
+24783997477500293
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55229,6 +55229,34 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+CustomFootprints
+BridgedJumper_P2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+CustomFootprints
+GCT_USB4215_03_A
+
+
+0
+20
+17
+CustomFootprints
+L_0805_2016Metric
+0805_2016 for Abracon AOTA-B201610S3R3-101-T
+inductor
+0
+2
+2
+CustomFootprints
+R_0402_1005Metric_Sunken
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -91237,6 +91265,13 @@ Integrated Circuit
 0
 15
 15
+SamacSys_Parts
+ABM8272T3
+ABM8-272-T3-1
+Crystal or Oscillator
+0
+4
+4
 SamacSys_Parts
 AXE534127
 AXE534127-3
