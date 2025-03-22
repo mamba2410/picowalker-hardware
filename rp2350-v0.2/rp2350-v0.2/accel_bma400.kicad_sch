@@ -1309,7 +1309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomFootprints:BridgedJumper_P2.54mm"
 			(at 189.23 59.69 0)
 			(effects
 				(font
