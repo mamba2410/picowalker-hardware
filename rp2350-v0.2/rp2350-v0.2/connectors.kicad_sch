@@ -1366,7 +1366,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Debug UART\nRaspberri pi standard (double check)"
+	(text_box "Debug UART\nRaspberry pi standard (double check)"
 		(exclude_from_sim no)
 		(at 215.9 104.14 0)
 		(size 53.34 48.26)
@@ -1992,7 +1992,17 @@
 		)
 		(uuid "206bc00a-6dd0-440b-82b0-edc6e9b8d2bb")
 	)
-	(label "USB.DM"
+	(label "DBG_UART.TX"
+		(at 231.14 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "209f55cb-d4ff-4189-abd7-2eed6b3aa16e")
+	)
+	(label "USB.D-"
 		(at 102.87 67.31 0)
 		(effects
 			(font
@@ -2022,16 +2032,6 @@
 		)
 		(uuid "5645c0f8-a6d0-461f-ad51-e1a66af3bb8b")
 	)
-	(label "DBG_UART.RX"
-		(at 231.14 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bd23e40-d1bf-45fb-b4ea-a82ea1fd1332")
-	)
 	(label "CC2"
 		(at 88.9 119.38 270)
 		(effects
@@ -2041,6 +2041,16 @@
 			(justify right bottom)
 		)
 		(uuid "61c1e47c-c48f-4fe6-8f47-75814173ad26")
+	)
+	(label "DBG_UART.RX"
+		(at 231.14 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7326be80-cb89-4eea-a563-edd447cc6714")
 	)
 	(label "CC1"
 		(at 78.74 119.38 270)
@@ -2052,16 +2062,6 @@
 		)
 		(uuid "7cc6b191-7922-45d2-bdd7-9f6a94bc1df7")
 	)
-	(label "DBG_UART.TX"
-		(at 231.14 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9806098c-7d79-4a7d-9cc0-83012a178421")
-	)
 	(label "CC2"
 		(at 102.87 60.96 180)
 		(effects
@@ -2072,7 +2072,7 @@
 		)
 		(uuid "d46f331f-ed25-4832-984c-52be51b687e2")
 	)
-	(label "USB.DP"
+	(label "USB.D+"
 		(at 102.87 72.39 0)
 		(effects
 			(font
@@ -2104,7 +2104,7 @@
 		)
 		(uuid "4c0baca7-b320-47a4-b5cd-518d780f7fd9")
 	)
-	(hierarchical_label "USB{DP, DM}"
+	(hierarchical_label "USB{D+, D-}"
 		(shape output)
 		(at 115.57 63.5 0)
 		(effects
@@ -2153,7 +2153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 222.25 127 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 167.64 63.5 0)
 			(effects
 				(font
