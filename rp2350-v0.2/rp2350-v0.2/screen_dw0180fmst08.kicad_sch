@@ -3813,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Value" "SCREEN_IO_PWR"
+		(property "Value" "IO_PWR"
 			(at 231.14 39.37 0)
 			(effects
 				(font
@@ -4725,7 +4725,7 @@
 				)
 			)
 		)
-		(property "Value" "SCREEN_PANEL_PWR"
+		(property "Value" "PANEL_PWR"
 			(at 232.41 58.42 0)
 			(effects
 				(font
