@@ -2145,7 +2145,7 @@
 				)
 			)
 		)
-		(property "Value" "DBG_UART"
+		(property "Value" "UART"
 			(at 222.25 120.65 0)
 			(effects
 				(font
@@ -2286,7 +2286,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "USB4215-03-A"
 			(at 81.28 48.26 0)
 			(effects
 				(font

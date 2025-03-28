@@ -4002,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2uH"
 			(at 234.95 54.6099 0)
 			(effects
 				(font

@@ -5566,7 +5566,7 @@
 		)
 		(uuid "1a1ae36c-b377-4bbc-97da-c82569144782")
 	)
-	(label "IRDA.TX"
+	(label "IRDA.SD"
 		(at 224.79 83.82 0)
 		(effects
 			(font
@@ -5726,7 +5726,7 @@
 		)
 		(uuid "3f07367f-30e3-42ac-97b5-5ce27b0758c8")
 	)
-	(label "IRDA.SD"
+	(label "IRDA.TX"
 		(at 224.79 78.74 0)
 		(effects
 			(font

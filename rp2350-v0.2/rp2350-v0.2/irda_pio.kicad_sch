@@ -1401,7 +1401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TFBS4711TT1"
+		(property "Footprint" "CustomFootprints:TFBS4711-TR"
 			(at 83.82 195.25 0)
 			(effects
 				(font
