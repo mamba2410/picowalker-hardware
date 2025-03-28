@@ -5580,7 +5580,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "~{STAT}"
 			(at 104.14 171.7674 90)
 			(effects
 				(font
@@ -6639,7 +6639,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "~{PG}"
 			(at 92.71 171.7674 90)
 			(effects
 				(font

@@ -1757,6 +1757,12 @@
 		(uuid "8513e0d9-4c30-43bc-b6cf-eff19ba7c163")
 	)
 	(junction
+		(at 134.62 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "879d3b74-a7ee-46d3-bb75-ce45440b1bc7")
+	)
+	(junction
 		(at 91.44 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2026,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 135.89 87.63)
+			(xy 127 87.63) (xy 134.62 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2673,6 +2679,16 @@
 			(type default)
 		)
 		(uuid "cdb0c268-2abc-466e-8eb2-80e34b11ed1b")
+	)
+	(wire
+		(pts
+			(xy 134.62 87.63) (xy 135.89 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68a6361-9969-4623-9013-8fbef2576ae8")
 	)
 	(wire
 		(pts
@@ -4566,6 +4582,72 @@
 			(project "rp2350-v0.2"
 				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/acc6b550-0215-4302-88ee-d8cdb26529cb"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 134.62 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad5ba993-6354-45b9-ae08-59a2aa7806df")
+		(property "Reference" "TP10"
+			(at 131.826 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TE"
+			(at 133.35 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aca7707-7c86-4d84-b277-38420151b0f6")
+		)
+		(instances
+			(project "rp2350-v0.2"
+				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/acc6b550-0215-4302-88ee-d8cdb26529cb"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
