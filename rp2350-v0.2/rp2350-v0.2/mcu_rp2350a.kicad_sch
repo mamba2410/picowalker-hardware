@@ -3046,6 +3046,26 @@
 		)
 		(uuid "5a9a6693-7da5-480e-867d-e41c76eda0c1")
 	)
+	(text_box "I2C pullups"
+		(exclude_from_sim no)
+		(at 213.36 129.54 0)
+		(size 43.18 35.56)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b0490084-03a9-413a-b8e9-0b5da318f266")
+	)
 	(text_box "12MHz Crystal"
 		(exclude_from_sim no)
 		(at 15.24 73.66 0)
@@ -3173,6 +3193,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "392717aa-9df9-4901-9745-7f4441aa1108")
+	)
+	(junction
+		(at 232.41 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46503972-385d-494a-b3a7-619fefe1f478")
 	)
 	(junction
 		(at 93.98 179.07)
@@ -3338,6 +3364,15 @@
 			(type default)
 		)
 		(uuid "1deb7d7b-6bb5-4210-b5bc-f18e94834ddd")
+	)
+	(bus_entry
+		(at 233.68 162.56)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406d98ab-82c0-4363-9d8c-83f1c5b00a88")
 	)
 	(bus_entry
 		(at 228.6 116.84)
@@ -3617,6 +3652,15 @@
 			(type default)
 		)
 		(uuid "e682c0b2-43ec-45eb-99c0-d57e8b99fb02")
+	)
+	(bus_entry
+		(at 236.22 162.56)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f515270a-6d92-486f-9ef6-f7a77751b45e")
 	)
 	(bus_entry
 		(at 241.3 88.9)
@@ -4085,6 +4129,26 @@
 			(type default)
 		)
 		(uuid "44cc073f-4a98-4b62-9961-fa7542f5b6ea")
+	)
+	(wire
+		(pts
+			(xy 231.14 148.59) (xy 231.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453cd90b-b212-48a0-b5ef-c97ea2fb65e8")
+	)
+	(wire
+		(pts
+			(xy 233.68 137.16) (xy 233.68 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485daaae-0b8b-4a89-ba5b-52c1b8fe505d")
 	)
 	(wire
 		(pts
@@ -4758,6 +4822,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 135.89) (xy 232.41 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903cc80b-23b0-4457-b1cf-96af47a6add4")
+	)
+	(wire
+		(pts
 			(xy 97.79 186.69) (xy 100.33 186.69)
 		)
 		(stroke
@@ -4795,6 +4869,16 @@
 			(type default)
 		)
 		(uuid "9458763a-77e7-4c7e-ae84-685d5ee3696f")
+	)
+	(wire
+		(pts
+			(xy 232.41 137.16) (xy 233.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e4bbc5-48e9-4d81-ad0c-076bfaaaeb6e")
 	)
 	(wire
 		(pts
@@ -4965,6 +5049,16 @@
 			(type default)
 		)
 		(uuid "a1dd7fa6-deaa-4613-9ce8-a98a6566baab")
+	)
+	(wire
+		(pts
+			(xy 231.14 137.16) (xy 232.41 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d8c5ec-27c9-45f4-bd71-a14cc89cc782")
 	)
 	(wire
 		(pts
@@ -5218,6 +5312,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 137.16) (xy 231.14 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caaf8ed5-bb4b-462c-a59f-4b6c48471b9d")
+	)
+	(wire
+		(pts
 			(xy 93.98 186.69) (xy 97.79 186.69)
 		)
 		(stroke
@@ -5235,6 +5339,16 @@
 			(type default)
 		)
 		(uuid "cc0a4371-3fa1-4b9e-b282-a48f3c6b23a7")
+	)
+	(wire
+		(pts
+			(xy 233.68 148.59) (xy 233.68 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2f6633-0dfc-4346-8c53-b9e4654c4d4b")
 	)
 	(wire
 		(pts
@@ -5315,6 +5429,16 @@
 			(type default)
 		)
 		(uuid "dc7d38ca-8507-4d34-9911-fb939e19c932")
+	)
+	(bus
+		(pts
+			(xy 236.22 162.56) (xy 240.03 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca20f79-b7c8-44ba-b0b5-a8328469f873")
 	)
 	(wire
 		(pts
@@ -5476,6 +5600,16 @@
 		)
 		(uuid "f63e78e3-dec5-4da5-a010-01af3d97c28e")
 	)
+	(bus
+		(pts
+			(xy 233.68 162.56) (xy 236.22 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69f3992-ae46-4f93-9fc7-3bad19dab00a")
+	)
 	(wire
 		(pts
 			(xy 107.95 91.44) (xy 107.95 93.98)
@@ -5555,6 +5689,16 @@
 			(justify left bottom)
 		)
 		(uuid "119c7aab-de37-4c77-a583-6f58239aa365")
+	)
+	(label "I2C.SCL"
+		(at 233.68 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a03e8b9-2f58-4a25-ba04-88ef379fa8c0")
 	)
 	(label "QSPI0.SS"
 		(at 59.69 132.08 0)
@@ -5805,6 +5949,16 @@
 			(justify left bottom)
 		)
 		(uuid "5db505bd-0c91-41e9-b4f5-2332016a72c0")
+	)
+	(label "I2C.SDA"
+		(at 231.14 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5df4b895-8a86-4b9c-b68a-7aa9bf18f404")
 	)
 	(label "VREG_PGND"
 		(at 128.27 48.26 0)
@@ -6321,6 +6475,17 @@
 		)
 		(uuid "adfd43e3-a509-4f84-9b57-d54ce468dabb")
 	)
+	(hierarchical_label "I2C{SCL, SDA}"
+		(shape output)
+		(at 240.03 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9c4c836-eb16-4b38-b5e8-0616be381f2e")
+	)
 	(hierarchical_label "~{EEPROM_CSB}"
 		(shape output)
 		(at 209.55 121.92 0)
@@ -6834,6 +6999,76 @@
 			(project "rp2350-v0.2"
 				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/43898cce-4488-4636-8fe4-d95251b1544a"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d974426-e574-4c0a-a530-eb97acebbbb4")
+		(property "Reference" "R25"
+			(at 236.22 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 236.22 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 235.458 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0727cddc-3b41-4869-8a43-b33d8c2dafa2")
+		)
+		(pin "2"
+			(uuid "71b43ff5-a3bb-4cbd-8457-b0fd0f6b0dd9")
+		)
+		(instances
+			(project "rp2350-v0.2"
+				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/43898cce-4488-4636-8fe4-d95251b1544a"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8647,6 +8882,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 232.41 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b74f481f-e5ce-4e0b-81eb-8ad91d8f7a0c")
+		(property "Reference" "#PWR076"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 232.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1552be3-9bed-408e-b39c-4f202fa5ed6f")
+		)
+		(instances
+			(project "rp2350-v0.2"
+				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/43898cce-4488-4636-8fe4-d95251b1544a"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 100.33 182.88 0)
 		(unit 1)
@@ -8916,6 +9217,75 @@
 			(project "rp2350-v0.2"
 				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/43898cce-4488-4636-8fe4-d95251b1544a"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d06f37b7-460d-43b9-9e2c-9d4e96588402")
+		(property "Reference" "R24"
+			(at 228.6 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 228.6 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 229.362 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c815e7-b0e4-4a0d-bd0c-8a26c77e9570")
+		)
+		(pin "2"
+			(uuid "471df74e-7532-4218-a905-26dfcc12ee4b")
+		)
+		(instances
+			(project ""
+				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/43898cce-4488-4636-8fe4-d95251b1544a"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9265,7 +9635,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 54.61 85.09 90)
 			(effects
 				(font

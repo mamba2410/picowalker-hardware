@@ -1,4 +1,4 @@
-24785760134815248
+24787503321829094
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55257,6 +55257,13 @@ resistor
 0
 2
 2
+CustomFootprints
+TFBS4711-TR
+
+
+0
+6
+6
 CustomFootprints
 WS_TASV_435151014824
 
