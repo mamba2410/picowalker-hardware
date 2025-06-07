@@ -4,12 +4,16 @@
 
 - Consolidate pull-ups to be a single value e.g. 10k or 5.1k, maybe also set ILIM to 5.1k for one less value.
 - Create battery connector part
+- Double check size of button contacts (currently 5mm diameter)
 
 ## Layout
 
-- Figure out how to route power properly, 3.3V reg can't be behind membrane button because of vias.
-- Potentially have PMIC in bottom right, with 3.3V reg top right next to battery connector.
-
+- Shift MCU and PMIC left a bit to fit the PMIC in the bottom right corner.
+- Reroute USB lines to not be in the membrane connector pad.
+- Probably have a smaller flash chip to fit PMIC in the bottom right (W25Q128JV[E/P]IM for 6x5 or 8x6 mm WSON).
+- Add copper zones in PMIC group again.
+- Add fills in power layer to route battery and VSYS between PMIC and battery/3.3V reg.
+- Move pins on MCU again to have UART on left and I2C on right.
 
 ## Checks
 

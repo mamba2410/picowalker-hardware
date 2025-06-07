@@ -144,49 +144,54 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:W25Q128JVSIM_TR"
+		(symbol "Memory_Flash:W25Q128JVP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 52.07 7.62 0)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "W25Q128JVSIM_TR"
-				(at 52.07 5.08 0)
+			(property "Value" "W25Q128JVP"
+				(at 7.62 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOIC127P790X216-8N"
-				(at 52.07 -94.92 0)
+			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv%20dtr%20revb%2011042016.pdf"
-				(at 52.07 -194.92 0)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "3V 128M-BIT SERIAL FLASH MEMORY WITH DUAL/QUAD SPI & QPI & DTR"
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI QPI DTR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -195,60 +200,19 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "2.16"
-				(at 52.07 -394.92 0)
+			(property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*EP3.4x4.3mm*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "454-W25Q128JVSIMTR"
-				(at 52.07 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVSIM-TR?qs=qSfuJ%252Bfl%2Fd6ji9IuruL6Zg%3D%3D"
-				(at 52.07 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Winbond"
-				(at 52.07 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "W25Q128JVSIM TR"
-				(at 52.07 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "W25Q128JVSIM_TR_1_1"
+			(symbol "W25Q128JVP_0_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 50.8 -10.16)
+					(start -7.62 10.16)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -257,10 +221,12 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "/CS"
+			)
+			(symbol "W25Q128JVP_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "~{CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -275,10 +241,46 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "DO_(IO1)"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DI/IO_{0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "DO/IO_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -293,10 +295,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "/WP_(IO2)"
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{WP}/IO_{2}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -311,9 +313,45 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{HOLD}/~{RESET}/IO_{3}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -330,70 +368,16 @@
 					)
 				)
 				(pin passive line
-					(at 55.88 0 180)
-					(length 5.08)
-					(name "VCC"
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 55.88 -2.54 180)
-					(length 5.08)
-					(name "/HOLD_OR_/RESET_(IO3)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 55.88 -5.08 180)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 55.88 -7.62 180)
-					(length 5.08)
-					(name "DI_(IO0)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -626,16 +610,22 @@
 		)
 	)
 	(junction
-		(at 212.09 105.41)
+		(at 191.77 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c9fe856-6d97-4f9d-9d28-efb78ee1bf6c")
 	)
 	(junction
-		(at 201.93 105.41)
+		(at 146.05 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d1fed11b-ad10-49ce-872d-b31f02bd3bb4")
+		(uuid "a07d94e7-dd1b-4d81-9898-3720e05fddb9")
+	)
+	(junction
+		(at 181.61 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee2088bb-6378-4bb5-ac7b-d9d7b3f511d2")
 	)
 	(bus_entry
 		(at 92.71 105.41)
@@ -647,6 +637,24 @@
 		(uuid "1442457a-7a70-4fae-a494-c841739d17af")
 	)
 	(bus_entry
+		(at 92.71 110.49)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb2848d-d71e-4a65-a052-4739e910e880")
+	)
+	(bus_entry
+		(at 92.71 113.03)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff9fa17-56b9-44e1-b401-28b5fd5e59e8")
+	)
+	(bus_entry
 		(at 92.71 102.87)
 		(size 2.54 2.54)
 		(stroke
@@ -656,31 +664,13 @@
 		(uuid "74c40c96-d3a6-4234-a5d5-db3dac349893")
 	)
 	(bus_entry
-		(at 186.69 115.57)
-		(size -2.54 -2.54)
+		(at 92.71 115.57)
+		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8819d1e6-a2ec-491f-b1bb-82c747195488")
-	)
-	(bus_entry
-		(at 186.69 113.03)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c4a1038-7744-4530-86fd-0f73f48d883b")
-	)
-	(bus_entry
-		(at 186.69 110.49)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d93c7951-f351-4cce-9c44-91b7c291a32e")
+		(uuid "7bd9abd9-b783-4587-8755-952d1ab297af")
 	)
 	(bus_entry
 		(at 92.71 107.95)
@@ -693,7 +683,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 105.41) (xy 242.57 102.87)
+			(xy 222.25 86.36) (xy 222.25 83.82)
 		)
 		(stroke
 			(width 0)
@@ -701,59 +691,79 @@
 		)
 		(uuid "0b0efda7-9145-4826-8979-e92325593a49")
 	)
-	(wire
-		(pts
-			(xy 163.83 110.49) (xy 184.15 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1684e1a5-8c70-48d1-a7ae-b870d0863b0e")
-	)
 	(bus
 		(pts
-			(xy 186.69 115.57) (xy 186.69 119.38)
+			(xy 92.71 113.03) (xy 92.71 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19a656e4-60e9-4fee-8a3a-2d352f8ca3ed")
-	)
-	(bus
-		(pts
-			(xy 186.69 113.03) (xy 186.69 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e9647cb-69ee-4a93-b4a0-58e8386261d3")
-	)
-	(bus
-		(pts
-			(xy 99.06 128.27) (xy 177.8 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ba0af9-f743-489b-8ea8-dba4e74b420b")
+		(uuid "14f84202-763b-41ef-af83-e49621810351")
 	)
 	(wire
 		(pts
-			(xy 163.83 113.03) (xy 184.15 113.03)
+			(xy 144.78 130.81) (xy 146.05 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4902ba01-276f-48d4-bb98-bd89be9c2841")
+		(uuid "1cfd0123-708e-4cb7-9246-a6876efa058d")
 	)
 	(wire
 		(pts
-			(xy 212.09 105.41) (xy 212.09 113.03)
+			(xy 95.25 118.11) (xy 134.62 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e599416-8c73-4653-8795-80dfb68c7008")
+	)
+	(wire
+		(pts
+			(xy 181.61 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431c8fe3-faee-46bf-a4b5-736baceb8ba7")
+	)
+	(wire
+		(pts
+			(xy 146.05 130.81) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4514e6f7-897d-4ce7-aa5e-b1315233d89a")
+	)
+	(wire
+		(pts
+			(xy 95.25 115.57) (xy 134.62 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e30351c-0e8e-4a3a-894f-cc5e18257eaf")
+	)
+	(wire
+		(pts
+			(xy 147.32 125.73) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635b1c74-1c62-4c17-bf80-d8e7685afc95")
+	)
+	(wire
+		(pts
+			(xy 191.77 86.36) (xy 191.77 93.98)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +773,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 120.65) (xy 212.09 123.19)
+			(xy 191.77 101.6) (xy 191.77 104.14)
 		)
 		(stroke
 			(width 0)
@@ -771,19 +781,9 @@
 		)
 		(uuid "76a31fde-3679-4c5b-96a3-3147428086ca")
 	)
-	(bus
-		(pts
-			(xy 92.71 121.92) (xy 99.06 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a6e206d-a53d-4f92-b0dd-dcd42e4de9a1")
-	)
 	(wire
 		(pts
-			(xy 212.09 105.41) (xy 242.57 105.41)
+			(xy 191.77 86.36) (xy 222.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -791,15 +791,35 @@
 		)
 		(uuid "7ae5e7e9-118d-41e6-bf17-4c8f3b842955")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 186.69 106.68) (xy 186.69 110.49)
+			(xy 144.78 125.73) (xy 144.78 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7eae8204-3e8a-4c60-94b9-91416030a103")
+		(uuid "7bf71b19-7c8c-4bd4-9452-d38b7bac9af7")
+	)
+	(wire
+		(pts
+			(xy 95.25 113.03) (xy 134.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8313af0e-79a1-46dd-9562-7075f70add2b")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83537fcb-8364-4512-8b1a-9888c785a757")
 	)
 	(bus
 		(pts
@@ -811,9 +831,19 @@
 		)
 		(uuid "8f9cf100-8e36-4bf6-8be8-0fb6f1aa57dd")
 	)
+	(bus
+		(pts
+			(xy 92.71 110.49) (xy 92.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90af9684-3ff7-42b7-85f7-89dd2f387ed4")
+	)
 	(wire
 		(pts
-			(xy 95.25 105.41) (xy 107.95 105.41)
+			(xy 95.25 105.41) (xy 134.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +853,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 105.41) (xy 201.93 113.03)
+			(xy 181.61 86.36) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -831,9 +861,19 @@
 		)
 		(uuid "98a884a6-fdd3-4d8b-8136-8b19718a5d3c")
 	)
+	(bus
+		(pts
+			(xy 92.71 115.57) (xy 92.71 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df8ecc6-e912-40c1-bd21-6e9427d4335a")
+	)
 	(wire
 		(pts
-			(xy 95.25 107.95) (xy 107.95 107.95)
+			(xy 95.25 107.95) (xy 134.62 107.95)
 		)
 		(stroke
 			(width 0)
@@ -863,17 +903,7 @@
 	)
 	(bus
 		(pts
-			(xy 177.8 128.27) (xy 186.69 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c581df41-1132-4cd8-9de9-2ee81dbe7980")
-	)
-	(bus
-		(pts
-			(xy 92.71 107.95) (xy 92.71 121.92)
+			(xy 92.71 107.95) (xy 92.71 110.49)
 		)
 		(stroke
 			(width 0)
@@ -883,17 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 105.41) (xy 201.93 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d29694f2-6cee-4961-bf13-c6be5d921f1f")
-	)
-	(wire
-		(pts
-			(xy 201.93 123.19) (xy 201.93 120.65)
+			(xy 181.61 104.14) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -903,17 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 107.95) (xy 184.15 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6f154b1-ac17-4154-9df5-04cd2b47c184")
-	)
-	(wire
-		(pts
-			(xy 201.93 105.41) (xy 212.09 105.41)
+			(xy 181.61 86.36) (xy 191.77 86.36)
 		)
 		(stroke
 			(width 0)
@@ -923,17 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 113.03) (xy 104.14 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5fefb75-41ab-4bbb-a67f-23e333225aa2")
-	)
-	(wire
-		(pts
-			(xy 95.25 110.49) (xy 107.95 110.49)
+			(xy 95.25 110.49) (xy 134.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -941,37 +941,27 @@
 		)
 		(uuid "f52e7191-16f0-4749-a385-76ff290df57c")
 	)
-	(bus
-		(pts
-			(xy 186.69 110.49) (xy 186.69 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b795f7-7bb3-4c7c-8a0c-1f3c159acad8")
-	)
-	(label "QSPI0.SCLK"
-		(at 181.61 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0cc34f33-100f-4de6-8487-bcb105645bf7")
-	)
 	(label "QSPI0.SD3"
-		(at 181.61 107.95 180)
+		(at 96.52 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "33801e08-18bb-444c-80b9-1995e4a7deef")
+		(uuid "0437d2fa-c411-4d72-ab96-75b18c15a609")
 	)
 	(label "QSPI0.SD2"
+		(at 96.52 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ca0551e-8396-4562-9963-75f19a65e616")
+	)
+	(label "QSPI0.SD0"
 		(at 96.52 110.49 0)
 		(effects
 			(font
@@ -979,29 +969,19 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9d8ef708-4045-497b-be38-78b4fb09f32b")
+		(uuid "8bc4d2e3-9847-45f3-9875-a38d111bf45f")
 	)
-	(label "FLASH_3V3"
-		(at 201.93 105.41 0)
+	(label "QSPI0.SD1"
+		(at 96.52 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b07fee05-b6cd-4f2a-8768-945b3afee3b3")
+		(uuid "93104db9-7acd-444c-a526-4c0f8d601d69")
 	)
-	(label "QSPI0.SD0"
-		(at 181.61 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd9c3e12-4034-4c56-882a-f83d2b0eadde")
-	)
-	(label "QSPI0.SD1"
+	(label "QSPI0.SCLK"
 		(at 96.52 107.95 0)
 		(effects
 			(font
@@ -1009,7 +989,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dd90f764-1513-4d91-8858-d80fe49b8d80")
+		(uuid "b79c7eef-9333-47d8-92c6-963cd1db4b3c")
 	)
 	(label "QSPI0.SS"
 		(at 96.52 105.41 0)
@@ -1034,7 +1014,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 242.57 102.87 0)
+		(at 222.25 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1043,7 +1023,7 @@
 		(fields_autoplaced yes)
 		(uuid "01407a4e-7755-480e-8ce8-082a5a997caa")
 		(property "Reference" "#PWR068"
-			(at 242.57 106.68 0)
+			(at 222.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1032,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 242.57 97.79 0)
+			(at 222.25 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 102.87 0)
+			(at 222.25 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +1049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 102.87 0)
+			(at 222.25 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1058,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 102.87 0)
+			(at 222.25 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1080,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 123.19 0)
+		(at 191.77 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1109,7 +1089,7 @@
 		(fields_autoplaced yes)
 		(uuid "12d574cb-d8dc-4552-bc8a-7b5f9bad22ed")
 		(property "Reference" "#PWR070"
-			(at 212.09 129.54 0)
+			(at 191.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1098,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 128.27 0)
+			(at 191.77 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 123.19 0)
+			(at 191.77 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 123.19 0)
+			(at 191.77 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1124,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 123.19 0)
+			(at 191.77 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1146,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 201.93 116.84 0)
+		(at 181.61 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1174,7 +1154,7 @@
 		(dnp no)
 		(uuid "21feaf3e-b8d5-4d36-8e6c-1114167c8cee")
 		(property "Reference" "C39"
-			(at 195.58 116.84 90)
+			(at 175.26 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1162,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 198.12 116.84 90)
+			(at 177.8 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,7 +1170,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 202.8952 120.65 0)
+			(at 182.5752 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 116.84 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 116.84 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,53 +1212,35 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:W25Q128JVSIM_TR")
-		(at 107.95 105.41 0)
+		(lib_id "Memory_Flash:W25Q128JVP")
+		(at 144.78 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2752d744-2cbe-4589-8204-192cb3f4fb5e")
-		(property "Reference" "IC5"
-			(at 135.89 97.79 0)
+		(uuid "2827d482-f58b-46f9-8ec9-7ff0815c6c68")
+		(property "Reference" "U2"
+			(at 156.21 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVSIM_TR"
-			(at 135.89 100.33 0)
+		(property "Value" "W25Q128JVP"
+			(at 156.21 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOIC127P790X216-8N"
-			(at 160.02 200.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv%20dtr%20revb%2011042016.pdf"
-			(at 160.02 300.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "3V 128M-BIT SERIAL FLASH MEMORY WITH DUAL/QUAD SPI & QPI & DTR"
-			(at 107.95 105.41 0)
+		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,84 +1248,55 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.16"
-			(at 160.02 500.33 0)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "454-W25Q128JVSIMTR"
-			(at 160.02 600.33 0)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVSIM-TR?qs=qSfuJ%252Bfl%2Fd6ji9IuruL6Zg%3D%3D"
-			(at 160.02 700.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Winbond"
-			(at 160.02 800.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "W25Q128JVSIM TR"
-			(at 160.02 900.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a3b36ea5-d8a6-41d3-ad43-2387c3a20855")
-		)
-		(pin "8"
-			(uuid "f714ca8b-2d93-4309-a3ec-a2fb736d1a89")
-		)
-		(pin "6"
-			(uuid "936035f0-f5bb-4212-ad18-38385e22de5f")
 		)
 		(pin "5"
-			(uuid "73d1a1a3-a99c-4eb8-a82c-1885a0bff724")
-		)
-		(pin "1"
-			(uuid "baaea140-87a3-40f4-9d44-f44bd5190128")
-		)
-		(pin "7"
-			(uuid "226c36cb-1c1f-4310-a980-cd625179b278")
+			(uuid "53a4af3e-0c87-4d74-aed0-46a28ee44c2b")
 		)
 		(pin "2"
-			(uuid "00e4e327-b8de-4b4e-9fd2-96defd2901c2")
+			(uuid "129a360e-6dfc-434b-af86-ac34bc1be893")
+		)
+		(pin "6"
+			(uuid "1bda052e-9e20-4224-a085-a384be591aa8")
+		)
+		(pin "1"
+			(uuid "5047dd99-827e-46ad-850c-1cd54c3e403c")
 		)
 		(pin "3"
-			(uuid "5c6e9df1-f9bd-40ee-a9c5-cb750adf9621")
+			(uuid "4edff296-9915-4488-a48a-8bab335cb157")
+		)
+		(pin "7"
+			(uuid "9d34cb3d-aaa2-4fd1-852a-4086cfbd8f33")
+		)
+		(pin "8"
+			(uuid "e5fa1ef4-9af5-40b6-9525-051222fd20e5")
+		)
+		(pin "4"
+			(uuid "3bb546d1-15f1-4baf-8abb-deed4dd6688d")
+		)
+		(pin "9"
+			(uuid "1eba7e4a-99ad-41b5-886d-bd858f582943")
 		)
 		(instances
-			(project "rp2350-v0.2"
+			(project ""
 				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/d61d67cb-51a7-4693-85fc-ed7a034bf235"
-					(reference "IC5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1371,7 +1304,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 113.03 0)
+		(at 146.05 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1380,7 +1313,7 @@
 		(fields_autoplaced yes)
 		(uuid "59a966c8-d581-440f-af76-bff525293f31")
 		(property "Reference" "#PWR067"
-			(at 104.14 119.38 0)
+			(at 146.05 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 118.11 0)
+			(at 146.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 113.03 0)
+			(at 146.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 113.03 0)
+			(at 146.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1348,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 113.03 0)
+			(at 146.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 123.19 0)
+		(at 181.61 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1446,7 +1379,7 @@
 		(fields_autoplaced yes)
 		(uuid "72a2529e-64e9-4c8e-bc9d-df91af493b48")
 		(property "Reference" "#PWR069"
-			(at 201.93 129.54 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 128.27 0)
+			(at 181.61 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 123.19 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 123.19 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 123.19 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1436,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 212.09 116.84 0)
+		(at 191.77 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1513,7 +1446,7 @@
 		(fields_autoplaced yes)
 		(uuid "f02d719b-c98b-4dfe-94b1-de564df263d3")
 		(property "Reference" "C40"
-			(at 215.9 115.5699 0)
+			(at 195.58 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1455,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 215.9 118.1099 0)
+			(at 195.58 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1464,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 211.1248 120.65 0)
+			(at 190.8048 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 116.84 0)
+			(at 191.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1482,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 212.09 116.84 0)
+			(at 191.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -11,14 +11,6 @@
 		(color 0 0 0 0)
 		(uuid "982476f2-6ce2-42a5-a2dd-6bc91a6943ae")
 	)
-	(no_connect
-		(at 191.77 46.99)
-		(uuid "376df94f-d3d7-4af8-8bd9-e66c03ae3c71")
-	)
-	(no_connect
-		(at 191.77 44.45)
-		(uuid "e7e50789-f55a-4ff6-a973-cf530371ff59")
-	)
 	(bus
 		(pts
 			(xy 157.48 31.75) (xy 171.45 31.75)
@@ -28,16 +20,6 @@
 			(type default)
 		)
 		(uuid "09280a48-080a-466c-90c6-b4ed091ad38a")
-	)
-	(bus
-		(pts
-			(xy 191.77 46.99) (xy 210.82 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf6bf2a-02d4-489a-8262-64215bde6390")
 	)
 	(wire
 		(pts
@@ -218,16 +200,6 @@
 			(type default)
 		)
 		(uuid "a03cdfe0-08b4-440e-ae43-30e75a07780c")
-	)
-	(bus
-		(pts
-			(xy 191.77 44.45) (xy 210.82 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5f37c63-16b6-49d9-a10b-0c6e2d9376cb")
 	)
 	(bus
 		(pts
@@ -626,48 +598,6 @@
 		)
 	)
 	(sheet
-		(at 140.97 173.99)
-		(size 22.86 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "67d4a0f3-4e69-421f-9ad6-892250f9dcf5")
-		(property "Sheetname" "mechanical"
-			(at 140.97 173.2784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mechanical.kicad_sch"
-			(at 140.97 192.3546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "v0.3"
-				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 210.82 119.38)
 		(size 27.94 11.43)
 		(exclude_from_sim no)
@@ -858,26 +788,6 @@
 		(pin "SCREEN_AUX{~{CSB}, PWR_EN, ~{RST}}" input
 			(at 210.82 57.15 180)
 			(uuid "e178fc10-22fe-4650-bab2-69b28706e4e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TP_I2C{SCL,SDA}" input
-			(at 210.82 44.45 180)
-			(uuid "8d7bcb5f-89f5-4684-8ee8-aa1aff1b4aff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TP_AUX{INT,RESET}" input
-			(at 210.82 46.99 180)
-			(uuid "1ab5e363-5b88-4430-a6a1-c441b1bc307e")
 			(effects
 				(font
 					(size 1.27 1.27)
