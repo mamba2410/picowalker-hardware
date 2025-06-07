@@ -924,132 +924,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4149,7 +4023,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 22.86) (xy 102.87 22.86)
+			(xy 99.06 22.86) (xy 127 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4656,16 +4530,6 @@
 			(type default)
 		)
 		(uuid "85773d5f-04d2-49fc-bcde-e9f713ace591")
-	)
-	(wire
-		(pts
-			(xy 107.95 22.86) (xy 127 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "871a43ac-2b49-4d91-9541-6878d40ea2d1")
 	)
 	(wire
 		(pts
@@ -5647,16 +5511,6 @@
 		)
 		(uuid "fea3ef1c-d760-48fa-bf0d-3434ef9184d8")
 	)
-	(label "PWR_AUX.~{BAT_INT}"
-		(at 219.71 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01ed8ec9-edd9-496f-8ac3-ebe4ebb437b2")
-	)
 	(label "RTC_XO"
 		(at 160.02 168.91 180)
 		(effects
@@ -5776,6 +5630,26 @@
 			(justify left bottom)
 		)
 		(uuid "2b64e6fc-91b3-4a55-baa3-6b9b5e0a082a")
+	)
+	(label "PWR_AUX.~{BAT_CE}"
+		(at 219.71 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ca738f5-c326-4a98-9bc7-80097c6459bb")
+	)
+	(label "SCREEN_AUX.~{RST}"
+		(at 213.36 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f893667-ad42-4bb5-b3fc-22f8695b1e83")
 	)
 	(label "MCU_3V3"
 		(at 91.44 179.07 0)
@@ -6067,16 +5941,6 @@
 		)
 		(uuid "7d4de69d-e489-45dc-9884-33d5c7fef730")
 	)
-	(label "SCREEN_AUX.~{RST}"
-		(at 213.36 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80a638a4-d268-46d8-bce5-b77a7bbd910b")
-	)
 	(label "USB.D+"
 		(at 232.41 33.02 0)
 		(effects
@@ -6147,16 +6011,6 @@
 		)
 		(uuid "9f07d94a-0bfa-429c-86f8-e68193a780af")
 	)
-	(label "SCREEN_AUX.~{CSB}"
-		(at 213.36 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a163f451-0354-4998-938c-62d23a80a3f2")
-	)
 	(label "VREG_PGND"
 		(at 39.37 58.42 90)
 		(effects
@@ -6176,6 +6030,16 @@
 			(justify right bottom)
 		)
 		(uuid "bc74a334-018c-445e-922f-ef0e2320fc3b")
+	)
+	(label "PWR_AUX.~{BAT_INT}"
+		(at 219.71 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1acb57d-6beb-4a62-af6e-47ced951e2ad")
 	)
 	(label "MCU_3V3"
 		(at 163.83 20.32 0)
@@ -6197,6 +6061,16 @@
 		)
 		(uuid "c99578ef-f7eb-4b3a-b42d-695c787d1953")
 	)
+	(label "SCREEN_AUX.~{CSB}"
+		(at 213.36 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cac30831-0b9e-49da-aa94-d823f249ad9e")
+	)
 	(label "I2C.SCL"
 		(at 219.71 121.92 0)
 		(effects
@@ -6216,16 +6090,6 @@
 			(justify left bottom)
 		)
 		(uuid "cda9ccc6-f32a-4aa1-a476-36d99f8fd964")
-	)
-	(label "PWR_AUX.~{BAT_CE}"
-		(at 219.71 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d27bc57f-0b08-4556-b3cb-1f738128cfe5")
 	)
 	(label "QSPI0.SCLK"
 		(at 124.46 69.85 0)
@@ -6308,17 +6172,6 @@
 		)
 		(uuid "1db87360-12ea-49e5-9306-d4561c020dec")
 	)
-	(hierarchical_label "PWR_AUX{~{BAT_CE}, ~{BAT_INT}}"
-		(shape bidirectional)
-		(at 241.3 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1f66151d-0c5a-4e5a-86ec-5e04c6d1e269")
-	)
 	(hierarchical_label "SOUND_PWM"
 		(shape output)
 		(at 232.41 53.34 0)
@@ -6330,7 +6183,7 @@
 		)
 		(uuid "2430d193-508a-4c1a-b4e9-102e91460d2e")
 	)
-	(hierarchical_label "PWR_AUX{~{BAT_CE}, ~{BAT_INT}}"
+	(hierarchical_label "PWR_AUX{~{BAT_CE}, ~{BAT_INT}, ~{PG}}"
 		(shape bidirectional)
 		(at 241.3 119.38 0)
 		(effects
@@ -6384,6 +6237,17 @@
 			(justify left)
 		)
 		(uuid "65f8c4c8-02c8-47c2-b79c-d3516e6ea206")
+	)
+	(hierarchical_label "PWR_AUX{~{BAT_CE}, ~{BAT_INT}, ~{PG}}"
+		(shape bidirectional)
+		(at 241.3 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75c71f34-062d-4f7b-ba0c-ee136db8a7bb")
 	)
 	(hierarchical_label "~{ACCEL_CSB}"
 		(shape output)
@@ -6484,7 +6348,7 @@
 		)
 		(uuid "fb559c81-51e6-4e88-af69-976af1b5b1cb")
 	)
-	(hierarchical_label "PWR_AUX{~{BAT_CE}, ~{BAT_INT}}"
+	(hierarchical_label "PWR_AUX{~{BAT_CE}, ~{BAT_INT}, ~{PG}}"
 		(shape bidirectional)
 		(at 241.3 116.84 0)
 		(effects
@@ -7045,74 +6909,6 @@
 			(project "rp2350-v0.2"
 				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/43898cce-4488-4636-8fe4-d95251b1544a"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 105.41 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21d0c5ae-01a6-4ce8-87d3-dd84dde9365d")
-		(property "Reference" "NT4"
-			(at 105.41 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 105.41 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 105.41 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68f856f3-967f-4111-8cb3-f50d02dec418")
-		)
-		(pin "2"
-			(uuid "9f8112f2-0220-48b9-ac55-ae3158f7f495")
-		)
-		(instances
-			(project ""
-				(path "/5cbb45d4-7f83-48dd-a53b-5c75c7d1d827/43898cce-4488-4636-8fe4-d95251b1544a"
-					(reference "NT4")
 					(unit 1)
 				)
 			)

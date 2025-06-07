@@ -5165,7 +5165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "CustomFootprints:R_0402_1005Metric_Sunken"
 			(at 59.69 111.76 0)
 			(effects
 				(font

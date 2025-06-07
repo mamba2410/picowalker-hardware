@@ -1,4 +1,4 @@
-24787503321829094
+24789252633718602
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55233,6 +55233,13 @@ CustomFootprints
 BridgedJumper_P2.54mm
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
 Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+CustomFootprints
+Button_membrane_5mm
+
+
 0
 2
 2

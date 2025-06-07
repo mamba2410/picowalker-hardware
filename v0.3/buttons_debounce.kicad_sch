@@ -1325,7 +1325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
+		(property "Footprint" "CustomFootprints:Button_membrane_5mm"
 			(at 52.07 140.97 0)
 			(effects
 				(font
@@ -1731,7 +1731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
+		(property "Footprint" "CustomFootprints:Button_membrane_5mm"
 			(at 54.61 48.26 0)
 			(effects
 				(font
@@ -1931,7 +1931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
+		(property "Footprint" "CustomFootprints:Button_membrane_5mm"
 			(at 53.34 96.52 0)
 			(effects
 				(font
