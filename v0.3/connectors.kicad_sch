@@ -1366,6 +1366,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Mates with:\n- 151340200 cable assembly\n- 510210200 connector"
+		(exclude_from_sim no)
+		(at 159.766 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "941d6a1f-d612-47ee-9732-7f27ef98df0d")
+	)
+	(text "Molex 53261-0271 "
+		(exclude_from_sim no)
+		(at 160.02 111.252 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecab60e1-a2ed-4914-9a8a-24200bb902c8")
+	)
 	(text_box "Debug UART\nRaspberry pi standard (double check)"
 		(exclude_from_sim no)
 		(at 215.9 104.14 0)
@@ -1446,14 +1468,14 @@
 		)
 		(uuid "4a4e90d6-aba0-41b5-aa7d-cf80dfb950e5")
 	)
-	(text_box "Battery JST"
+	(text_box "Battery connector"
 		(exclude_from_sim no)
 		(at 158.75 106.68 0)
 		(size 45.72 43.18)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2134,7 +2156,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0910055c-5350-428d-899e-1d1762ed4a20")
 		(property "Reference" "J5"
@@ -2388,7 +2410,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2e62ff56-3664-4122-ad83-ec0d846744a3")
 		(property "Reference" "J2"
@@ -2808,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
 			(at 172.72 123.19 0)
 			(effects
 				(font
