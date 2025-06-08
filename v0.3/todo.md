@@ -3,17 +3,14 @@
 ## Parts
 
 - Consolidate pull-ups to be a single value e.g. 10k or 5.1k, maybe also set ILIM to 5.1k for one less value.
-- Create battery connector part
 - Double check size of button contacts (currently 5mm diameter)
 
 ## Layout
 
-- Shift MCU and PMIC left a bit to fit the PMIC in the bottom right corner.
-- Reroute USB lines to not be in the membrane connector pad.
-- Probably have a smaller flash chip to fit PMIC in the bottom right (W25Q128JV[E/P]IM for 6x5 or 8x6 mm WSON).
-- Add copper zones in PMIC group again.
-- Add fills in power layer to route battery and VSYS between PMIC and battery/3.3V reg.
-- Move pins on MCU again to have UART on left and I2C on right.
+- Possibly move everything down a bit so that the 3.3V reg inductor won't be right next to the QSPI lines.
+    They run at 48 MHz and the inductor switches at 1 MHz so it shouldn't be too big of an issue.
+    There's also about 1.4mm of gap with probably 0.8mm ground pour between the inductor and SD0 line.
+- Move USB connector further out because its too recessed in the shell.
 
 ## Checks
 
@@ -21,7 +18,7 @@
 - Stitching vias
 - Panelise
 ```
-kikit panelize -p rp2350-v0.2-kikit.json .\rp2350-v0.2.kicad_pcb outputs\panelized\rp2350-v0.2-panelized.kicad_pcb
+kikit panelize -p v0.3-kikit.json .\v0.3.kicad_pcb outputs\panelized\v0.3-panelized.kicad_pcb
 ```
 - Export to JLC
 

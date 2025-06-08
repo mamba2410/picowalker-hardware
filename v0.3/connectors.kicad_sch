@@ -1366,6 +1366,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Amphenol 12402012E212A is a drop-in replacement and is a little longer."
+		(exclude_from_sim no)
+		(at 97.536 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d271101-c9cb-408d-ae6b-32b539632731")
+	)
 	(text "Mates with:\n- 151340200 cable assembly\n- 510210200 connector"
 		(exclude_from_sim no)
 		(at 159.766 115.57 0)
