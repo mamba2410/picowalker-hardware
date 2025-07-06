@@ -1,4 +1,4 @@
-24789259500164273
+24791022859578254
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55229,6 +55229,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+CustomFootprints
+BOSCH_LGA-12_BMA400
+Bosch_LGA-12
+Accelerometer
+0
+12
+12
 CustomFootprints
 BridgedJumper_P2.54mm
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
