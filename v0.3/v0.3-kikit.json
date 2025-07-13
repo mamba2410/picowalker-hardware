@@ -1,0 +1,47 @@
+{
+    // There can be C-like comments
+    "layout": {
+        "type": "grid",
+        "rows": 1,
+        "cols": 1,
+        "hspace": "0mm",
+        "vspace": "0mm",
+        "rotation": "0deg",
+        "alternation": "none",
+        "renamenet": "Board_{n}-{orig}",
+        "renameref": "{orig}"
+    },
+    "source": {
+        "type": "auto",
+        "tolerance": "1mm"
+    },
+    "tabs": {
+        "type": "annotation",
+    },
+    "cuts": {
+        "type": "mousebites",
+	"offset": "-0.2mm",
+	"drill": "0.5mm",
+	"spacing": "1mm",
+    },
+    "framing": {
+        "type": "frame",
+	"hspace": "2mm",
+	"vspace": "2mm",
+	"fillet": "2mm",
+	"width": "8mm",
+        //"thickness": "0mm"
+    },
+    "tooling": {
+        "type": "4hole",
+	"hoffset": "5mm",
+	"voffset": "5mm",
+	"size": "3mm",
+	"paste": "true",
+    },
+    "post": {
+        "type": "auto",
+        "millradius": "1mm",
+        "copperfill": false
+    }
+}
