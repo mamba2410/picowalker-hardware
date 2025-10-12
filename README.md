@@ -2,16 +2,16 @@
 
 This is the PCB hardware side of the [picowalker](https://github.com/mamba2410/picowalker) project.
 The end goal is to create a new, modern equivalent to the Pokewalker distributed with the Pokemon HeartGold and SoulSilver games back in 2010.
-Since those units are no longer sold and are getting harder and harder to obtain creating a new version sounds like the easiest option. And the most fun.
+Since those units are no longer sold and are getting harder and harder to obtain, creating a new version sounds like the easiest option. And the most fun.
 
-This project has a little bit of history (see below) but as of December 2024 this is the actively developed version of the hardware.
+This project has a little bit of history and messy organisation (see below) but this is the actively developed version of the hardware.
 
-The board is designed around the new rp2350 chip, due to the addition of the low power states and the HSTX, which were what made us move away from the original rp2040 version.
+The hardware is designed around the rp2350 chip. STM32U5 versions have been considered for longer battery life, but they're more expensive and I'm worried about availability (and the name "picowalker" wouldn't work!)
 
 ## Features
 
-- rp2350 as the main chip
-- 1.8" AMOLED screen DO0180FMST03, 448x368 resolution (running at 384x256 for 4x upscaling) driven by output-only QSPI via HSTX.
+- rp2350
+- 1.8" AMOLED screen DO0180FMST03, 448x368 resolution (running at 384x256 for 4x upscaling) driven by PIO'd QSPI (output only).
 - Rechargeable lithum battery via USB-C using the BQ25628E PMIC.
 - Larger form factor to accommodate larger screen and battery.
 - Custom shell based on the original Pokewalker designed by Kamp.
@@ -21,15 +21,17 @@ The board is designed around the new rp2350 chip, due to the addition of the low
 - Accelerometer with BMA400 (successor to the original Pokewalker's one).
 - USB 1.1 connection for flexible communications.
 
-## Current state (updated 2024-12-01)
+## Current state (updated 2025-10-12)
 
-The `hardware-v0.1` design revision has been completed and built and is in the process of testing to make sure
-that all of the hardware works and that sleep current is what was expected.
-There are some hardware bugs that need fixing but overall things are in good shape.
+Hardware v0.3 design revision has been well tested, and hardware v0.4 design is underway.
+This revision focuses on manufacturability and ironing out small quirks.
+If all goes well, v0.4 should turn into the v1.0 hardware version for users.
 
-For more info see [the carrier design document](pico2-carrier/DESIGN.md) and [the todo document](pico2-carrier/TODO.md).
+Here's a render of v0.3 board:
 
-## History and other repositories
+![v0.3-front](assets/v0.3-front.png)
+
+## Organisation Confusion
 
 The project originally started out as trying to re-create the Pokewalker on a breadboard using the newly-released Raspberry Pi Pico, which gave the project its namesake.
 The end goal was to essentially glue together premade modules and put them in a nice enclosure to have a Pokewalker that resembled a [minty pi]().
