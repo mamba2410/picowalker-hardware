@@ -1,6 +1,3 @@
-pico2-carrier/pico2-carrier-backups/
-pico2-carrier/fp-info-cache
-
 *.lck
 */#auto_saved_files#
 */_autosave*
@@ -8,6 +5,8 @@ pico2-carrier/fp-info-cache
 *.swp
 *.zip
 *.step
+*/fp-info-cache
+*/*-backups/
 
 */production/
 */manufacturing/
