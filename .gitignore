@@ -5,7 +5,9 @@
 *.swp
 *.zip
 *.step
+*.bak
 */fp-info-cache
+*/fp-lib-table
 */*-backups/
 
 */production/
