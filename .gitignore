@@ -7,8 +7,11 @@ pico2-carrier/fp-info-cache
 */feedback*
 *.swp
 *.zip
+*.step
 
 */production/
 */manufacturing/
 */fabrication*
+bom/
+outputs/
 
