@@ -1,0 +1,506 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aa8773bf-a88b-4bf9-9961-8e312cd9d0e3")
+	(paper "A4")
+	(lib_symbols)
+	(bus_alias "ACCEL_AUX"
+		(members "~{CS}" "INT")
+	)
+	(bus_alias "BUTTONS"
+		(members "L" "M" "R")
+	)
+	(bus_alias "I2C"
+		(members "SCK" "SDA")
+	)
+	(bus_alias "PWR_AUX"
+		(members "~{INT}" "~{CE}")
+	)
+	(bus_alias "QSPI"
+		(members "SCK" "SD0" "SD1" "SD2" "SD3")
+	)
+	(bus_alias "SCREEN_AUX"
+		(members "~{CS}" "PWR_EN" "~{RST}")
+	)
+	(bus_alias "SERIAL"
+		(members "TX" "RX")
+	)
+	(bus_alias "SPI"
+		(members "MOSI" "MISO" "SCK")
+	)
+	(bus_alias "SWD"
+		(members "SWDIO" "SWCLK")
+	)
+	(bus_alias "USB"
+		(members "DP" "DN")
+	)
+	(sheet
+		(at 203.2 33.02)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d056745-04eb-4cdc-aea5-d38e78951aa3")
+		(property "Sheetname" "sound"
+			(at 203.2 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sound_pwm.kicad_sch"
+			(at 203.2 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 160.02)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7")
+		(property "Sheetname" "buttons"
+			(at 40.64 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 40.64 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 88.9)
+		(size 40.64 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6645294b-adcc-4b56-9b2d-7dbc05655ebb")
+		(property "Sheetname" "eeprom"
+			(at 210.82 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eeprom_m95512.kicad_sch"
+			(at 210.82 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 58.42)
+		(size 45.72 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "712d3093-4e65-4450-a18b-7b9d3ebf14a2")
+		(property "Sheetname" "irda"
+			(at 205.74 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "irda_tfdu4711_pio.kicad_sch"
+			(at 205.74 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 111.76)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a794e87-c7b9-4c3e-ac66-3fc5c41c1724")
+		(property "Sheetname" "flash"
+			(at 33.02 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flash_w25q128.kicad_sch"
+			(at 33.02 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 121.92)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "858f2b33-e909-4882-b375-7297f7c6781c")
+		(property "Sheetname" "accel"
+			(at 210.82 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "accel_bma400.kicad_sch"
+			(at 210.82 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 68.58)
+		(size 22.86 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89a8967c-3eba-4198-8d30-37fec3bc5505")
+		(property "Sheetname" "screen"
+			(at 167.64 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "screen_do0180fmst03.kicad_sch"
+			(at 167.64 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 55.88)
+		(size 30.48 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8aeeee6d-2630-49b8-bd72-1824fef78c19")
+		(property "Sheetname" "connectors"
+			(at 38.1 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 38.1 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 71.12)
+		(size 40.64 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4b58271-83c6-4675-9203-3e882eaa47f4")
+		(property "Sheetname" "mcu"
+			(at 114.3 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_rp2350a.kicad_sch"
+			(at 114.3 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 30.48)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9bb3943-6d25-47dd-92d4-668afa6f251a")
+		(property "Sheetname" "power"
+			(at 149.86 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_bq25628e.kicad_sch"
+			(at 149.86 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 33.02)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "feaa0ed6-677d-464b-a267-7ec72771ce12")
+		(property "Sheetname" "rtc"
+			(at 73.66 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rtc_sit1533.kicad_sch"
+			(at 73.66 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

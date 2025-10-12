@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "picowalker")(type "KiCad")(uri "${KIPRJMOD}/lib/picowalker.kicad_sym")(options "")(descr ""))
+)
