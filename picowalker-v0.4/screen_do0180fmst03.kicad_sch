@@ -1257,6 +1257,17 @@
 	(bus_alias "SCREEN_AUX"
 		(members "PWR_EN" "~{RST}")
 	)
+	(text "IM0/IM1 low/high = QSPI mode"
+		(exclude_from_sim no)
+		(at 74.422 112.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f50a8e8-2d8a-4500-a958-abc1390a50c1")
+	)
 	(text_box "Decoupling and bulk"
 		(exclude_from_sim no)
 		(at 17.78 17.78 0)
@@ -2542,7 +2553,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4.7u"
 			(at 30.48 39.3699 0)
 			(effects
 				(font
@@ -2551,7 +2562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.2552 41.91 0)
 			(effects
 				(font

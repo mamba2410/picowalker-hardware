@@ -1462,7 +1462,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f7a858ea-187a-4091-898e-2baac778ca7d")
 		(property "Reference" "C15"
 			(at 46.99 48.2599 0)

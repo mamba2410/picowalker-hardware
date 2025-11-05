@@ -2122,13 +2122,14 @@
 		)
 		(uuid "2c72f7c3-be13-4676-a2c5-243cdb21688f")
 	)
-	(text "Consider swapping for 0.1u"
+	(text "I think stuck at 47n.\nIts a bootstrap so keep to recommended."
 		(exclude_from_sim no)
-		(at 153.924 90.424 0)
+		(at 94.996 69.85 0)
 		(effects
 			(font
 				(size 2 2)
 			)
+			(justify left)
 		)
 		(uuid "6e6a0f64-03ea-4ba2-bf18-ebf34e2c4069")
 	)
@@ -4325,7 +4326,7 @@
 		(at 62.23 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "458d0d3f-f7eb-4a6d-b764-02e956a0a8ae")
@@ -4405,7 +4406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4.7u"
 			(at 44.45 39.3699 0)
 			(effects
 				(font
@@ -4414,7 +4415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 41.6052 41.91 0)
 			(effects
 				(font
@@ -5045,7 +5046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.1152 41.91 0)
 			(effects
 				(font
@@ -5569,7 +5570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "0R"
 			(at 190.5 95.2499 0)
 			(effects
 				(font
@@ -6183,7 +6184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "0R"
 			(at 199.39 110.4899 0)
 			(effects
 				(font
