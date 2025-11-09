@@ -1440,7 +1440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picowalker:TFBS4711-TR"
 			(at 160.02 46.99 0)
 			(effects
 				(font

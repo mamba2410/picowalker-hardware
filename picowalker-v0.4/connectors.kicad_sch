@@ -1984,7 +1984,7 @@
 		)
 		(uuid "fd9c06df-b166-4fd5-85b2-82ae3fa2c84c")
 	)
-	(label "DP"
+	(label "USB.DP"
 		(at 74.93 57.15 0)
 		(effects
 			(font
@@ -2064,7 +2064,7 @@
 		)
 		(uuid "ca70e359-1296-4179-9767-0b1e9afe490a")
 	)
-	(label "DN"
+	(label "USB.DN"
 		(at 74.93 52.07 0)
 		(effects
 			(font
@@ -2566,7 +2566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picowalker:USBC"
 			(at 54.61 52.07 0)
 			(effects
 				(font

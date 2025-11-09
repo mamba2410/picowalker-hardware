@@ -1373,7 +1373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picowalker:XDFN8"
 			(at 124.46 80.01 0)
 			(effects
 				(font

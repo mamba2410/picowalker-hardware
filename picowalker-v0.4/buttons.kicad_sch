@@ -268,28 +268,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "picowalker:SW_SPST_Shield"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+				(at -0.254 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "SW_SPST_Shield"
+				(at 0 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -297,7 +293,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -306,15 +302,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -323,7 +310,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Description" "Single Pole Single Throw (SPST) switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -332,7 +319,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_Shield_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -346,7 +342,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy -1.524 0.254) (xy 1.524 1.778)
 					)
 					(stroke
 						(width 0)
@@ -367,9 +363,22 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "SW_SPST_Shield_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy -3.81 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -379,10 +388,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_Shield_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -6.35 0 0)
 					(length 2.54)
-					(name "1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -398,9 +421,27 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "2"
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,6 +719,12 @@
 		(uuid "799d1923-8f9b-4710-8063-390e10cd6dbb")
 	)
 	(junction
+		(at 41.91 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ad1221f-3512-446d-83d0-4dcfb7979695")
+	)
+	(junction
 		(at 74.93 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -688,6 +735,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "897da083-f561-4423-8e6b-3b85ce8ac408")
+	)
+	(junction
+		(at 43.18 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4012856-f299-4818-8cea-5b441f93b14b")
+	)
+	(junction
+		(at 44.45 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8bd8c73-3322-43dd-969a-72afae6b2c7c")
 	)
 	(junction
 		(at 72.39 146.05)
@@ -724,6 +783,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 146.05) (xy 41.91 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a109b4-3ecc-49f4-a3cf-3ebb003123d4")
+	)
+	(wire
+		(pts
 			(xy 74.93 44.45) (xy 74.93 53.34)
 		)
 		(stroke
@@ -731,6 +800,16 @@
 			(type default)
 		)
 		(uuid "04a4f078-23bd-4a2b-93a6-e2e3940e474f")
+	)
+	(wire
+		(pts
+			(xy 41.91 151.13) (xy 53.34 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bbac11-51f2-4f9e-9b84-eae9ade4c9c7")
 	)
 	(wire
 		(pts
@@ -751,6 +830,16 @@
 			(type default)
 		)
 		(uuid "0e0bb09d-a51b-450d-8e1f-cc0741392bfe")
+	)
+	(wire
+		(pts
+			(xy 41.91 146.05) (xy 46.99 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16be981f-8058-45c1-b407-05cd7222103f")
 	)
 	(wire
 		(pts
@@ -784,13 +873,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 146.05) (xy 49.53 149.86)
+			(xy 41.91 151.13) (xy 41.91 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fa0f792-346f-4fe3-8eea-b22d0068b911")
+		(uuid "3d1d07f4-3c84-4069-a03a-87e4c6f6b872")
+	)
+	(wire
+		(pts
+			(xy 44.45 58.42) (xy 44.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec4e232-5601-4e95-8b14-7fc0d38ed2a9")
 	)
 	(wire
 		(pts
@@ -814,13 +913,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 53.34) (xy 52.07 57.15)
+			(xy 44.45 58.42) (xy 55.88 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e8db8e3-b4cd-462d-9d97-ee60e58bedfc")
+		(uuid "6abbc5e6-8a7f-4199-8144-12ab6951fa86")
 	)
 	(wire
 		(pts
@@ -831,6 +930,16 @@
 			(type default)
 		)
 		(uuid "7043ec4d-0bf9-448c-9b8a-81c60efd7556")
+	)
+	(wire
+		(pts
+			(xy 44.45 53.34) (xy 44.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795bcfd3-ea10-4efc-9cc1-cebd7fb7e6c0")
 	)
 	(wire
 		(pts
@@ -872,6 +981,16 @@
 		)
 		(uuid "8714b9f7-ba58-4d0f-9b25-f85d3c7d3797")
 	)
+	(wire
+		(pts
+			(xy 43.18 101.6) (xy 43.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999d95e4-1158-40ba-8e6e-58d0aef1a72b")
+	)
 	(bus
 		(pts
 			(xy 128.27 39.37) (xy 128.27 50.8)
@@ -901,6 +1020,16 @@
 			(type default)
 		)
 		(uuid "ac9d3718-b033-4395-9de6-3e6d94d693f1")
+	)
+	(wire
+		(pts
+			(xy 43.18 106.68) (xy 43.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b163d791-3c71-4389-ace2-e5838ce574d7")
 	)
 	(bus
 		(pts
@@ -934,16 +1063,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 101.6) (xy 50.8 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c65013b0-fcbe-4910-9d79-599128d110f6")
-	)
-	(wire
-		(pts
 			(xy 60.96 101.6) (xy 73.66 101.6)
 		)
 		(stroke
@@ -961,6 +1080,16 @@
 			(type default)
 		)
 		(uuid "ca3e304a-cf98-4596-a778-4ef05edb104a")
+	)
+	(wire
+		(pts
+			(xy 44.45 53.34) (xy 49.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3116e6-3bf1-4893-a00e-b486464328cd")
 	)
 	(wire
 		(pts
@@ -994,6 +1123,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 106.68) (xy 54.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3725331-5e9a-4c18-8133-c9b28b6b66d5")
+	)
+	(wire
+		(pts
 			(xy 74.93 53.34) (xy 76.2 53.34)
 		)
 		(stroke
@@ -1021,6 +1160,16 @@
 			(type default)
 		)
 		(uuid "fc02c7da-94ba-49d6-a630-8bb2906c7f89")
+	)
+	(wire
+		(pts
+			(xy 43.18 101.6) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff10574d-e94f-413f-b703-704c697e10fd")
 	)
 	(label "BUT.M"
 		(at 102.87 101.6 0)
@@ -1155,6 +1304,12 @@
 			(uuid "6f76a4b1-722d-41de-aa08-361f9e371789")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "R10")
@@ -1164,17 +1319,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 52.07 57.15 0)
+		(lib_id "picowalker:SW_SPST_Shield")
+		(at 54.61 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0935807a-ae7a-44b3-ae13-dd9a18ff3803")
-		(property "Reference" "#PWR032"
-			(at 52.07 63.5 0)
+		(uuid "0af5c9bc-58de-4177-b9f7-711e848ce3d8")
+		(property "Reference" "SW3"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUT_M"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picowalker:Button_membrane_4.2mm"
+			(at 54.61 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,16 +1353,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 52.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 57.15 0)
+		(property "Datasheet" "~"
+			(at 54.61 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,8 +1362,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 52.07 57.15 0)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 54.61 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,22 +1371,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 52.07 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "b8ced25a-7eea-4f2a-8ae3-331d750b01b7")
 		)
 		(pin "1"
-			(uuid "f85913c0-257e-42ae-a183-f43b32487b61")
+			(uuid "ff10fc3b-087b-49ac-a7dd-f00662ab2e55")
+		)
+		(pin "2"
+			(uuid "5ae352c8-800c-4917-8a50-465979eeec1d")
 		)
 		(instances
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
-					(reference "#PWR032")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1287,6 +1447,12 @@
 			(uuid "829aaa79-9180-42c9-acc1-ef55840742f5")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "#PWR036")
@@ -1357,9 +1523,86 @@
 			(uuid "fda3a0b6-30bf-49b0-a9b8-46d0ea1e8d56")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "picowalker:SW_SPST_Shield")
+		(at 53.34 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10daa455-7c81-4beb-bcf2-7fb01e12bc56")
+		(property "Reference" "SW4"
+			(at 53.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUT_R"
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picowalker:Button_membrane_4.2mm"
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e9069dfe-899e-4ccf-b8c7-2cd47de879f7")
+		)
+		(pin "1"
+			(uuid "2a7cdddb-360d-405e-8beb-b6cde7cd37bb")
+		)
+		(pin "2"
+			(uuid "6de3791e-286f-43b3-8b6f-3ea561da5bd5")
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -1427,6 +1670,12 @@
 			(uuid "711af16e-07e3-48f6-828d-257dbf69da79")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "R9")
@@ -1497,6 +1746,12 @@
 			(uuid "5fba3d9b-a498-4626-8cb0-875e8c73e51e")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "C19")
@@ -1506,25 +1761,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 54.61 146.05 0)
+		(lib_id "power:GND")
+		(at 41.91 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "367bf249-f536-4272-910d-b7c858063b58")
-		(property "Reference" "SW3"
-			(at 54.61 138.43 0)
+		(uuid "371d2fa0-7cfb-41dc-bd32-751c958c4154")
+		(property "Reference" "#PWR03"
+			(at 41.91 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "BUT_R"
-			(at 54.61 140.97 0)
+		(property "Value" "GND"
+			(at 41.91 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1788,72 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 140.97 0)
+			(at 41.91 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb8acc79-0285-446b-8783-8f7c48e8af83")
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "picowalker:SW_SPST_Shield")
+		(at 55.88 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a63f8b0-b0a1-4265-b535-00cbdff68171")
+		(property "Reference" "SW5"
+			(at 55.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUT_L"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picowalker:Button_membrane_4.2mm"
+			(at 55.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +1862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 140.97 0)
+			(at 55.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,157 +1870,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 54.61 146.05 0)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 55.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "4216d0a5-2843-4799-9146-418d0206ac6e")
 		)
 		(pin "1"
-			(uuid "854a4d0e-9634-40f3-a08c-70c2adf6c534")
+			(uuid "fb8cc91c-3d31-4236-8657-d64b634abc4f")
 		)
 		(pin "2"
-			(uuid "c1104213-27a0-482a-b915-ebdbd0ade884")
+			(uuid "4a0d8d08-b5bc-4f07-b127-8c0988a71435")
 		)
 		(instances
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4102aac3-bbdd-4919-92a9-c213c9e1dea8")
-		(property "Reference" "#PWR031"
-			(at 50.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f0ac444-20f7-4ad9-8102-4ceeb7bfff63")
-		)
-		(instances
-			(project "picowalker-v0.4"
-				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49101165-c9c9-4a86-af51-8ac01a55ad0a")
-		(property "Reference" "#PWR030"
-			(at 49.53 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3df6232-d825-43d8-ae45-1ec3ce0b4506")
-		)
-		(instances
-			(project "picowalker-v0.4"
-				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
-					(reference "#PWR030")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -1765,6 +1957,12 @@
 			(uuid "476d654c-78c2-4604-924b-c3ac0eb449e8")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "R12")
@@ -1833,9 +2031,81 @@
 			(uuid "f5ab02ac-3124-4dd1-a948-33663840840a")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "636175d4-e19f-4214-b3ce-3956f3c4b82a")
+		(property "Reference" "#PWR030"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a422f0e6-0337-4ba2-8fbf-cd2a918f58ad")
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1899,6 +2169,12 @@
 			(uuid "5ebbd115-527c-4a39-a2bd-89df4e1d8d53")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "#PWR033")
@@ -1908,25 +2184,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 57.15 53.34 0)
+		(lib_id "power:GND")
+		(at 43.18 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "77651b01-7664-46b0-b307-4defc384048b")
-		(property "Reference" "SW5"
-			(at 57.15 45.72 0)
+		(uuid "7a2c20cc-3f8e-40b1-be06-ca58f311d39f")
+		(property "Reference" "#PWR02"
+			(at 43.18 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "BUT_L"
-			(at 57.15 48.26 0)
+		(property "Value" "GND"
+			(at 43.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +2211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 48.26 0)
+			(at 43.18 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,8 +2219,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 57.15 48.26 0)
+		(property "Datasheet" ""
+			(at 43.18 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,8 +2228,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 57.15 53.34 0)
+		(property "Description" ""
+			(at 43.18 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,15 +2238,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce40d663-0cb9-4032-8034-e14600e7c859")
-		)
-		(pin "2"
-			(uuid "8ab133d7-2741-43a1-87ec-2468760f88a6")
+			(uuid "d9ea0431-b0b4-4ae7-bd3e-ad0227f5a488")
 		)
 		(instances
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
-					(reference "SW5")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2037,6 +2311,12 @@
 			(uuid "a3cf70ae-81af-4e79-91e3-97dd86a4a7f5")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "C17")
@@ -2103,6 +2383,12 @@
 			(uuid "a57e05ec-3d80-4ff0-9dfb-cd7b26b45174")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "#PWR038")
@@ -2169,77 +2455,15 @@
 			(uuid "1fc595a7-3611-442d-982c-7a651c116415")
 		)
 		(instances
-			(project "picowalker-v0.4"
-				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
-					(reference "#PWR034")
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 55.88 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a424fbd2-0f0e-4356-a642-cb559e366bcb")
-		(property "Reference" "SW4"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BUT_M"
-			(at 55.88 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 55.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6367c2bd-f4bc-4ce0-accf-198a2df34450")
-		)
-		(pin "2"
-			(uuid "b5ac375c-e54d-4615-8331-e6bd81af3e07")
-		)
-		(instances
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
-					(reference "SW4")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2307,6 +2531,12 @@
 			(uuid "98dd9ae7-f8ff-4602-8908-87347677fbbe")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "R11")
@@ -2373,6 +2603,12 @@
 			(uuid "2d8c1027-7795-420b-8aef-a4a0956d414e")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "#PWR037")
@@ -2439,6 +2675,12 @@
 			(uuid "3b487f9f-9658-489b-abc7-aa1d9dd35913")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "#PWR035")
@@ -2507,6 +2749,12 @@
 			(uuid "89b9fadd-d50b-48f8-9177-02009d916090")
 		)
 		(instances
+			(project "buttons"
+				(path "/a022bc83-19a5-4089-bdaf-d9b9015bea52"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7"
 					(reference "R14")
@@ -2515,4 +2763,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

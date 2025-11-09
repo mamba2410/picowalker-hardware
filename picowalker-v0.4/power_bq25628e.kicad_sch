@@ -2491,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 97.79) (xy 193.04 99.06)
+			(xy 193.04 81.28) (xy 193.04 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2871,7 +2871,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 105.41) (xy 201.93 101.6)
+			(xy 201.93 101.6) (xy 201.93 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3041,16 +3041,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 193.04 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33226be-bd2d-4c65-8bad-34ef2fb2c1e4")
-	)
-	(wire
-		(pts
 			(xy 232.41 88.9) (xy 236.22 88.9)
 		)
 		(stroke
@@ -3198,16 +3188,6 @@
 			(type default)
 		)
 		(uuid "e2d78408-12ac-40ac-87b0-12bd1aff0e70")
-	)
-	(wire
-		(pts
-			(xy 201.93 113.03) (xy 201.93 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e896a67a-5045-4e29-8434-c3dde4e42ad8")
 	)
 	(wire
 		(pts
@@ -3378,6 +3358,16 @@
 			(justify left bottom)
 		)
 		(uuid "177a88b2-d13b-425e-987b-05652b73e38c")
+	)
+	(label "PS"
+		(at 201.93 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c4e7966-44f4-4b49-b17b-edf7bd1c8032")
 	)
 	(label "~{STAT}"
 		(at 91.44 184.15 90)
@@ -4279,7 +4269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picowalker:R_0402_1005Metric_Sunken"
 			(at 59.69 167.64 0)
 			(effects
 				(font
@@ -4615,7 +4605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picowalker:SON50P250X250X80-11N-D"
 			(at 220.98 77.47 0)
 			(effects
 				(font
@@ -5395,7 +5385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picowalker:BQ25628ERYKR"
 			(at 100.33 80.01 0)
 			(effects
 				(font
@@ -5546,76 +5536,6 @@
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bad7f2e8-9c6f-41da-b792-c09c5febc5b3")
-		(property "Reference" "R23"
-			(at 190.5 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 190.5 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.818 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdfa75dd-066e-4ff8-aa7d-7248b92b0f0a")
-		)
-		(pin "2"
-			(uuid "0d51bd6b-632b-4f59-9aa1-8a59adb5d9ad")
-		)
-		(instances
-			(project "picowalker-v0.4"
-				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6160,76 +6080,6 @@
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 201.93 109.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2bc211c-cd99-4bba-9385-7215b8eaef92")
-		(property "Reference" "R24"
-			(at 199.39 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 199.39 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.708 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 201.93 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b51db96-eca7-413d-bd65-ba72b5809c84")
-		)
-		(pin "2"
-			(uuid "6478de4b-096d-47c7-9785-42b65ff52327")
-		)
-		(instances
-			(project "picowalker-v0.4"
-				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
-					(reference "R24")
 					(unit 1)
 				)
 			)

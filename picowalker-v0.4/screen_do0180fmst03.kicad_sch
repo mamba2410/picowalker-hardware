@@ -2055,7 +2055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picowalker:AXE534127"
 			(at 139.7 55.88 0)
 			(effects
 				(font

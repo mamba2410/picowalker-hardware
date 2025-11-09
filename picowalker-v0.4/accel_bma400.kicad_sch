@@ -1377,7 +1377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picowalker:BOSCH_LGA-12_BMA400"
 			(at 115.57 63.5 0)
 			(effects
 				(font
