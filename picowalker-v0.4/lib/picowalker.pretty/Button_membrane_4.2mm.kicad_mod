@@ -1,0 +1,180 @@
+(footprint "Button_membrane_4.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0e358998-c6ed-4da0-931c-200d26887920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Button_membrane_4.2mm"
+		(at 0 -5.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d2b49332-bad1-4df3-8310-ba5117f804f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b504c7eb-4c8a-4633-88ac-ed5038383125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e55d6071-f896-4d21-a857-65545b2556b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb320937-185e-4f3c-b8a0-96a8fb3485e0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "edd80aa6-9300-49b9-b114-1ee95b118dbb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "37174adc-d075-4b5b-b09f-b39274818343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 -2.1)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.2 -0.05) (xy -0.196194 -0.069134) (xy -0.185355 -0.085355) (xy -0.169134 -0.096194) (xy -0.15 -0.1)
+					(xy 0.15 -0.1) (xy 0.169134 -0.096194) (xy 0.185355 -0.085355) (xy 0.196194 -0.069134) (xy 0.2 -0.05)
+					(xy 0.2 0.05) (xy 0.196194 0.069134) (xy 0.185355 0.085355) (xy 0.169134 0.096194) (xy 0.15 0.1)
+					(xy -0.15 0.1) (xy -0.169134 0.096194) (xy -0.185355 0.085355) (xy -0.196194 0.069134) (xy -0.2 0.05)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_arc
+				(start 0 0)
+				(mid 2.06532 1.719928)
+				(end 0.74759 4.062424)
+				(width 0.4)
+			)
+			(gr_line
+				(start 1.4 3.6)
+				(end -0.5 3.6)
+				(width 0.4)
+			)
+			(gr_line
+				(start 2 2.4)
+				(end -1.5 2.4)
+				(width 0.4)
+			)
+			(gr_line
+				(start 1.8 1.2)
+				(end -1.2 1.2)
+				(width 0.4)
+			)
+		)
+		(uuid "72fdaff6-1f4e-43a4-8e9c-6ba8fc1a3406")
+	)
+	(pad "2" smd custom
+		(at 0 2.110867)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.2 -0.05) (xy -0.196194 -0.069134) (xy -0.185355 -0.085355) (xy -0.169134 -0.096194) (xy -0.15 -0.1)
+					(xy 0.15 -0.1) (xy 0.169134 -0.096194) (xy 0.185355 -0.085355) (xy 0.196194 -0.069134) (xy 0.2 -0.05)
+					(xy 0.2 0.05) (xy 0.196194 0.069134) (xy 0.185355 0.085355) (xy 0.169134 0.096194) (xy 0.15 0.1)
+					(xy -0.15 0.1) (xy -0.169134 0.096194) (xy -0.185355 0.085355) (xy -0.196194 0.069134) (xy -0.2 0.05)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_arc
+				(start 0 0)
+				(mid -2.06532 -1.719928)
+				(end -0.74759 -4.062424)
+				(width 0.4)
+			)
+			(gr_line
+				(start -1.4 -3.6)
+				(end 0.15 -3.6)
+				(width 0.4)
+			)
+			(gr_line
+				(start -2.025 -2.4)
+				(end 1.5 -2.4)
+				(width 0.4)
+			)
+			(gr_line
+				(start -1.8 -1.2)
+				(end 1.25 -1.2)
+				(width 0.4)
+			)
+		)
+		(uuid "0ba83d4e-75e3-4104-b55e-51f1e2272339")
+	)
+	(embedded_fonts no)
+)
