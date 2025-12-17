@@ -107,6 +107,20 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole circle
+		(at -2.9 1.075)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "df8c154c-a328-420b-8459-7a00ff49f202")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.9 1.075)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "45780c4c-a17b-4150-8f85-18617bc7f2e2")
+	)
 	(pad "A1" smd rect
 		(at -3.35 0)
 		(size 0.3 1.15)
@@ -256,7 +270,7 @@
 		(uuid "b5645d03-9b39-490b-a3c3-12b7c217d25a")
 	)
 	(embedded_fonts no)
-	(model "T:/electrical/kicad-libraries/custom-parts/CustomModels.3dparts/USB4215-03-A.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/USB4215-03-A.stp"
 		(offset
 			(xyz 0 -6.6 1.7)
 		)

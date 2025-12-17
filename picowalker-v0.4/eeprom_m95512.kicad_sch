@@ -720,6 +720,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Consider M95M01-DWMN or CAV25M01 for 128kB\nBoth are pin-compatible with M95512-DWMN in SO8 4.9 x 6.0 mm package"
+		(exclude_from_sim no)
+		(at 127 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "275cc222-c4dc-4d9e-b376-3f8da701be8e")
+	)
 	(text_box "Decoupling and bulk"
 		(exclude_from_sim no)
 		(at 27.94 27.94 0)
@@ -1021,7 +1031,7 @@
 		)
 		(uuid "f12348b4-ad4f-4b3c-921d-7664b1992178")
 	)
-	(label "MOSI"
+	(label "SPI.MOSI"
 		(at 139.7 88.9 0)
 		(effects
 			(font
@@ -1031,7 +1041,7 @@
 		)
 		(uuid "565ac7f4-84d0-425c-b8e5-158d6ed6a4fd")
 	)
-	(label "SCK"
+	(label "SPI.SCK"
 		(at 139.7 93.98 0)
 		(effects
 			(font
@@ -1041,7 +1051,7 @@
 		)
 		(uuid "d4cd1f40-295f-424f-872f-ca92d1f3a3ae")
 	)
-	(label "MISO"
+	(label "SPI.MISO"
 		(at 139.7 91.44 0)
 		(effects
 			(font
@@ -1373,7 +1383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "picowalker:XDFN8"
+		(property "Footprint" "picowalker:UFDFPN8"
 			(at 124.46 80.01 0)
 			(effects
 				(font

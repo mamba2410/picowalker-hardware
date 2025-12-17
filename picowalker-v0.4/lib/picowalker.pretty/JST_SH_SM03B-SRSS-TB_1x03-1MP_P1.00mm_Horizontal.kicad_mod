@@ -271,7 +271,7 @@
 		(uuid "405d6f01-6740-4a42-9771-20de40cfd48d")
 	)
 	(embedded_fonts no)
-	(model "T:/electrical/kicad-libraries/SamacSys/SamacSys_Parts.3dshapes/SM03B-SRSS-TB_LF__SN_.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/SM03B-SRSS-TB_LF__SN_.stp"
 		(offset
 			(xyz 0 1.5 3)
 		)

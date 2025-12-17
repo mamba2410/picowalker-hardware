@@ -320,7 +320,7 @@
 		(uuid "aac47d83-8d99-4d05-b059-a6bd2431762f")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\Callum\\SamacsysParts\\SamacSys_Parts.3dshapes\\BQ25628ERYKR.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/BQ25628ERYKR.stp"
 		(offset
 			(xyz 0 0 0.7)
 		)

@@ -74,8 +74,8 @@
 		(uuid "5459b364-98b1-44ad-850d-5184e64a46f2")
 	)
 	(fp_line
-		(start -0.4 -0.6)
-		(end 0 -0.6)
+		(start -1 -0.8)
+		(end 1 -0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "f2bdd7d4-77b8-410f-86f9-9d8c91136f42")
 	)
 	(fp_line
-		(start 0.1 0.6)
-		(end 0.3 0.6)
+		(start -1 0.8)
+		(end 1 0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -231,15 +231,15 @@
 		(uuid "5e3a4140-8029-4da2-a6c2-0d4e74e01e56")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\Callum\\SamacsysParts\\SamacSys_Parts.3dshapes\\SIT1533AI-H4-DCC-32.768E.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/SIT1533AI-H4-DCC-32.768E.stp"
 		(offset
-			(xyz -0.1699999992 0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

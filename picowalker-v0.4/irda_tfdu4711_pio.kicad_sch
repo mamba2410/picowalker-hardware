@@ -676,6 +676,26 @@
 		)
 		(uuid "6290a646-645d-4867-9ae5-4c765af0e4f9")
 	)
+	(text "Bulk capacitance and current limit"
+		(exclude_from_sim no)
+		(at 61.468 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62d3e6fc-55c1-40f2-91bd-25cc8bf4dd34")
+	)
+	(text "Low pass filter"
+		(exclude_from_sim no)
+		(at 57.658 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da35fad5-9b60-4541-ac33-72872b81f247")
+	)
 	(text_box "Filters"
 		(exclude_from_sim no)
 		(at 22.86 22.86 0)
@@ -926,8 +946,8 @@
 		)
 		(uuid "f6953097-4b60-4277-9a3f-963fb3199632")
 	)
-	(label "RX"
-		(at 143.51 62.23 0)
+	(label "IRDA.RX"
+		(at 140.97 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,8 +966,8 @@
 		)
 		(uuid "45c0e104-417e-4b50-9c2c-017e0b9f36de")
 	)
-	(label "TX"
-		(at 143.51 59.69 0)
+	(label "IRDA.TX"
+		(at 140.97 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)

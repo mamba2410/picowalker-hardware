@@ -187,27 +187,15 @@
 		(uuid "37b5644f-fffd-41af-b8df-11b75ca75609")
 	)
 	(embedded_fonts no)
-	(model "T:/electrical/kicad-libraries/custom-parts/CustomModels.3dparts/84406TFBSx711.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/TFBS4711.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0.5 1.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "C:/Users/Callum/Downloads/tfbsx711/84406TFBSx711.stp"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -180 -0)
 		)
 	)
 )

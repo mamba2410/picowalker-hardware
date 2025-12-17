@@ -232,7 +232,7 @@
 		(uuid "49ed7320-36bd-4a98-aea4-d1bc22b172ed")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\Callum\\SamacsysParts\\SamacSys_Parts.3dshapes\\RT6150B-33GQW.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/RT6150B-33GQW.stp"
 		(offset
 			(xyz 0 0 0)
 		)

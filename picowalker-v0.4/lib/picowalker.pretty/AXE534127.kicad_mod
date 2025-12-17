@@ -415,7 +415,7 @@
 		(uuid "77cfee6d-c103-4bf0-a207-cdf876b6a467")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\Callum\\SamacsysParts\\SamacSys_Parts.3dshapes\\AXE534127.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/AXE534127.stp"
 		(offset
 			(xyz 0 0 0)
 		)

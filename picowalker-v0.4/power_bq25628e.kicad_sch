@@ -2213,7 +2213,7 @@
 		)
 		(uuid "10e07622-196f-4a8f-8c40-49374169d751")
 	)
-	(text_box "Unused outputs"
+	(text_box "Unused pins"
 		(exclude_from_sim no)
 		(at 111.76 144.78 0)
 		(size 38.1 45.72)
@@ -2356,10 +2356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e44c3f10-d9c2-4da2-913b-4674d35b9033")
-	)
-	(no_connect
-		(at 127 157.48)
-		(uuid "0c9772dd-dec6-4087-b38f-e541b5d834c8")
 	)
 	(bus_entry
 		(at 68.58 91.44)
@@ -2741,16 +2737,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 101.6) (xy 62.23 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6589e3-d9cf-4d0a-98e3-f706c72b2e42")
-	)
-	(wire
-		(pts
 			(xy 232.41 81.28) (xy 236.22 81.28)
 		)
 		(stroke
@@ -2971,6 +2957,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 170.18) (xy 125.73 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36f6545-08ce-4316-98e3-edd31bcbbab0")
+	)
+	(wire
+		(pts
 			(xy 91.44 177.8) (xy 91.44 184.15)
 		)
 		(stroke
@@ -3088,16 +3084,6 @@
 			(type default)
 		)
 		(uuid "bf7877be-0e89-41ad-a1ee-3766a06e2d4d")
-	)
-	(wire
-		(pts
-			(xy 83.82 101.6) (xy 62.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c02f726e-c98a-4126-9763-5eda2891d01b")
 	)
 	(wire
 		(pts
@@ -3281,6 +3267,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 101.6) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f843707f-d37f-44a4-86ee-8aa6d8b3503e")
+	)
+	(wire
+		(pts
 			(xy 124.46 114.3) (xy 129.54 114.3)
 		)
 		(stroke
@@ -3359,6 +3355,16 @@
 		)
 		(uuid "177a88b2-d13b-425e-987b-05652b73e38c")
 	)
+	(label "SW"
+		(at 119.38 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1db7a971-811d-4fa2-8d11-8db2fb391de6")
+	)
 	(label "PS"
 		(at 201.93 101.6 0)
 		(effects
@@ -3368,6 +3374,16 @@
 			(justify left bottom)
 		)
 		(uuid "2c4e7966-44f4-4b49-b17b-edf7bd1c8032")
+	)
+	(label "PMID"
+		(at 120.65 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a7605c1-fd42-4a6a-8541-d3619243078b")
 	)
 	(label "~{STAT}"
 		(at 91.44 184.15 90)
@@ -3379,6 +3395,26 @@
 		)
 		(uuid "98c71460-47d4-48df-80dd-3fd939231c25")
 	)
+	(label "~{QON}"
+		(at 138.43 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "996e296f-4b12-456e-82d1-ab40f381c7ab")
+	)
+	(label "~{QON}"
+		(at 66.04 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ab6dbce-4a40-430d-8575-25fa1d6fedd0")
+	)
 	(label "STAT"
 		(at 127 106.68 180)
 		(effects
@@ -3389,7 +3425,7 @@
 		)
 		(uuid "d51c23f0-9ca7-41ff-93dc-4a092d918b07")
 	)
-	(label "SDA"
+	(label "I2C.SDA"
 		(at 73.66 91.44 0)
 		(effects
 			(font
@@ -3429,7 +3465,7 @@
 		)
 		(uuid "fa9ae492-ec0a-4823-ab4b-0a1370abe840")
 	)
-	(label "SCL"
+	(label "I2C.SCL"
 		(at 73.66 93.98 0)
 		(effects
 			(font
@@ -3590,7 +3626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 133.35 83.82 0)
 			(effects
 				(font
@@ -3902,6 +3938,73 @@
 			(project ""
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c1bf999-0636-4f25-9588-c07a3b3e55b5")
+		(property "Reference" "TP1"
+			(at 129.54 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~{PG}"
+			(at 129.54 155.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 132.08 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57a2afbf-3400-4bf8-9c85-520d8ece647f")
+		)
+		(instances
+			(project ""
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4313,7 +4416,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 62.23 100.33 0)
+		(at 125.73 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4321,7 +4424,7 @@
 		(dnp no)
 		(uuid "458d0d3f-f7eb-4a6d-b764-02e956a0a8ae")
 		(property "Reference" "TP2"
-			(at 59.69 95.7579 0)
+			(at 123.19 165.6079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +4433,7 @@
 			)
 		)
 		(property "Value" "~{QON}"
-			(at 59.69 98.2979 0)
+			(at 123.19 168.1479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,8 +4441,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 67.31 100.33 0)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 130.81 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +4451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 100.33 0)
+			(at 130.81 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4460,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 62.23 100.33 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4472,7 @@
 			(uuid "918b4799-4731-4f0e-95fc-4bb00469eec2")
 		)
 		(instances
-			(project ""
+			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
 					(reference "TP2")
 					(unit 1)

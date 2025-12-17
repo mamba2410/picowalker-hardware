@@ -231,7 +231,7 @@
 		(uuid "d0a8b6a7-56f7-49d0-9650-98190a3b57a8")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\Callum\\SamacsysParts\\SamacSys_Parts.3dshapes\\ABM8-272-T3.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/ABM8-272-T3.stp"
 		(offset
 			(xyz 0 0 0.2599999866)
 		)

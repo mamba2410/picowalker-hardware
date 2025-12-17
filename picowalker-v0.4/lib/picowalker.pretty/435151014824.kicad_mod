@@ -201,7 +201,7 @@
 		(uuid "dd1a9230-9d04-4725-9b25-64c1a7945023")
 	)
 	(embedded_fonts no)
-	(model "T:\\electrical\\kicad-libraries\\SamacSys\\SamacSys_Parts.3dshapes\\435151014824.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/435151014824.stp"
 		(offset
 			(xyz 0 0 0.4799999821)
 		)

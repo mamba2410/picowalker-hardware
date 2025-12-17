@@ -255,7 +255,7 @@
 		(uuid "1dd0c4e2-02a7-4c52-a3e8-c0465db9fa0b")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\Callum\\SamacsysParts\\SamacSys_Parts.3dshapes\\BMA400.stp"
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/BMA400.stp"
 		(offset
 			(xyz 0 0 0.2)
 		)

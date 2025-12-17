@@ -1016,7 +1016,7 @@
 		)
 		(uuid "f20e27d5-5e16-4e91-a666-a6bd581a6080")
 	)
-	(label "MOSI"
+	(label "SPI.MOSI"
 		(at 95.25 74.93 0)
 		(effects
 			(font
@@ -1026,7 +1026,7 @@
 		)
 		(uuid "162fa26c-bfc8-4400-86ac-2bf30ef7010b")
 	)
-	(label "SCK"
+	(label "SPI.SCK"
 		(at 95.25 80.01 0)
 		(effects
 			(font
@@ -1036,7 +1036,7 @@
 		)
 		(uuid "992fa6e8-7f5a-4158-ae11-d92edcd1ee11")
 	)
-	(label "MISO"
+	(label "SPI.MISO"
 		(at 95.25 77.47 0)
 		(effects
 			(font
