@@ -1,0 +1,139 @@
+(footprint "U-DFN2510-10_oneside"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "face0ac6-bd75-4ed7-b809-6fc5f95c6d8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "U-DFN2510-10_oneside"
+		(at 0.1 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fb6b66f6-31da-4426-a1f4-9c5902e0eaa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7286e36e-9e4a-4ddb-96b3-ea2a78f0bf3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c6305a2-a78c-4aa1-8da7-d38ec0f31972")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.3 0.9)
+		(end -1.3 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a54bc171-351e-431f-9551-86368381896c")
+	)
+	(fp_rect
+		(start -1.5 -1.1)
+		(end 1.5 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ecad3452-fa2c-4e39-9124-29ce8d07dddb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 -4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4774966d-b99f-4063-92d0-5337be825b41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0.3875)
+		(size 0.25 0.625)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3ca9107-ea2c-4906-9ce7-ac40edf839c0")
+	)
+	(pad "2" smd rect
+		(at -0.5 0.3875)
+		(size 0.25 0.625)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80784471-f898-4497-9b8e-a1e608d5a63c")
+	)
+	(pad "3" smd rect
+		(at 0 0.35)
+		(size 0.45 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "068832a4-d788-4d4b-9393-9c95ae5a8249")
+	)
+	(pad "4" smd rect
+		(at 0.5 0.3875)
+		(size 0.25 0.625)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c7585be3-b61c-4fb8-a43b-3dc304657085")
+	)
+	(pad "5" smd rect
+		(at 1 0.3875)
+		(size 0.25 0.625)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "25e1c1ae-75f8-4957-83e5-98746fdd549a")
+	)
+	(pad "8" smd rect
+		(at 0 -0.4125)
+		(size 0.45 0.575)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62a41764-e9dd-44d0-900b-5a9d9296d289")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/picowalker.3dshapes/DT1240-04LP-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

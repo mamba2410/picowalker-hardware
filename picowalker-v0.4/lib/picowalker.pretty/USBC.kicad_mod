@@ -112,6 +112,7 @@
 		(size 0.65 0.65)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
+		(clearance 0)
 		(uuid "df8c154c-a328-420b-8459-7a00ff49f202")
 	)
 	(pad "" np_thru_hole circle
@@ -119,6 +120,7 @@
 		(size 0.65 0.65)
 		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
+		(clearance 0)
 		(uuid "45780c4c-a17b-4150-8f85-18617bc7f2e2")
 	)
 	(pad "A1" smd rect

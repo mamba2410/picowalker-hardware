@@ -358,6 +358,16 @@
 		)
 		(uuid "3f315a9b-c05b-4afc-bc34-67c17c1e2c2f")
 	)
+	(label "TP_INT"
+		(at 199.39 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78bc0006-8541-4292-bea4-c9980692aabd")
+	)
 	(label "~{ACCEL_CS}"
 		(at 175.26 152.4 0)
 		(effects
@@ -397,6 +407,26 @@
 			(justify left bottom)
 		)
 		(uuid "bab31d09-2c03-49a7-9b4f-26f47697fbfc")
+	)
+	(label "TP_RESET"
+		(at 199.39 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cae7eee9-fd88-4014-8435-38e71b1d99c3")
+	)
+	(label "TE"
+		(at 199.39 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2194974-b2bf-49f1-8cb2-747e944666ea")
 	)
 	(label "ACCEL_INT"
 		(at 175.26 154.94 0)

@@ -66,8 +66,8 @@
 		(uuid "eb320937-185e-4f3c-b8a0-96a8fb3485e0")
 	)
 	(fp_line
-		(start -5 2.291287)
-		(end -5 -2.3)
+		(start -4.992556 2.287876)
+		(end -4.995997 -2.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "4e463680-743c-437c-a475-964e36d1e5d7")
 	)
 	(fp_line
-		(start -3 -4.6)
-		(end -3 -6.324555)
+		(start -3 -4.609772)
+		(end -2.999999 -6.324555)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -86,7 +86,7 @@
 		(uuid "c1fc71a6-ed45-4112-94d6-9ec3ba92fd9a")
 	)
 	(fp_line
-		(start -3 6.3)
+		(start -2.999999 6.324555)
 		(end -3 4.6)
 		(stroke
 			(width 0.1)
@@ -96,18 +96,8 @@
 		(uuid "690d63e0-b1a0-4bf7-8213-bff818fcc561")
 	)
 	(fp_line
-		(start 3 -4.6)
-		(end 3 -6.324555)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "77a25176-8a60-44cd-8c6c-99617179f3fb")
-	)
-	(fp_line
 		(start 3 6.324555)
-		(end 3 4.6)
+		(end 3 4.609771)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -116,8 +106,18 @@
 		(uuid "0b74b227-f254-4ef2-a843-6872294159a1")
 	)
 	(fp_line
-		(start 5 2.3)
-		(end 5 -2.3)
+		(start 3.000001 -4.60977)
+		(end 2.999999 -6.324555)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77a25176-8a60-44cd-8c6c-99617179f3fb")
+	)
+	(fp_line
+		(start 4.995997 2.3)
+		(end 4.996696 -2.298481)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -224,6 +224,27 @@
 			(anchor circle)
 		)
 		(primitives
+			(gr_arc
+				(start 0 0)
+				(mid 2.06532 1.719928)
+				(end 0.74759 4.062424)
+				(width 0.4)
+			)
+			(gr_line
+				(start 1.8 1.2)
+				(end -1.1 1.2)
+				(width 0.4)
+			)
+			(gr_line
+				(start 2.07846 2.4)
+				(end -1.4 2.4)
+				(width 0.4)
+			)
+			(gr_line
+				(start 1.4 3.6)
+				(end -0.4 3.6)
+				(width 0.4)
+			)
 			(gr_poly
 				(pts
 					(xy -0.2 -0.05) (xy -0.196194 -0.069134) (xy -0.185355 -0.085355) (xy -0.169134 -0.096194) (xy -0.15 -0.1)
@@ -233,27 +254,6 @@
 				)
 				(width 0)
 				(fill yes)
-			)
-			(gr_arc
-				(start 0 0)
-				(mid 2.06532 1.719928)
-				(end 0.74759 4.062424)
-				(width 0.4)
-			)
-			(gr_line
-				(start 1.4 3.6)
-				(end -0.5 3.6)
-				(width 0.4)
-			)
-			(gr_line
-				(start 2 2.4)
-				(end -1.5 2.4)
-				(width 0.4)
-			)
-			(gr_line
-				(start 1.8 1.2)
-				(end -1.2 1.2)
-				(width 0.4)
 			)
 		)
 		(uuid "72fdaff6-1f4e-43a4-8e9c-6ba8fc1a3406")
@@ -268,6 +268,27 @@
 			(anchor circle)
 		)
 		(primitives
+			(gr_arc
+				(start 0 0)
+				(mid -2.06532 -1.719928)
+				(end -0.74759 -4.062424)
+				(width 0.4)
+			)
+			(gr_line
+				(start -1.8 -1.2)
+				(end 1.2 -1.2)
+				(width 0.4)
+			)
+			(gr_line
+				(start -2.025 -2.4)
+				(end 1.4 -2.4)
+				(width 0.4)
+			)
+			(gr_line
+				(start -1.4 -3.6)
+				(end 0.15 -3.6)
+				(width 0.4)
+			)
 			(gr_poly
 				(pts
 					(xy -0.2 -0.05) (xy -0.196194 -0.069134) (xy -0.185355 -0.085355) (xy -0.169134 -0.096194) (xy -0.15 -0.1)
@@ -277,27 +298,6 @@
 				)
 				(width 0)
 				(fill yes)
-			)
-			(gr_arc
-				(start 0 0)
-				(mid -2.06532 -1.719928)
-				(end -0.74759 -4.062424)
-				(width 0.4)
-			)
-			(gr_line
-				(start -1.4 -3.6)
-				(end 0.15 -3.6)
-				(width 0.4)
-			)
-			(gr_line
-				(start -2.025 -2.4)
-				(end 1.5 -2.4)
-				(width 0.4)
-			)
-			(gr_line
-				(start -1.8 -1.2)
-				(end 1.25 -1.2)
-				(width 0.4)
 			)
 		)
 		(uuid "0ba83d4e-75e3-4104-b55e-51f1e2272339")

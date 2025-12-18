@@ -3415,7 +3415,7 @@
 		)
 		(uuid "9ab6dbce-4a40-430d-8575-25fa1d6fedd0")
 	)
-	(label "STAT"
+	(label "~{STAT}"
 		(at 127 106.68 180)
 		(effects
 			(font
