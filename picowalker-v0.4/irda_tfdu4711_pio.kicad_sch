@@ -665,9 +665,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Original uses IrDA SIR V1.0 at 115200 baud, so we do the same."
+		(exclude_from_sim no)
+		(at 22.352 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44575f6c-c711-4e78-8f13-83722f349c88")
+	)
 	(text "Expect serial to be encoded with IrDA.\nMCU can do this with PIO or IrDA mode in UART"
 		(exclude_from_sim no)
-		(at 97.536 50.292 0)
+		(at 115.57 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -685,6 +696,28 @@
 			)
 		)
 		(uuid "62d3e6fc-55c1-40f2-91bd-25cc8bf4dd34")
+	)
+	(text "See Vishay's app note on reference layouts\nhttps://www.vishay.com/docs/82610/referencelayoutscircuitdiagrams.pdf\n\nR17 is a current limiting resistor.\n\n47R resistor gives IRED forward current of around 40-50 mA at 3.3 V.\nThis is 132-150 mW, more than the common 1/16 W (62.5 mW) power rating for resistors.\nFrom testing, this seems to be fine since its pulsed.\nIntensity is at around 15%.\n\n100R resistor is 20 mA, or 66 mW, and <10% intensity.\n\nDatasheet says to expect <2 mA average current whtn I_{IRED} (IRED forward current)\nis 300 mA and a 20% duty cycle.\n"
+		(exclude_from_sim no)
+		(at 92.456 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6612be4a-e2d6-4ea1-88c9-cc548a86b819")
+	)
+	(text "From app note under \"emitter signal timing\"\n\n\"since the receiver saturates during transmission, it is also necessary to include a latency time of > 150 μs after transmission\nbefore the receiver is ready for reception again\""
+		(exclude_from_sim no)
+		(at 22.606 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70d76bc0-ec61-4645-b495-71fa79fe47e5")
 	)
 	(text "Low pass filter"
 		(exclude_from_sim no)
@@ -729,7 +762,7 @@
 		(uuid "80d872f2-6c9e-4200-b7b6-c875c2b1a75e")
 	)
 	(bus_entry
-		(at 137.16 59.69)
+		(at 153.67 76.2)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -738,7 +771,7 @@
 		(uuid "10da0ad9-644d-44a1-9622-f6065962a033")
 	)
 	(bus_entry
-		(at 137.16 57.15)
+		(at 153.67 73.66)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -758,7 +791,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 62.23) (xy 149.86 62.23)
+			(xy 156.21 78.74) (xy 166.37 78.74)
 		)
 		(stroke
 			(width 0)
@@ -768,7 +801,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 57.15) (xy 137.16 59.69)
+			(xy 153.67 73.66) (xy 153.67 76.2)
 		)
 		(stroke
 			(width 0)
@@ -778,7 +811,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 54.61) (xy 137.16 57.15)
+			(xy 153.67 71.12) (xy 153.67 73.66)
 		)
 		(stroke
 			(width 0)
@@ -788,7 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 64.77) (xy 149.86 64.77)
+			(xy 156.21 81.28) (xy 166.37 81.28)
 		)
 		(stroke
 			(width 0)
@@ -798,7 +831,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 45.72) (xy 157.48 45.72)
+			(xy 167.64 62.23) (xy 173.99 62.23)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +841,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 59.69) (xy 149.86 59.69)
+			(xy 156.21 76.2) (xy 166.37 76.2)
 		)
 		(stroke
 			(width 0)
@@ -818,7 +851,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 40.64) (xy 162.56 40.64)
+			(xy 172.72 57.15) (xy 179.07 57.15)
 		)
 		(stroke
 			(width 0)
@@ -828,7 +861,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 40.64) (xy 162.56 48.26)
+			(xy 179.07 57.15) (xy 179.07 64.77)
 		)
 		(stroke
 			(width 0)
@@ -848,7 +881,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 74.93) (xy 160.02 80.01)
+			(xy 176.53 91.44) (xy 176.53 96.52)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +961,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 45.72) (xy 157.48 48.26)
+			(xy 173.99 62.23) (xy 173.99 64.77)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +980,7 @@
 		(uuid "f6953097-4b60-4277-9a3f-963fb3199632")
 	)
 	(label "IRDA.RX"
-		(at 140.97 62.23 0)
+		(at 157.48 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -957,7 +990,7 @@
 		(uuid "07e69997-c9a2-4bb2-94ad-1c6d7dd2be0f")
 	)
 	(label "VCC1"
-		(at 156.21 40.64 0)
+		(at 172.72 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -967,7 +1000,7 @@
 		(uuid "45c0e104-417e-4b50-9c2c-017e0b9f36de")
 	)
 	(label "IRDA.TX"
-		(at 140.97 59.69 0)
+		(at 157.48 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -997,7 +1030,7 @@
 		(uuid "9285ab45-7bc2-4c3a-a847-0d8749213478")
 	)
 	(label "VCC2"
-		(at 151.13 45.72 0)
+		(at 167.64 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1008,7 +1041,7 @@
 	)
 	(hierarchical_label "SD"
 		(shape input)
-		(at 139.7 64.77 180)
+		(at 156.21 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1019,7 +1052,7 @@
 	)
 	(hierarchical_label "IRDA{SERIAL}"
 		(shape bidirectional)
-		(at 137.16 54.61 180)
+		(at 153.67 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1434,7 +1467,7 @@
 	)
 	(symbol
 		(lib_id "picowalker:TFBS4711")
-		(at 160.02 46.99 0)
+		(at 176.53 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1443,7 +1476,7 @@
 		(fields_autoplaced yes)
 		(uuid "b59b3bf8-84fd-4215-a56a-d899e192b77b")
 		(property "Reference" "U5"
-			(at 168.91 60.3249 0)
+			(at 185.42 76.8349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1485,7 @@
 			)
 		)
 		(property "Value" "TFBS4711"
-			(at 168.91 62.8649 0)
+			(at 185.42 79.3749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1494,7 @@
 			)
 		)
 		(property "Footprint" "picowalker:TFBS4711-TR"
-			(at 160.02 46.99 0)
+			(at 176.53 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 46.99 0)
+			(at 176.53 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 46.99 0)
+			(at 176.53 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1549,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 80.01 0)
+		(at 176.53 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1525,7 +1558,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdfb2f85-3714-461c-a9aa-df51c549aee4")
 		(property "Reference" "#PWR053"
-			(at 160.02 86.36 0)
+			(at 176.53 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1567,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 85.09 0)
+			(at 176.53 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 80.01 0)
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 80.01 0)
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +1593,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 80.01 0)
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)

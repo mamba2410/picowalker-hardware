@@ -2522,6 +2522,16 @@
 		)
 		(uuid "15b319cf-ee6f-4db7-b705-6a2719a4970a")
 	)
+	(text "4.7u specifically on pin 23"
+		(exclude_from_sim no)
+		(at 104.14 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "342c51f6-5add-4e91-b9d2-6f86ace625bd")
+	)
 	(text "I2C0"
 		(exclude_from_sim no)
 		(at 271.78 37.338 0)
@@ -3398,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 130.81) (xy 58.42 130.81)
+			(xy 36.83 130.81) (xy 50.8 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3445,6 +3455,16 @@
 			(type default)
 		)
 		(uuid "34afdf31-c985-4bf1-911d-613a27f4b256")
+	)
+	(wire
+		(pts
+			(xy 21.59 130.81) (xy 24.13 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ac35a9-cd58-4a44-8db7-ed8fa57daea6")
 	)
 	(wire
 		(pts
@@ -3785,16 +3805,6 @@
 			(type default)
 		)
 		(uuid "7200165b-7902-415d-aa33-7c6411159d67")
-	)
-	(wire
-		(pts
-			(xy 34.29 130.81) (xy 38.1 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72d6bcf0-c8f7-48a6-a262-4bd8eb21c67a")
 	)
 	(bus
 		(pts
@@ -4148,16 +4158,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 130.81) (xy 26.67 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b302c416-2e82-40b0-b3a2-63f7bb5787d1")
-	)
-	(wire
-		(pts
 			(xy 27.94 41.91) (xy 27.94 45.72)
 		)
 		(stroke
@@ -4228,6 +4228,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 130.81) (xy 67.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be74a1f1-2e00-4e93-930b-b2837a647afc")
+	)
+	(wire
+		(pts
 			(xy 38.1 106.68) (xy 46.99 106.68)
 		)
 		(stroke
@@ -4258,7 +4268,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 135.89) (xy 21.59 135.89)
+			(xy 30.48 135.89) (xy 21.59 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4798,7 +4808,7 @@
 		(uuid "33972a24-ae2e-453f-8f58-77dd4b7575d7")
 	)
 	(label "RUN"
-		(at 58.42 130.81 180)
+		(at 67.31 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5057,6 +5067,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0a23943-411b-4ebb-a3c5-51ebd282c864")
+	)
+	(label "SW_RUN_P"
+		(at 38.1 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca2b46ab-7f55-4b6a-b526-e4a80e02b38b")
 	)
 	(label "VREG_PGND"
 		(at 114.3 59.69 0)
@@ -6568,7 +6588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "picowalker:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
 			(at 151.13 67.31 0)
 			(effects
 				(font
@@ -8142,7 +8162,7 @@
 	)
 	(symbol
 		(lib_id "picowalker:SW_SPST_Shield")
-		(at 44.45 130.81 0)
+		(at 30.48 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8151,7 +8171,7 @@
 		(fields_autoplaced yes)
 		(uuid "abd5e2a9-8563-4eae-b7bf-c0347037c99c")
 		(property "Reference" "SW2"
-			(at 44.45 123.19 0)
+			(at 30.48 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,7 +8179,7 @@
 			)
 		)
 		(property "Value" "RUN"
-			(at 44.45 125.73 0)
+			(at 30.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8187,7 @@
 			)
 		)
 		(property "Footprint" "picowalker:435151014824"
-			(at 44.45 130.81 0)
+			(at 30.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 130.81 0)
+			(at 30.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +8205,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 44.45 130.81 0)
+			(at 30.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8709,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 30.48 130.81 90)
+		(at 54.61 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8698,7 +8718,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef57bc54-65f0-49a7-9f70-027f4e913a35")
 		(property "Reference" "R2"
-			(at 30.48 124.46 90)
+			(at 54.61 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +8726,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 30.48 127 90)
+			(at 54.61 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +8734,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.48 132.588 90)
+			(at 54.61 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8723,7 +8743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 130.81 0)
+			(at 54.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,7 +8752,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 30.48 130.81 0)
+			(at 54.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

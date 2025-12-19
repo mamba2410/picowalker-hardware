@@ -720,15 +720,48 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MN = SO8N\nMC = UFDFPN8"
+		(exclude_from_sim no)
+		(at 135.89 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "09bdeb9c-b350-47b0-a438-99d44611886b")
+	)
 	(text "Consider M95M01-DWMN or CAV25M01 for 128kB\nBoth are pin-compatible with M95512-DWMN in SO8 4.9 x 6.0 mm package"
 		(exclude_from_sim no)
-		(at 127 64.008 0)
+		(at 127.254 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "275cc222-c4dc-4d9e-b376-3f8da701be8e")
+	)
+	(text "Pulldown only required if host releases ~{CS} while SCK is still clocking."
+		(exclude_from_sim no)
+		(at 147.066 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5e8eb4c0-83f4-4761-9d73-f456391631e2")
+	)
+	(text "Hardware pullup required.\nIf ~{CS} isn't driven at any time, chip will malfunction\nand will not be recoverable until power cycle.\nSee ST's AN2014 section 4.2"
+		(exclude_from_sim no)
+		(at 43.688 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fd93c188-3ccd-49e9-9377-5330ecb1bb44")
 	)
 	(text_box "Decoupling and bulk"
 		(exclude_from_sim no)
@@ -1154,7 +1187,7 @@
 		(at 139.7 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)

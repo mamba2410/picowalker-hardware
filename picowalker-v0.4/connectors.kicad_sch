@@ -1613,6 +1613,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ESD protection"
+		(exclude_from_sim no)
+		(at 108.204 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3320d362-bd89-4a9c-8a34-d8deff5b7ab6")
+	)
 	(text "Mates with:\n- 151340200 cable assembly\n- 510210200 connector"
 		(exclude_from_sim no)
 		(at 141.986 119.38 0)
@@ -2584,7 +2594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "picowalker:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal_wider"
 			(at 204.47 128.27 0)
 			(effects
 				(font
@@ -2655,7 +2665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "picowalker:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal_wider"
 			(at 167.64 58.42 0)
 			(effects
 				(font

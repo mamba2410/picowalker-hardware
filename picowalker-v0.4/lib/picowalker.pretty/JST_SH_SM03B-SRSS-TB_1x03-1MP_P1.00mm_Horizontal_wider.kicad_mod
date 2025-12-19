@@ -1,4 +1,4 @@
-(footprint "JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+(footprint "JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal_wider"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+	(property "Value" "JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal_wider"
 		(at 0 3.98 0)
 		(layer "F.Fab")
 		(uuid "6e719a76-e942-4492-8959-69e5e409a20f")
@@ -257,15 +257,15 @@
 		(uuid "766c6b5e-02c4-4e88-976b-d3b723e9e9b5")
 	)
 	(pad "MP" smd roundrect
-		(at -2.3 1.875)
-		(size 1.2 1.8)
+		(at -2.4 1.875)
+		(size 1.4 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "70139231-d780-4f59-a37c-b69f473a6826")
 	)
 	(pad "MP" smd roundrect
-		(at 2.3 1.875)
-		(size 1.2 1.8)
+		(at 2.4 1.875)
+		(size 1.4 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "405d6f01-6740-4a42-9771-20de40cfd48d")

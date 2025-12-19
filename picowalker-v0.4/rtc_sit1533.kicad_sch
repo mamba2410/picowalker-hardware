@@ -5,6 +5,113 @@
 	(uuid "79f65a67-e302-4b01-ba26-4cfae085b995")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "picowalker:SIT1533AI-H4-DCC-32.768E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -420,9 +527,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "32768 Hz\n75 ppm stability from -10 C to +70 C\n20 ppm tolerance\n1 ppm aging (1 year)\n\n= ~100 ppm = +/-4 Hz\n= ~ 9 seconds/day max drift"
+		(exclude_from_sim no)
+		(at 142.24 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "878f62bb-9dad-44ee-b068-d259cd2bbd58")
+	)
+	(junction
+		(at 151.13 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63f92177-59eb-457d-9270-10008dbd6e3c")
+	)
+	(junction
+		(at 128.27 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c59d50b-1cdc-4a1c-b518-4867c8d9b156")
+	)
 	(wire
 		(pts
-			(xy 128.27 81.28) (xy 128.27 86.36)
+			(xy 128.27 81.28) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -442,7 +572,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 66.04) (xy 149.86 66.04)
+			(xy 132.08 83.82) (xy 128.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d43473-97c3-4e01-9e48-57754157db99")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 151.13 66.04)
 		)
 		(stroke
 			(width 0)
@@ -450,9 +590,29 @@
 		)
 		(uuid "b0b9f67e-0621-4907-b22d-fe023eec7305")
 	)
+	(wire
+		(pts
+			(xy 151.13 66.04) (xy 167.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7be8599-d0f0-43e6-88c0-44547de64a31")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd758c69-3d76-45e7-a797-5ba5de002ea2")
+	)
 	(hierarchical_label "CLK"
 		(shape output)
-		(at 149.86 66.04 0)
+		(at 167.64 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -469,10 +629,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "102c769f-e4a2-4a71-8cb5-8be2f23c3d3f")
 		(property "Reference" "Y2"
-			(at 153.67 59.6198 0)
+			(at 108.204 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -480,7 +639,7 @@
 			)
 		)
 		(property "Value" "SIT1533AI-H4-DCC-32.768E"
-			(at 153.67 62.1598 0)
+			(at 108.204 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,6 +741,73 @@
 			(project ""
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/feaa0ed6-677d-464b-a267-7ec72771ce12"
 					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 132.08 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58c25d69-50a1-4f63-acf6-20510c530fa5")
+		(property "Reference" "TP4"
+			(at 134.62 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8fa445-8e2c-484c-ac41-906704bea24f")
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/feaa0ed6-677d-464b-a267-7ec72771ce12"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -714,6 +940,73 @@
 			(project ""
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/feaa0ed6-677d-464b-a267-7ec72771ce12"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e10e1b43-de56-44eb-875a-ac8df8f77bae")
+		(property "Reference" "TP3"
+			(at 153.67 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "32k"
+			(at 153.67 64.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "113657d9-898e-472e-8942-72a7bec46b81")
+		)
+		(instances
+			(project ""
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/feaa0ed6-677d-464b-a267-7ec72771ce12"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
