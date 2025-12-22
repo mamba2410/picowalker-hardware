@@ -7554,7 +7554,7 @@
 			(size 1.4 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(uuid "3934cec2-0e78-43d0-8098-dd4e6e666a20")
+			(uuid "6f2215cb-bc4f-43f8-801c-7d38a1423b22")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/lib/picowalker.3dshapes/SM03B-SRSS-TB_LF__SN_.stp"
@@ -9873,7 +9873,7 @@
 			(size 1.4 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(uuid "7708b624-d49c-4497-812f-8624b540ebb9")
+			(uuid "12816d5d-cb76-4e31-92f1-f79241c2f4d0")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/lib/picowalker.3dshapes/SM03B-SRSS-TB_LF__SN_.stp"
@@ -18740,6 +18740,7 @@
 		(property "Reference" "TH1"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "8dee74c0-bd59-4957-ba30-15ae5de6d99e")
 			(effects
 				(font
@@ -19980,6 +19981,7 @@
 			(at 0 5.5 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "0f3d1916-996d-4bb7-993b-a06b75fc6a21")
 			(effects
 				(font
@@ -20308,7 +20310,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "f9c92353-b812-468c-aa9d-6e646b93e408")
+			(uuid "80fa3aeb-12b5-4410-ad44-60a5a0c7cf67")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -1.075 180)
@@ -20320,7 +20322,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "f9c92353-b812-468c-aa9d-6e646b93e408")
+			(uuid "5e190d7d-45bb-40c4-a7a6-c2292885dce6")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 3.105 180)
@@ -20332,7 +20334,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "f9c92353-b812-468c-aa9d-6e646b93e408")
+			(uuid "1a92a9e0-8141-458d-a967-a3df291104e9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
