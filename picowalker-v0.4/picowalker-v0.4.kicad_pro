@@ -558,7 +558,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "output/20251222-picowalker-v0.4.step",
       "svg": "",
       "vrml": ""
     },
