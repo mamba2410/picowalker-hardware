@@ -1367,7 +1367,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
+			(property "Reference" "U"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -1383,7 +1383,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:SON50P250X250X80-11N-D"
+			(property "Footprint" "picowalker:SON50P250X250X80-11N-D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3948,7 +3948,7 @@
 		(at 127 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4683,101 +4683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "picowalker:RT6150B-33GQW")
-		(at 220.98 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f16ecd3-49d7-4101-bd9f-7dc00bdd302e")
-		(property "Reference" "IC1"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RT6150B-33GQW"
-			(at 220.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "picowalker:SON50P250X250X80-11N-D"
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "9b9ac766-4a82-4224-abdf-e21e36ef8308")
-		)
-		(pin "1"
-			(uuid "f4332312-8205-4aad-9cb3-b7306d072d00")
-		)
-		(pin "9"
-			(uuid "b8fd5268-8106-4d20-b51c-34f72bf11a41")
-		)
-		(pin "5"
-			(uuid "4ed2e2ff-1b53-4d45-9c4b-72b41c0aa127")
-		)
-		(pin "8"
-			(uuid "d4bce758-b176-4ce2-8b2f-eea32b41ab80")
-		)
-		(pin "4"
-			(uuid "cc605749-f9db-4a32-b645-b8331f342c19")
-		)
-		(pin "11"
-			(uuid "db7b23b5-fc36-40cf-9db7-8976c8c45347")
-		)
-		(pin "3"
-			(uuid "e16422db-1657-4c69-9d19-a8de201bf2c3")
-		)
-		(pin "6"
-			(uuid "659626e7-7f1f-4d6c-8004-5a7f8cddcfba")
-		)
-		(pin "2"
-			(uuid "4836231b-4595-4285-96ab-e1466a31d298")
-		)
-		(pin "10"
-			(uuid "3f46d612-8c3c-41c6-a553-a3de34b83383")
-		)
-		(instances
-			(project ""
-				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 110.49 43.18 0)
 		(unit 1)
@@ -5457,6 +5362,101 @@
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "picowalker:RT6150B-33GQW")
+		(at 220.98 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9e28bec-efd4-4f52-b21e-96588034b5be")
+		(property "Reference" "U9"
+			(at 220.98 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RT6150B-33GQW"
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "picowalker:SON50P250X250X80-11N-D"
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "f1800079-30c4-4e79-b6cd-b412fd1aca6e")
+		)
+		(pin "3"
+			(uuid "868994dc-c353-409e-b627-961f9107bfe7")
+		)
+		(pin "8"
+			(uuid "aa9e011e-5099-4ca8-9121-556a7defd455")
+		)
+		(pin "9"
+			(uuid "ac2cbba5-ad07-4209-aa98-459d4ea63154")
+		)
+		(pin "2"
+			(uuid "14488d80-8bd4-4575-b7f8-cf613137af4a")
+		)
+		(pin "6"
+			(uuid "9f31b60c-cefc-4b93-b9d8-fd8e124fe0ea")
+		)
+		(pin "7"
+			(uuid "cb9ae3e4-fb6b-415d-a051-4de11071978c")
+		)
+		(pin "11"
+			(uuid "ba4738b6-8398-42dd-b3c6-7e29f15d6890")
+		)
+		(pin "1"
+			(uuid "9eaa4805-b7c7-4860-9f95-5e489e500b59")
+		)
+		(pin "5"
+			(uuid "d332df57-fe54-48fe-a859-42feca6e1924")
+		)
+		(pin "4"
+			(uuid "31251a0d-cd2e-4b14-9277-8a770f5b456c")
+		)
+		(instances
+			(project ""
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/f9bb3943-6d25-47dd-92d4-668afa6f251a"
+					(reference "U9")
 					(unit 1)
 				)
 			)

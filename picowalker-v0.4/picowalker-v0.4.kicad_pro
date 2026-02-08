@@ -618,7 +618,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true

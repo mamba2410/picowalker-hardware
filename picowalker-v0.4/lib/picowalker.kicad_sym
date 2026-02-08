@@ -3354,7 +3354,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -3370,7 +3370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SON50P250X250X80-11N-D"
+		(property "Footprint" "picowalker:SON50P250X250X80-11N-D"
 			(at 0 0 0)
 			(effects
 				(font
