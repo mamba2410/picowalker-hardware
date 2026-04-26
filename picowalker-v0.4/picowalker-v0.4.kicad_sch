@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "aa8773bf-a88b-4bf9-9961-8e312cd9d0e3")
 	(paper "A4")
+	(title_block
+		(title "picowalker")
+		(rev "0.4")
+	)
 	(lib_symbols)
 	(bus_alias "BUTTONS"
 		(members "L" "M" "R")

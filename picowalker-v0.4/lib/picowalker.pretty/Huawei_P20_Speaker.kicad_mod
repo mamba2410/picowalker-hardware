@@ -1,0 +1,104 @@
+(footprint "Huawei_P20_Speaker"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.6 -8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "57d84fe1-6ab8-4ec8-b48c-e6a29bd8f665")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Huawei_P20_Speaker"
+		(at 0 -7.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e497ee8-5a7c-4f1f-8a76-50f3e12f1812")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33bd1144-5186-4972-86a9-b8fa8aae7c7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37dbe2f8-fa50-4c94-8d6a-12d91660728e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.4 -4.4)
+		(end -4.4 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2236c2be-29ed-43d2-b9b8-ba38cd6ab7d5")
+	)
+	(fp_line
+		(start 4.4 -4.45)
+		(end 4.4 4.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0ef81fd-69f1-4432-8c9b-fc2a05684a17")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8f99b88d-3a77-46c0-8306-285927790ed4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -4.25)
+		(size 8 1.25)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "b75ce8c0-0750-4afc-9dcd-e11048f3fc84")
+	)
+	(pad "2" smd roundrect
+		(at 0 4.25)
+		(size 8 1.25)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "f4f3bca8-e82d-4a4c-9f71-84571ef40784")
+	)
+	(embedded_fonts no)
+)
