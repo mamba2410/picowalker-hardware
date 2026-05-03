@@ -2256,7 +2256,7 @@
 	(text_box "3.3V switching regulator\nBasically taken from pico 2 datasheet/schematic"
 		(exclude_from_sim no)
 		(at 185.42 60.96 0)
-		(size 66.04 66.04)
+		(size 82.55 66.04)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2797,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 81.28) (xy 243.84 81.28)
+			(xy 236.22 81.28) (xy 252.73 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2807,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 81.28) (xy 243.84 80.01)
+			(xy 252.73 81.28) (xy 252.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4280,7 +4280,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 243.84 80.01 0)
+		(at 252.73 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4289,7 +4289,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e31b270-0d81-4375-863e-2fdc31d3ff24")
 		(property "Reference" "#PWR073"
-			(at 243.84 83.82 0)
+			(at 252.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4298,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 243.84 74.93 0)
+			(at 252.73 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 80.01 0)
+			(at 252.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 80.01 0)
+			(at 252.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 243.84 80.01 0)
+			(at 252.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "picowalker:R_0402_1005Metric_Sunken"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 167.64 0)
 			(effects
 				(font

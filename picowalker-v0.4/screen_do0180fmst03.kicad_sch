@@ -5,6 +5,113 @@
 	(uuid "44ab3014-2a69-4e7c-8669-bf9851bb534f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -127,6 +234,156 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1268,10 +1525,41 @@
 		)
 		(uuid "2f50a8e8-2d8a-4500-a958-abc1390a50c1")
 	)
+	(text "DO0180FMST03 = non-lens version\nDO0180FMST05 = lens version\n"
+		(exclude_from_sim no)
+		(at 146.558 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "919fce33-0dcd-43c9-bd17-2e28289b1800")
+	)
+	(text_box "Test Points"
+		(exclude_from_sim no)
+		(at 17.78 62.23 0)
+		(size 49.53 44.45)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "86f2ea12-198a-4663-80a3-2d1d80b2690f")
+	)
 	(text_box "Decoupling and bulk"
 		(exclude_from_sim no)
 		(at 17.78 17.78 0)
-		(size 48.26 38.1)
+		(size 49.53 38.1)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1335,6 +1623,15 @@
 		(uuid "2057d082-8e94-471f-b437-84485c2ecb89")
 	)
 	(bus_entry
+		(at 31.75 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3d5df1-9fc3-473f-b115-577585fa1cb3")
+	)
+	(bus_entry
 		(at 106.68 76.2)
 		(size 2.54 2.54)
 		(stroke
@@ -1369,6 +1666,15 @@
 			(type default)
 		)
 		(uuid "ae66d100-5223-4a1f-ae23-96f905b655d8")
+	)
+	(bus_entry
+		(at 31.75 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c7fefc-1475-49ea-8a38-4b29692c80c3")
 	)
 	(bus_entry
 		(at 106.68 68.58)
@@ -1499,6 +1805,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 82.55) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453bb27b-b894-4c4a-b641-79e0827a6728")
+	)
+	(wire
+		(pts
 			(xy 109.22 86.36) (xy 123.19 86.36)
 		)
 		(stroke
@@ -1546,6 +1862,16 @@
 			(type default)
 		)
 		(uuid "5cded18a-2258-42a9-a3f4-b3a6d37fea73")
+	)
+	(wire
+		(pts
+			(xy 144.78 48.26) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63636fe0-2f67-456c-9abd-c785e48e185c")
 	)
 	(wire
 		(pts
@@ -1599,6 +1925,16 @@
 	)
 	(bus
 		(pts
+			(xy 31.75 80.01) (xy 31.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720acc65-addc-4396-9a9b-535222a1fa0a")
+	)
+	(bus
+		(pts
 			(xy 106.68 81.28) (xy 106.68 83.82)
 		)
 		(stroke
@@ -1646,6 +1982,16 @@
 			(type default)
 		)
 		(uuid "81db1a05-1a31-4797-bb62-a6f591e572c8")
+	)
+	(wire
+		(pts
+			(xy 46.99 72.39) (xy 52.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b2e83a-bfa1-405a-ba9e-17e612a7a2f1")
 	)
 	(wire
 		(pts
@@ -1739,6 +2085,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 99.06) (xy 46.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54e8159-446d-498e-a591-a46dfae54cf7")
+	)
+	(wire
+		(pts
 			(xy 109.22 83.82) (xy 123.19 83.82)
 		)
 		(stroke
@@ -1746,6 +2102,16 @@
 			(type default)
 		)
 		(uuid "a55757a0-5f1d-4972-94b9-79d39fe507e0")
+	)
+	(wire
+		(pts
+			(xy 31.75 99.06) (xy 36.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b225ee-49bf-4f7a-9360-c8da7f4c53c2")
 	)
 	(wire
 		(pts
@@ -1769,6 +2135,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 87.63) (xy 52.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d08198-29a8-4013-bdfd-e222c1f84db3")
+	)
+	(wire
+		(pts
 			(xy 134.62 46.99) (xy 134.62 55.88)
 		)
 		(stroke
@@ -1789,16 +2165,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 48.26) (xy 144.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf830f7d-a7ea-4a45-b1ba-9aa3b0d48986")
-	)
-	(wire
-		(pts
 			(xy 109.22 111.76) (xy 109.22 114.3)
 		)
 		(stroke
@@ -1816,6 +2182,16 @@
 			(type default)
 		)
 		(uuid "d259978a-3b06-484b-a6a0-5fabf7e0975c")
+	)
+	(wire
+		(pts
+			(xy 46.99 77.47) (xy 52.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ce16a4-dd13-4cb4-9427-c128dc014e8b")
 	)
 	(wire
 		(pts
@@ -1917,6 +2293,16 @@
 		)
 		(uuid "35cd2e1d-692b-4ae7-bf3d-78032948d7fa")
 	)
+	(label "TP_I2C.SDA"
+		(at 36.83 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46051c3c-7924-48ed-b6f0-4fba024227d3")
+	)
 	(label "QSPI.SD1"
 		(at 113.03 81.28 0)
 		(effects
@@ -1937,6 +2323,16 @@
 		)
 		(uuid "9282aab0-e600-438a-9548-18985d207ff7")
 	)
+	(label "TP_VCC"
+		(at 49.53 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "944e72b7-fa35-4ecf-91bb-a5f48e76f3c6")
+	)
 	(label "QSPI.SD0"
 		(at 113.03 78.74 0)
 		(effects
@@ -1956,6 +2352,16 @@
 			(justify left bottom)
 		)
 		(uuid "a52290ae-27fc-4c90-aa44-46b0ea63f191")
+	)
+	(label "TP_I2C.SCL"
+		(at 36.83 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c38e70db-00db-48f6-bb1c-8eed8b03e15e")
 	)
 	(label "TP_RESET"
 		(at 106.68 102.87 0)
@@ -2009,6 +2415,17 @@
 		)
 		(uuid "0ecb8cf7-f8fb-47b6-a1ae-4271f2bf3c8a")
 	)
+	(hierarchical_label "TP_INT"
+		(shape input)
+		(at 46.99 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51599d72-f138-4f70-bc1d-91422e25f148")
+	)
 	(hierarchical_label "TP_RESET"
 		(shape input)
 		(at 105.41 102.87 180)
@@ -2053,6 +2470,17 @@
 		)
 		(uuid "b7bfc56d-729e-499b-a2d6-d59eb69bd0c1")
 	)
+	(hierarchical_label "TP_RESET"
+		(shape input)
+		(at 46.99 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da568948-a3f4-469f-ab3d-1abc85b51518")
+	)
 	(hierarchical_label "QSPI{QSPI}"
 		(shape input)
 		(at 106.68 72.39 180)
@@ -2063,6 +2491,17 @@
 			(justify right)
 		)
 		(uuid "fb065861-19fa-4000-a4df-6f195313c76a")
+	)
+	(hierarchical_label "TP_I2C{I2C}"
+		(shape input)
+		(at 31.75 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fee4f85d-bebf-4760-a761-ec0b1f43a37e")
 	)
 	(symbol
 		(lib_id "picowalker:DO0180FMST0x")
@@ -2507,6 +2946,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 41.91 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "508b6e1a-5c45-4d42-889b-5e5df8f86238")
+		(property "Reference" "JP1"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP_VCC_JMP"
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49add3ab-4684-475f-b593-6ad76b9e4bc5")
+		)
+		(pin "1"
+			(uuid "27d3df9b-eb7d-403d-8d77-c06c1bd33869")
+		)
+		(instances
+			(project ""
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/89a8967c-3eba-4198-8d30-37fec3bc5505"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515ed41d-da19-435b-9067-fe2c4bec4368")
+		(property "Reference" "TP10"
+			(at 57.15 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_SCL"
+			(at 57.15 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7c533b6-afdd-4274-8944-864157323241")
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/89a8967c-3eba-4198-8d30-37fec3bc5505"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 127 0)
 		(unit 1)
@@ -2636,6 +3210,72 @@
 			(project ""
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/89a8967c-3eba-4198-8d30-37fec3bc5505"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 31.75 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87ef86ff-0387-45dd-89bc-e4b02aa37aa7")
+		(property "Reference" "#PWR088"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c72c414-1771-45d8-9033-3a7bf3d21ede")
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/89a8967c-3eba-4198-8d30-37fec3bc5505"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -2910,6 +3550,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8846ec7-c26a-4bc0-b3ca-2fe159ab9eb2")
+		(property "Reference" "TP11"
+			(at 57.15 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_SDA"
+			(at 57.15 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 52.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23fe9da6-926d-4333-adac-9c597c9dcbc0")
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/89a8967c-3eba-4198-8d30-37fec3bc5505"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba4cd162-887c-498d-827a-adaa89a900f5")
+		(property "Reference" "TP8"
+			(at 57.15 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_INT"
+			(at 57.15 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaeb3308-a8be-406a-b3b2-61f1fbeeede8")
+		)
+		(instances
+			(project ""
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/89a8967c-3eba-4198-8d30-37fec3bc5505"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 139.7 50.8 0)
 		(unit 1)
@@ -2970,6 +3744,73 @@
 			(project ""
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/89a8967c-3eba-4198-8d30-37fec3bc5505"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1e38f06-88b5-4fa0-b92e-59b926bd3d50")
+		(property "Reference" "TP9"
+			(at 57.15 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_RESET"
+			(at 57.15 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e31e92-7df0-4ae8-854e-97f9fa3c7f58")
+		)
+		(instances
+			(project "picowalker-v0.4"
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/89a8967c-3eba-4198-8d30-37fec3bc5505"
+					(reference "TP9")
 					(unit 1)
 				)
 			)

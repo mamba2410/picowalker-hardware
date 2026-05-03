@@ -337,7 +337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "picowalker:Huawei_P20_Speaker"
 			(at 145.415 67.31 90)
 			(effects
 				(font

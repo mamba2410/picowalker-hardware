@@ -2534,6 +2534,16 @@
 	)
 	(text "I2C0"
 		(exclude_from_sim no)
+		(at 234.95 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72f18921-26d5-4f62-a80a-499cfd96ac50")
+	)
+	(text "I2C0"
+		(exclude_from_sim no)
 		(at 271.78 37.338 0)
 		(effects
 			(font
@@ -2595,7 +2605,7 @@
 	(text_box "Bus pullups"
 		(exclude_from_sim no)
 		(at 234.95 16.51 0)
-		(size 44.45 29.21)
+		(size 44.45 30.48)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2631,6 +2641,26 @@
 			(justify left top)
 		)
 		(uuid "8b90ade5-ea1e-4ee9-9c38-8becdae0aec6")
+	)
+	(text_box "Test Points"
+		(exclude_from_sim no)
+		(at 226.06 142.24 0)
+		(size 40.64 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "aa77d9d3-e01b-40cc-9ee2-4cf3ac5b2619")
 	)
 	(text_box "12MHz Crystal"
 		(exclude_from_sim no)
@@ -2677,6 +2707,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b5af969-a582-432c-b8aa-7a89cacaa1bf")
+	)
+	(junction
+		(at 67.31 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "123f460f-b9d1-4c71-bf3c-f6b8199eb2a2")
 	)
 	(junction
 		(at 49.53 168.91)
@@ -2892,6 +2928,15 @@
 		(uuid "119ce6f4-1cd5-441a-8fe0-08e635a89ff9")
 	)
 	(bus_entry
+		(at 238.76 153.67)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122d8638-9118-4108-8cc8-e2e9325abaa5")
+	)
+	(bus_entry
 		(at 224.79 67.31)
 		(size -2.54 2.54)
 		(stroke
@@ -2989,6 +3034,15 @@
 			(type default)
 		)
 		(uuid "78b92e1f-c8a3-4782-92a5-3526cd79c57c")
+	)
+	(bus_entry
+		(at 238.76 148.59)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eeb0180-f4a1-4eb8-bfba-f686c584a3d7")
 	)
 	(bus_entry
 		(at 226.06 72.39)
@@ -3566,6 +3620,16 @@
 		)
 		(uuid "3f541772-72bc-4c27-bebe-5f38afdca91a")
 	)
+	(bus
+		(pts
+			(xy 238.76 148.59) (xy 238.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b6d563-8cf6-480f-b16d-0f8702053e98")
+	)
 	(wire
 		(pts
 			(xy 251.46 38.1) (xy 265.43 38.1)
@@ -3585,6 +3649,16 @@
 			(type default)
 		)
 		(uuid "47c87192-1032-4f14-8f7c-12411d9df414")
+	)
+	(bus
+		(pts
+			(xy 238.76 147.32) (xy 238.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c13fd66-d29e-47b5-a6af-384e6b903fa5")
 	)
 	(wire
 		(pts
@@ -3635,6 +3709,16 @@
 			(type default)
 		)
 		(uuid "55e9c7bd-7d62-495b-8b06-24f4d088d10c")
+	)
+	(wire
+		(pts
+			(xy 241.3 151.13) (xy 252.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f079d7-e3d2-493c-ad92-852c92038ea0")
 	)
 	(wire
 		(pts
@@ -3916,6 +4000,16 @@
 		)
 		(uuid "8331e1a3-f6a7-4e27-bc16-2edfd13054ea")
 	)
+	(wire
+		(pts
+			(xy 67.31 69.85) (xy 73.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877a796d-5973-4af9-aebe-5e3d3cafe1a2")
+	)
 	(bus
 		(pts
 			(xy 227.33 72.39) (xy 226.06 72.39)
@@ -4125,6 +4219,16 @@
 			(type default)
 		)
 		(uuid "ada068fe-edcb-4d44-85c9-cc4499645fd6")
+	)
+	(wire
+		(pts
+			(xy 241.3 156.21) (xy 252.73 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9b4eb4-584e-47cd-ac8d-0561bd427b20")
 	)
 	(wire
 		(pts
@@ -4358,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 69.85) (xy 73.66 69.85)
+			(xy 52.07 69.85) (xy 67.31 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4888,6 +4992,16 @@
 		)
 		(uuid "576b6d4a-8495-420a-bbc3-79f07bede0a4")
 	)
+	(label "I2C.SDA"
+		(at 248.92 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a05c668-4a11-4cab-b374-2c5b1a5c80bc")
+	)
 	(label "VREG_AVDD"
 		(at 114.3 49.53 0)
 		(effects
@@ -5067,6 +5181,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0a23943-411b-4ebb-a3c5-51ebd282c864")
+	)
+	(label "I2C.SCL"
+		(at 248.92 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5f6c210-9744-4a83-9411-d7aacda04865")
 	)
 	(label "SW_RUN_P"
 		(at 38.1 130.81 0)
@@ -5381,6 +5505,18 @@
 			(justify right)
 		)
 		(uuid "95e76502-08d5-405b-a6ae-20810e738685")
+	)
+	(hierarchical_label "I2C{I2C}"
+		(shape output)
+		(at 238.76 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "9ba4f3ab-2a07-4a63-a7fd-7e9ccc3bcc29")
 	)
 	(hierarchical_label "SCREEN_DATA{QSPI}"
 		(shape output)
@@ -6561,6 +6697,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 252.73 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54a52ebb-a3c3-4474-a128-d6bedf566593")
+		(property "Reference" "TP5"
+			(at 257.81 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDA"
+			(at 257.81 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 252.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 252.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d6237ab-01c0-4bbe-a30c-291ecd9b6f80")
+		)
+		(instances
+			(project ""
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/e4b58271-83c6-4675-9203-3e882eaa47f4"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "picowalker:RP2350A-QFN60")
 		(at 162.56 85.09 0)
 		(unit 1)
@@ -6934,6 +7137,73 @@
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/e4b58271-83c6-4675-9203-3e882eaa47f4"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 252.73 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61180e0a-b314-4db1-883d-63b549c8dcbf")
+		(property "Reference" "TP13"
+			(at 257.81 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCL"
+			(at 257.81 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 252.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e8aa9ca-51b6-413e-bdd8-23d768d21294")
+		)
+		(instances
+			(project ""
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/e4b58271-83c6-4675-9203-3e882eaa47f4"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -8364,6 +8634,73 @@
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/e4b58271-83c6-4675-9203-3e882eaa47f4"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c22b2df3-71b0-4cd7-bd74-57539509c3f3")
+		(property "Reference" "TP12"
+			(at 69.85 71.8819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1V1"
+			(at 69.85 74.4219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "picowalker:TestPoint_Pad_D1.0mm_Nosilk"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3642b49e-8031-47c9-abb7-6c36a76d6a35")
+		)
+		(instances
+			(project ""
+				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3/e4b58271-83c6-4675-9203-3e882eaa47f4"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
