@@ -2153,6 +2153,16 @@
 		)
 		(uuid "7ba0584b-c96f-4655-be70-4252009714ee")
 	)
+	(text "PS low = power save mode (unknown switching method)\nPS high = PWM mode @ 1 MHz"
+		(exclude_from_sim no)
+		(at 214.122 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5e1eb11-a9d9-4249-b862-0bc83e89cf62")
+	)
 	(text_box "Thermistor"
 		(exclude_from_sim no)
 		(at 22.86 144.78 0)
