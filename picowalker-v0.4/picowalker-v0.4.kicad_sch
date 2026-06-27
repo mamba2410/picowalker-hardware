@@ -1,34 +1,19 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "aa8773bf-a88b-4bf9-9961-8e312cd9d0e3")
 	(paper "A4")
 	(title_block
 		(title "picowalker")
-		(rev "0.4")
+		(rev "0.4.1")
 	)
 	(lib_symbols)
-	(bus_alias "BUTTONS"
-		(members "L" "M" "R")
-	)
-	(bus_alias "I2C"
-		(members "SCL" "SDA")
-	)
-	(bus_alias "QSPI"
-		(members "SCK" "SD0" "SD1" "SD2" "SD3")
-	)
-	(bus_alias "SERIAL"
-		(members "TX" "RX")
-	)
-	(bus_alias "SPI"
-		(members "MOSI" "MISO" "SCK")
-	)
-	(bus_alias "SWD"
-		(members "SWDIO" "SWCLK")
-	)
-	(bus_alias "USB"
-		(members "DP" "DN")
+	(junction
+		(at 194.31 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5ec33c6-4916-4dcf-bd44-cb8efcd25a31")
 	)
 	(junction
 		(at 189.23 130.81)
@@ -37,20 +22,8 @@
 		(uuid "fb9aa576-c4b3-4a2a-8959-f7dfca188610")
 	)
 	(no_connect
-		(at 194.31 64.77)
-		(uuid "9aa7c768-35df-4f72-b0ec-438f0b4f21ce")
-	)
-	(no_connect
-		(at 194.31 67.31)
-		(uuid "a3e0051d-2002-43d0-bb2a-cd176f8e1e75")
-	)
-	(no_connect
 		(at 194.31 69.85)
 		(uuid "bb916797-f4f6-4784-a4e8-b56f2cba9711")
-	)
-	(no_connect
-		(at 194.31 62.23)
-		(uuid "ca3683b6-9d2f-42fd-8dcc-970719bab520")
 	)
 	(bus
 		(pts
@@ -71,16 +44,6 @@
 			(type default)
 		)
 		(uuid "057b1320-3ba2-43c3-8409-f0406296fb39")
-	)
-	(wire
-		(pts
-			(xy 194.31 67.31) (xy 209.55 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07920fe1-419c-4759-9664-e39470bef701")
 	)
 	(wire
 		(pts
@@ -154,7 +117,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 46.99) (xy 209.55 46.99)
+			(xy 149.86 46.99) (xy 194.31 46.99)
 		)
 		(stroke
 			(width 0)
@@ -171,6 +134,16 @@
 			(type default)
 		)
 		(uuid "4aa82919-d4f5-43cb-865f-1091db71d396")
+	)
+	(bus
+		(pts
+			(xy 194.31 46.99) (xy 194.31 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abb6ab1-142a-498e-afdc-27330fc055db")
 	)
 	(bus
 		(pts
@@ -214,6 +187,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 64.77) (xy 209.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fe00fb-94aa-4fc1-bfd3-030f421162ef")
+	)
+	(wire
+		(pts
 			(xy 149.86 44.45) (xy 209.55 44.45)
 		)
 		(stroke
@@ -254,16 +237,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 64.77) (xy 209.55 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a031b49a-388d-4ff4-8a58-9aa8d087c0a5")
-	)
-	(wire
-		(pts
 			(xy 149.86 133.35) (xy 209.55 133.35)
 		)
 		(stroke
@@ -294,6 +267,16 @@
 	)
 	(bus
 		(pts
+			(xy 194.31 46.99) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9abdb2-fc75-4968-8129-7314ba006035")
+	)
+	(bus
+		(pts
 			(xy 209.55 130.81) (xy 189.23 130.81)
 		)
 		(stroke
@@ -321,6 +304,16 @@
 			(type default)
 		)
 		(uuid "ec268c75-167c-41ac-81fa-ec43cc04ea77")
+	)
+	(wire
+		(pts
+			(xy 149.86 67.31) (xy 209.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee75f5be-53c5-4e63-a9cc-786db13f43b9")
 	)
 	(bus
 		(pts
@@ -455,11 +448,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3d056745-04eb-4cdc-aea5-d38e78951aa3")
 		(property "Sheetname" "sound"
 			(at 209.55 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,6 +464,8 @@
 		)
 		(property "Sheetfile" "sound_pwm.kicad_sch"
 			(at 209.55 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,11 +504,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5aece0ef-9a8e-4c9c-87b3-9331fb5ad3b7")
 		(property "Sheetname" "buttons"
 			(at 40.64 147.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -521,6 +520,8 @@
 		)
 		(property "Sheetfile" "buttons.kicad_sch"
 			(at 40.64 172.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,11 +560,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6645294b-adcc-4b56-9b2d-7dbc05655ebb")
 		(property "Sheetname" "eeprom"
 			(at 209.55 122.4784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,6 +576,8 @@
 		)
 		(property "Sheetfile" "eeprom_m95512.kicad_sch"
 			(at 209.55 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,11 +626,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "712d3093-4e65-4450-a18b-7b9d3ebf14a2")
 		(property "Sheetname" "irda"
 			(at 209.55 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,6 +642,8 @@
 		)
 		(property "Sheetfile" "irda_tfdu4711_pio.kicad_sch"
 			(at 209.55 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,11 +692,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7a794e87-c7b9-4c3e-ac66-3fc5c41c1724")
 		(property "Sheetname" "flash"
 			(at 40.64 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,6 +708,8 @@
 		)
 		(property "Sheetfile" "flash_w25q128.kicad_sch"
 			(at 40.64 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,11 +758,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "858f2b33-e909-4882-b375-7297f7c6781c")
 		(property "Sheetname" "accel"
 			(at 209.55 145.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,6 +774,8 @@
 		)
 		(property "Sheetfile" "accel_bma400.kicad_sch"
 			(at 209.55 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,11 +834,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "89a8967c-3eba-4198-8d30-37fec3bc5505")
 		(property "Sheetname" "screen"
 			(at 209.55 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,6 +850,8 @@
 		)
 		(property "Sheetfile" "screen_do0180fmst03.kicad_sch"
 			(at 209.55 80.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,11 +950,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8aeeee6d-2630-49b8-bd72-1824fef78c19")
 		(property "Sheetname" "connectors"
 			(at 40.64 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,6 +966,8 @@
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
 			(at 40.64 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,11 +1036,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e4b58271-83c6-4675-9203-3e882eaa47f4")
 		(property "Sheetname" "mcu"
 			(at 99.06 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,6 +1052,8 @@
 		)
 		(property "Sheetfile" "mcu_rp2350a.kicad_sch"
 			(at 99.06 170.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,6 +1261,26 @@
 				(justify left)
 			)
 		)
+		(pin "TP_INT" input
+			(at 149.86 67.31 0)
+			(uuid "7c3b64b9-0116-49b3-9c12-a1369c04f110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TP_RESET" output
+			(at 149.86 64.77 0)
+			(uuid "10890adc-c50b-4612-b4e2-fa0f15b38513")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "picowalker-v0.4"
 				(path "/aa8773bf-a88b-4bf9-9961-8e312cd9d0e3"
@@ -1253,11 +1302,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f9bb3943-6d25-47dd-92d4-668afa6f251a")
 		(property "Sheetname" "power"
 			(at 209.55 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1267,6 +1318,8 @@
 		)
 		(property "Sheetfile" "power_bq25628e.kicad_sch"
 			(at 209.55 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,11 +1388,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "feaa0ed6-677d-464b-a267-7ec72771ce12")
 		(property "Sheetname" "rtc"
 			(at 40.64 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,6 +1404,8 @@
 		)
 		(property "Sheetfile" "rtc_sit1533.kicad_sch"
 			(at 40.64 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
